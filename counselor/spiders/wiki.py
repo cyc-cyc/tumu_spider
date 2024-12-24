@@ -415,7 +415,7 @@ class WiKiSpider(scrapy.Spider):
                     # + get_sinyi_top_related_page(building_name,num_pages = 5)
         if self.start_urls and self.start_urls[0] == '':
             self.start_urls.pop(0)
-        print(self.start_urls)
+        # print(self.start_urls)
         # input()
         # print("start_urls",self.start_urls)
         # input()

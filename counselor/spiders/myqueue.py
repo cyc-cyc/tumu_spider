@@ -12,11 +12,11 @@ class MyQueue():
     # candidates.append('https://zh.wikipedia.org/wiki/%E7%99%BD%E5%AE%AE')
 
     def load_npy(self):
-        if os.path.exists('../origin_page/has_viewd.npy'):
-            self.has_viewd = np.load('../origin_page/has_viewd.npy').tolist()
+        if os.path.exists('has_viewd.npy'):
+            self.has_viewd = np.load('has_viewd.npy').tolist()
 
     def save_has_viewd(self):
-        np.save('../origin_page/has_viewd.npy',self.has_viewd)
+        np.save('has_viewd.npy',self.has_viewd)
 
     def add_candidate(self, url):
         # 注意，执行该函数说明获得了一个新的请求，需要待处理（从分类或内容页面解析得到的链接）
