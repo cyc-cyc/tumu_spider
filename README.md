@@ -21,10 +21,12 @@ pip install -r requirements.txt
 ```
 
 **代理配置**
-
+根据设备的条件自行配置代理
 
 **运行指南**
 ```
 cd counselor
-python main.py `building_name` `building_id`
+python main.py building_name building_id
 ```
+
+爬取的文件以json格式保存于本地目录中
