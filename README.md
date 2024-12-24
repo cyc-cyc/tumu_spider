@@ -26,5 +26,5 @@ pip install -r requirements.txt
 **运行指南**
 ```
 cd counselor
-python main.py building_name building_id
+python main.py `building_name` `building_id`
 ```
