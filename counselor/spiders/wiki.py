@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+import urllib
 from scrapy.selector import Selector
 from items import ContentItem
 from .myqueue import MyQueue
@@ -94,7 +95,66 @@ def get_en_top_related_pages(building_name, num_pages=1):
     except Exception as e:
         print(f"An error occurred: {e}")
         return []
+from requests_html import HTMLSession
 
+def get_591_top_related_pages(building_name, num_pages=1):
+    session = HTMLSession()
+    session.browser_args = ['--no-sandbox', '--disable-dev-shm-usage']
+
+    search_url = f"https://sale.591.com.tw/?shType=list&regionid=1&keywords={building_name}&totalRows=1&firstRow=0"
+
+    response = session.get(search_url)
+    
+    # session = HTMLSession()
+    # 使用 browser_args 选项
+    # response.html.render(sleep=3, keep_page=True, scrolldown=1, args=['--no-sandbox', '--disable-dev-shm-usage'])
+
+    # 查找搜索结果链接
+    # print(response.html)
+    search_results = response.html.find('div.result-info a')
+    search_result_links = [result.attrs['href'] for result in search_results if 'href' in result.attrs]
+
+    return search_result_links
+
+
+
+# def get_591_top_related_pages(building_name, num_pages=1):
+#     try:
+#         # 使用 URL 编码构建搜索 URL
+#         encoded_building_name = urllib.parse.quote(building_name)
+#         search_url = f"https://sale.591.com.tw/?shType=list&regionid=1&keywords={encoded_building_name}&totalRows=1&firstRow=0"
+        
+#         # 调试输出 URL
+#         # print("Constructed URL:", search_url)
+        
+#         # 设置请求头
+#         headers = {
+#             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+#         }
+        
+#         # 发送 GET 请求
+#         response = requests.get(search_url, headers=headers)
+#         # print("Response Status Code:", response.status_code)
+        
+#         # 检查响应状态
+#         response.raise_for_status()  # 如果状态码不是 200，将引发异常
+        
+#         # 解析 HTML 内容
+#         soup = BeautifulSoup(response.text, 'html.parser')
+#         # print(soup.prettify())  # 调试输出解析后的 HTML
+#         # 将 soup 的内容保存为 txt 文件
+#         with open('soup_output.txt', 'w', encoding='utf-8') as file:
+#             file.write(soup.prettify())  # 使用 prettify() 使 HTML 格式化更美观        # 查找搜索结果
+#         search_results = soup.find_all('div', class_='mw-search-result-heading')
+#         search_result_urls = [result.a['href'] for result in search_results if result.a]
+#         print(search_results)
+#         # 限制结果数量
+#         search_result_urls = search_result_urls[:num_pages]
+
+#         return search_result_urls
+#     except Exception as e:
+#         print(f"Error: {e}")
+#         return []
 
 def get_housefun_top_related_page(building_name, num_pages=1):
     try:
@@ -203,7 +263,7 @@ def get_sinyi_top_related_page(building_name, num_pages=1):
 def search_zh_urls(building_name,num_pages):
     # Building name for which you want to find related Wikipedia pages
     
-    
+    # print(get_591_top_related_pages(building_name, num_pages=num_pages))
     # Get the top 5 Wikipedia pages most relevant to the building
     top_related_pages = get_zh_top_related_pages(building_name, num_pages=num_pages)
     # Print the URLs of the top related pages
@@ -355,7 +415,7 @@ class WiKiSpider(scrapy.Spider):
                     # + get_sinyi_top_related_page(building_name,num_pages = 5)
         if self.start_urls and self.start_urls[0] == '':
             self.start_urls.pop(0)
-        # print(self.start_urls)
+        print(self.start_urls)
         # input()
         # print("start_urls",self.start_urls)
         # input()

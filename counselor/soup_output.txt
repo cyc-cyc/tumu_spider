@@ -1,0 +1,4601 @@
+<!DOCTYPE HTML>
+<html lang="zh-TW">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="zh-TW" http-equiv="content-language"/>
+  <meta content="數字科技股份有限公司" name="author">
+   <meta content="591.com.tw" name="copyright">
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"/>
+    <title>
+     【台北市出售】-591房屋交易網
+    </title>
+    <meta content="台北市出售,出售,591,出售,591出售" name="keywords">
+     <meta content="591出售頻道,為您提供台北市最豐富的資訊,還有整層住家,獨立套房,分租套房,雅房,其他出售資訊,讓您快速找到滿意的物件。找就上591！" name="description"/>
+     <meta content="index,follow" name="robots"/>
+     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+     <meta content="index,follow,archive" name="googlebot">
+      <meta content="hEZ-1CusNSS7yOwwpax-fT1lpRNSdL8muaPV-Ek1eIc" name="google-site-verification"/>
+      <meta content="ZHuY6t9TMAg2sqNfvtmeNV24bWL9NMaiFTRzlCME" name="csrf-token"/>
+      <!-- 7.4.8 -->
+      <!-- Open Graph data -->
+      <meta content="【台北市出售】-591房屋交易網" property="og:title">
+       <meta content="website" property="og:type"/>
+       <meta content="https://sale.591.com.tw/?shType=list&amp;regionid=1&amp;keywords=力麒御品&amp;totalRows=1&amp;firstRow=0" property="og:url"/>
+       <meta content="" property="og:image"/>
+       <meta content="730" property="og:image:width"/>
+       <meta content="460" property="og:image:height"/>
+       <meta content="591出售頻道,為您提供台北市最豐富的資訊,還有整層住家,獨立套房,分租套房,雅房,其他出售資訊,讓您快速找到滿意的物件。找就上591！" property="og:description">
+        <meta content="1720154344667186" property="fb:app_id">
+         <meta content="591房屋交易" property="og:site_name">
+          <link href="https://sale.591.com.tw/?regionid=1" id="canonical" rel="canonical"/>
+          <link href="https://m.591.com.tw/v2/sale/?regionid=1" id="alternate" media="only screen and (max-width: 640px)" rel="alternate"/>
+          <link href="//s.591.com.tw/build/lib/favicon.ico" rel="shortcut icon" type="image/x-icon">
+           <link href="//s.591.com.tw/build/lib/bt/css/bootstrap.min.css?v=f09ce2f53b" rel="stylesheet"/>
+           <link href="//s.591.com.tw/build/lib/awesome/css/font-awesome.min.css?v=abebf7de7a" media="print" onload="this.media='all'" rel="stylesheet"/>
+           <link href="//s.591.com.tw/build/static/public/sass/default.public.css?v=9f830f2f56" rel="stylesheet"/>
+           <script src="//s.591.com.tw/build/lib/jquery-1.9.1.min.js?v=397754ba49">
+           </script>
+           <script src="//s.591.com.tw/build/lib/vue/vuemin.js">
+           </script>
+           <script>
+            if (typeof Promise !== "function") {
+        document.write('<script src="//s.591.com.tw/build\/widget\/utility\/promise.js"><\/script>');
+    }
+           </script>
+           <script src="//s.591.com.tw/build/lib/sea.js?v=3dda1db97d">
+           </script>
+           <script>
+            seajs.config({
+        preload:["//s.591.com.tw/build/static/config.js?v=fcb532a842"],
+        base: "//s.591.com.tw/build/"
+    });
+	seajs.use(["btjs"]);
+           </script>
+           <!--[if lt IE 9]>
+  	<script src="//s.591.com.tw/build/lib/html5shiv.min.js?v=0ce8f35589"></script>
+<![endif]-->
+           <script>
+            /**
+	 * update 2017/06/16 by <dzq@addcn.com> filter iframe stat
+	 *
+	 * @params  GTM_IS_IFRAME{Number} global variable be use to filter iframe stat, 0-stat, 1-not stat.
+	 */
+	try {
+        // 如果當前 GTM_IS_IFRAME 已定義,則使用已定義內容,未定義就判斷是否是嵌入頁面進行處理
+        window.GTM_IS_IFRAME = typeof GTM_IS_IFRAME !== 'undefined'
+            ? GTM_IS_IFRAME
+            : top.location.href === window.location.href
+                ? 0 : 1
+	} catch (e) {
+		window.GTM_IS_IFRAME = 0
+    }
+
+	// export userId
+	var GTM_USER_ID = '0'
+
+    window.dataLayer = window.dataLayer || []
+    window.dataLayer.push({
+        'user_id': '' || undefined,
+        'user_role': '' || undefined,
+    })
+
+	;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-K5L9PD');
+           </script>
+           <!-- addcn-591-jkb -->
+           <link href="//s.591.com.tw/build/static/house/saleList/sass/saleList.css?v=ee29972083" rel="stylesheet" type="text/css"/>
+          </link>
+         </meta>
+        </meta>
+       </meta>
+      </meta>
+     </meta>
+    </meta>
+   </meta>
+  </meta>
+ </head>
+ <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-K5L9PD" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <style>
+   .statement-box {
+        position: fixed;
+        left:0;
+        bottom:0;
+        z-index: 99999999;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        color: #222;
+        background-color: #FAF5F2;
+        display: none;
+        font-size: 14px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .statement-content {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    @media  only screen and (max-width: 1190px) {
+        .statement-content {
+            width: 1000px;
+        }
+    }
+    .statement-content a {
+        color: #222;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .statement-confirm {
+        cursor: pointer;
+        width: 60px;
+        height: 28px;
+        line-height: 28px;
+        border: 1px solid #222;
+        border-radius: 2px;
+        outline: none;
+        font-size:14px;
+        color: #222;
+        background-color: #FAF5F2;
+        margin-left:20px;
+        /* margin-top: 10px; */
+    }
+    .statement-confirm:hover {
+        background-color: #fff;
+    }
+  </style>
+  <div class="statement-box">
+   <div class="statement-content">
+    我們會使用網站分析技術來提升服務品質，請參閱我們的
+    <a class="statement" href="https://help.591.com.tw/content/76/186/tw/privacy.html" target="_blank">
+     隱私聲明
+    </a>
+    <button class="statement-confirm">
+     同意
+    </button>
+   </div>
+  </div>
+  <link href="//s.591.com.tw/build/static/house/public/sass/header.css?v=b1c0360bbc" rel="stylesheet" type="text/css"/>
+  <nav class="nav-wrapper house-page">
+   <div class="nav">
+    <div class="nav-left-list">
+     <ul class="clearfix nav-list">
+      <li>
+       <a href="//www.591.com.tw">
+        首頁
+       </a>
+      </li>
+      <li class="">
+       <a class="gtm-flag" data-gtm-stat="頭部導航_新建案_新建案" href="//newhouse.591.com.tw">
+        新建案
+       </a>
+       <div class="sub-nav newhouse">
+        <section class="nav-category subnav-newBuild">
+         <div class="sub-nav-list nav-item-left">
+          <dl>
+           <dt>
+            銷售中新建案
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_新建案_所有新建案" href="//newhouse.591.com.tw/housing-list.html">
+             所有新建案
+            </a>
+            <a data-gtm-stat="頭部導航_新建案_預售屋" href="//newhouse.591.com.tw/housing-list.html?build_type=1">
+             預售屋
+            </a>
+            <a data-gtm-stat="頭部導航_新建案_最新公開銷售" href="//newhouse.591.com.tw/housing-list.html?now=1">
+             最新公開銷售
+            </a>
+            <a data-gtm-stat="頭部導航_新建案_新成屋" href="//newhouse.591.com.tw/housing-list.html?build_type=2">
+             新成屋
+            </a>
+            <a data-gtm-stat="頭部導航_新建案_捷運宅" href="//newhouse.591.com.tw/housing-list.html?type=1">
+             捷運宅
+            </a>
+            <a class="upscale" data-gtm-stat="高檔住宅_站內入口_新建案二級導航" href="https://upscale.591.com.tw">
+             高檔住宅
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-item-middle">
+          <dl>
+           <dt>
+            建築/代銷公司
+           </dt>
+           <dd>
+            <p>
+             與其他網路平臺相比，591擁有更多精準的買屋人群，現在加入即可獲取看屋人潮喔！
+            </p>
+            <a class="nav-btn" data-gtm-stat="頭部導航_新建案_立即免費刊登新建案" href="//www.591.com.tw/index.php?module=housing&amp;action=housing">
+             立即免費刊登新建案
+            </a>
+            <a class="nav-btn" data-gtm-stat="頭部導航_新建案_嘗試廣告網絡合作" href="//www.591.com.tw/advertisement" target="_blank">
+             十大建案熱銷秘笈
+            </a>
+            <a class="nav-btn" data-gtm-stat="頭部導航_新建案_新建案廣告" href="//user-newhouse.591.com.tw/union" target="_blank">
+             <span class="default">
+              新建案廣告
+             </span>
+             <span class="hover">
+              智能優選、列表排序曝光
+             </span>
+            </a>
+            <a class="nav-btn hot nav-btn-deep" data-gtm-stat="更新包宣導頁_入口_導航欄-新建案浮層" href="//newhouse.591.com.tw/sales/updatePack?entrance=housingNav" target="_blank">
+             瞭解列表頁排序方案
+             <em class="infinite">
+             </em>
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-item-right">
+          <dl>
+           <dt>
+            買房工具
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_新建案_最新房貸利率" href="//mortgage.591.com.tw">
+             最新房貸利率
+            </a>
+            <a data-gtm-stat="頭部導航_新建案_房貸試算器" href="//mortgage.591.com.tw/calculator">
+             房貸試算器
+            </a>
+            <a data-gtm-stat="頭部導航_新建案_社區行情" href="//market.591.com.tw/list">
+             實價登錄
+            </a>
+            <a data-gtm-stat="頭部導航_新建案_環景720專區" href="//newhouse.591.com.tw/home/housing/vr">
+             環景720專區
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-item-100">
+          <dl>
+           <dt class="design-100">
+            裝修服務
+           </dt>
+           <dd>
+            <a class="entry-100" data-gtm-stat="新建案導航_裝修服務_領取報價清單" href="//www.591.com.tw/design/calculate?utm_source=591newhouse&amp;utm_medium=nav_bar&amp;utm_campaign=get_quotation&amp;style=v2" target="_blank">
+             <img src="//s.591.com.tw/build/static/public/images/header/100-entry-newhouse.png?t=20241025"/>
+             <div class="swiper-vertical-scroll">
+              <div class="swiper-vertical-scroll-inner">
+               <p>
+                領取報價清單
+               </p>
+               <p>
+                已超過10萬人領取
+               </p>
+              </div>
+              <div class="swiper-vertical-scroll-inner clone">
+               <p>
+                領取報價清單
+               </p>
+               <p>
+                已超過10萬人領取
+               </p>
+              </div>
+             </div>
+            </a>
+            <div class="links">
+             <a data-gtm-stat="新建案導航_裝修服務_瀏覽海量圖庫" href="https://www.100.com.tw/works?utm_source=591newhouse&amp;utm_medium=nav_bar&amp;utm_campaign=browse_works&amp;sort=similarity" target="_blank">
+              瀏覽海量圖庫
+             </a>
+             <a data-gtm-stat="新建案導航_裝修服務_查看實用攻略" href="https://www.100.com.tw/guide?utm_source=591newhouse&amp;utm_medium=nav_bar&amp;utm_campaign=view_guide" target="_blank">
+              查看實用攻略
+             </a>
+            </div>
+           </dd>
+          </dl>
+         </div>
+        </section>
+       </div>
+      </li>
+      <li class="current">
+       <a class="gtm-flag" data-gtm-stat="頭部導航_中古屋_中古屋" href="//sale.591.com.tw">
+        中古屋
+       </a>
+       <div class="sub-nav">
+        <section class="nav-category subnav-sale">
+         <div class="sub-nav-list nav-wide">
+          <dl>
+           <dt>
+            待售中古屋
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_中古屋_所有房源" href="//sale.591.com.tw">
+             所有物件
+            </a>
+            <a data-gtm-stat="頭部導航_中古屋_地圖找房" href="//sale.591.com.tw/map-index.html">
+             地圖找房
+            </a>
+            <a data-gtm-stat="頭部導航_中古屋_屋主房源" href="//sale.591.com.tw?shType=host">
+             屋主物件
+            </a>
+            <a data-gtm-stat="頭部導航_中古屋_降價房源" href="//sale.591.com.tw?label=1">
+             降價物件
+            </a>
+            <a data-gtm-stat="頭部導航_中古屋_急售房源" href="//sale.591.com.tw?shType=hurrySale">
+             急售物件
+            </a>
+            <a data-gtm-stat="頭部導航_中古屋_必看好屋" href="//sale.591.com.tw?shType=pc_good_house">
+             必看好屋
+            </a>
+            <a data-gtm-stat="頭部導航_中古屋_法拍屋" href="//sale.591.com.tw?kind=22">
+             法拍屋
+            </a>
+            <a class="house-entrust" data-gtm-stat="屋主委託_委託入口_點擊【中古屋菜單下拉入口】" href="//market.591.com.tw/entrust?entryType=5" id="sale-house-entrust">
+             屋主委賣
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-narrow">
+          <dl>
+           <dt>
+            買房工具
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_中古屋_最新房貸利率" href="//mortgage.591.com.tw">
+             最新房貸利率
+            </a>
+            <a data-gtm-stat="頭部導航_中古屋_房貸試算器" href="//mortgage.591.com.tw/calculator">
+             房貸試算器
+            </a>
+            <a data-gtm-stat="頭部導航_中古屋_社區行情" href="//market.591.com.tw/list">
+             實價登錄
+            </a>
+            <a data-gtm-stat="頭部導航_中古屋_找經紀人" href="//sale.591.com.tw/saleBroker.html">
+             找經紀人
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-last">
+          <dl>
+           <dt>
+            經紀人
+           </dt>
+           <dd>
+            <p>
+             <span class="fc-red">
+              推薦！
+             </span>
+             仲介用戶購買售屋套餐，單筆最低至240元！
+            </p>
+            <a class="nav-btn" data-gtm-stat="頭部導航_中古屋_立即刊登出售廣告" href="//www.591.com.tw/index.php?module=house&amp;action=postFirst&amp;type=sale">
+             立即刊登出售廣告
+            </a>
+            <a class="nav-btn ml15" data-gtm-stat="頭部導航_中古屋_瞭解售屋套餐方案" href="//www.591.com.tw/home/help/chargeIntro/2 ">
+             瞭解售屋套餐方案
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-item-100">
+          <dl>
+           <dt class="design-100">
+            裝修服務
+           </dt>
+           <dd>
+            <a class="entry-100" data-gtm-stat="中古屋導航_裝修服務_領取報價清單" href="//www.591.com.tw/design/calculate?utm_source=591sale&amp;utm_medium=nav_bar&amp;utm_campaign=get_quotation&amp;style=v2" target="_blank">
+             <img src="//s.591.com.tw/build/static/public/images/header/100-entry-sales.png?t=20241025"/>
+             <div class="swiper-vertical-scroll">
+              <div class="swiper-vertical-scroll-inner">
+               <p>
+                領取報價清單
+               </p>
+               <p>
+                已超過10萬人領取
+               </p>
+              </div>
+              <div class="swiper-vertical-scroll-inner clone">
+               <p>
+                領取報價清單
+               </p>
+               <p>
+                已超過10萬人領取
+               </p>
+              </div>
+             </div>
+            </a>
+            <div class="links">
+             <a data-gtm-stat="中古屋導航_裝修服務_瀏覽海量圖庫" href="https://www.100.com.tw/works?utm_source=591sale&amp;utm_medium=nav_bar&amp;utm_campaign=browse_works&amp;sort=similarity" target="_blank">
+              瀏覽海量圖庫
+             </a>
+             <a data-gtm-stat="中古屋導航_裝修服務_查看實用攻略" href="https://www.100.com.tw/guide?utm_source=591sale&amp;utm_medium=nav_bar&amp;utm_campaign=view_guide" target="_blank">
+              查看實用攻略
+             </a>
+            </div>
+           </dd>
+          </dl>
+         </div>
+        </section>
+       </div>
+      </li>
+      <li class="">
+       <a class="gtm-flag" data-gtm-stat="頭部導航_租屋_租屋" href="https://rent.591.com.tw/list">
+        租屋
+       </a>
+       <div class="sub-nav">
+        <section class="nav-category subnav-rent">
+         <div class="sub-nav-list nav-wide">
+          <dl>
+           <dt>
+            待租物件
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_租屋_所有房源" href="https://rent.591.com.tw">
+             所有物件
+            </a>
+            <a data-gtm-stat="頭部導航_租屋_房東出租" href="https://rent.591.com.tw?shType=host">
+             房東出租
+            </a>
+            <a data-gtm-stat="頭部導航_租屋_整層住家" href="https://rent.591.com.tw?kind=1">
+             整層住家
+            </a>
+            <a data-gtm-stat="頭部導航_租屋_地圖找房" href="https://rent.591.com.tw/map-index.html">
+             地圖找房
+            </a>
+            <a data-gtm-stat="頭部導航_租屋_獨立套房" href="https://rent.591.com.tw?kind=2">
+             獨立套房
+            </a>
+            <a data-gtm-stat="頭部導航_租屋_捷運找房" href="https://rent.591.com.tw?mrt=1">
+             捷運找房
+            </a>
+            <a data-gtm-stat="頭部導航_租屋_分租套房" href="https://rent.591.com.tw?kind=3">
+             分租套房
+            </a>
+            <a data-gtm-stat="頭部導航_租屋_學校找房" href="https://rent.591.com.tw?school=0">
+             學校找房
+            </a>
+            <a data-gtm-stat="頭部導航_租屋_雅房" href="https://rent.591.com.tw?kind=4">
+             雅房
+            </a>
+            <a class="house-entrust" data-gtm-stat="屋主委託_委託入口_點擊【租屋菜單下拉入口】" href="//market.591.com.tw/entrust?entryType=6" id="rent-house-entrust">
+             屋主委租
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-narrow">
+          <dl>
+           <dt>
+            租屋工具
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_租屋_租屋手冊" href="https://help.591.com.tw/category/50/房客手冊.html">
+             租屋手冊
+            </a>
+            <a data-gtm-stat="頭部導航_租屋_契約下載" href="https://help.591.com.tw/content/51/100/tw/%E7%A7%9F%E5%B1%8B%E5%A5%91%E7%B4%84.html">
+             契約下載
+            </a>
+            <a data-gtm-stat="頭部導航_租屋_找經紀人" href="https://rent.591.com.tw/rentBroker.html">
+             找經紀人
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-last">
+          <dl>
+           <dt>
+            房東/代理人
+           </dt>
+           <dd>
+            <p>
+             使用過591房東們的共同見證，最快3天就成交！
+             <br/>
+             不要錯過你儘早收租好機會喔！
+            </p>
+            <a class="nav-btn" data-gtm-stat="頭部導航_租屋_立即刊登出租廣告" href="//www.591.com.tw/index.php?module=house&amp;action=postFirst&amp;type=rent">
+             立即刊登出租廣告
+            </a>
+            <a class="nav-btn ml15" data-gtm-stat="頭部導航_租屋_查看收費說明" href="//www.591.com.tw/home/help/chargeIntro/1">
+             查看收費說明
+            </a>
+           </dd>
+          </dl>
+         </div>
+        </section>
+       </div>
+      </li>
+      <li>
+       <a class="gtm-flag land-new-icon" data-gtm-stat="頭部導航_土地_土地" href="//land.591.com.tw?type=2">
+        土地
+       </a>
+       <div class="sub-nav">
+        <section class="nav-category subnav-business">
+         <div class="sub-nav-list nav-wide">
+          <dl>
+           <dt>
+            出租
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_土地出租" href="//land.591.com.tw?type=1">
+             土地
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-wide">
+          <dl>
+           <dt>
+            出售
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_土地出售" href="//land.591.com.tw?type=2">
+             土地
+            </a>
+           </dd>
+          </dl>
+         </div>
+        </section>
+       </div>
+      </li>
+      <li class="">
+       <a class="gtm-flag" data-gtm-stat="頭部導航_店面" href="//business.591.com.tw?type=1&amp;kind=5">
+        店面
+       </a>
+       <div class="sub-nav">
+        <section class="nav-category subnav-business">
+         <div class="sub-nav-list nav-wide">
+          <dl>
+           <dt>
+            出租
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_店面出租" href="//business.591.com.tw?type=1&amp;kind=5">
+             店面出租
+            </a>
+            <a data-gtm-stat="頭部導航_店面頂讓" href="//business.591.com.tw?type=6&amp;kind=5">
+             店面頂讓
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-wide">
+          <dl>
+           <dt>
+            出售
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_店面出售" href="//business.591.com.tw?type=2&amp;kind=5">
+             店面出售
+            </a>
+           </dd>
+          </dl>
+         </div>
+        </section>
+       </div>
+      </li>
+      <li class="">
+       <a class="gtm-flag" data-gtm-stat="頭部導航_辦公" href="//business.591.com.tw?type=1&amp;kind=6">
+        辦公
+       </a>
+       <div class="sub-nav">
+        <section class="nav-category subnav-business">
+         <div class="sub-nav-list nav-wide">
+          <dl>
+           <dt>
+            出租
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_辦公出租" href="//business.591.com.tw?type=1&amp;kind=6">
+             辦公
+            </a>
+            <a data-gtm-stat="頭部導航_住辦出租" href="//business.591.com.tw?type=1&amp;kind=12">
+             住辦
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-wide">
+          <dl>
+           <dt>
+            出售
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_辦公出售" href="//business.591.com.tw?type=2&amp;kind=6">
+             辦公
+            </a>
+            <a data-gtm-stat="頭部導航_住辦出售" href="//business.591.com.tw?type=2&amp;kind=12">
+             住辦
+            </a>
+           </dd>
+          </dl>
+         </div>
+        </section>
+       </div>
+      </li>
+      <li>
+       <a class="gtm-flag" data-gtm-stat="頭部導航_廠房" href="//business.591.com.tw?type=1&amp;kind=7">
+        廠房
+       </a>
+       <div class="sub-nav">
+        <section class="nav-category subnav-business">
+         <div class="sub-nav-list nav-wide">
+          <dl>
+           <dt>
+            出租
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_廠房出租" href="//business.591.com.tw?type=1&amp;kind=7">
+             廠房
+            </a>
+           </dd>
+          </dl>
+         </div>
+         <div class="sub-nav-list nav-wide">
+          <dl>
+           <dt>
+            出售
+           </dt>
+           <dd>
+            <a data-gtm-stat="頭部導航_廠房出售" href="//business.591.com.tw?type=2&amp;kind=7">
+             廠房
+            </a>
+           </dd>
+          </dl>
+         </div>
+        </section>
+       </div>
+      </li>
+      <li class="market-icon">
+       <a data-gtm-stat="頭部導航_實價登錄" href="//market.591.com.tw/list">
+        社區找房
+       </a>
+      </li>
+      <li class="design-icon-min">
+       <a data-gtm-stat="頭部導航_室內設計" href="https://www.100.com.tw?utm_source=591sale&amp;utm_medium=nav_bar&amp;utm_campaign=get_quotation" target="_blank">
+        室內設計
+       </a>
+      </li>
+      <li class="hasicon">
+       <a data-gtm-stat="頭部導航_新建案_新聞資訊" href="https://news.591.com.tw" style="">
+        新聞
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="login-status" id="vueLoginStatus">
+     <ul>
+      <li class="nav-link">
+       <a class="gtm-flag" data-gtm-stat="頭部導航_登入_登入" href="//www.591.com.tw/user-login.html" target="_blank">
+        登入
+       </a>
+       <em class="divide-line">
+       </em>
+       <a class="gtm-flag" data-gtm-stat="頭部導航_註冊_註冊" href="//www.591.com.tw/index.php?module=user" target="_blank">
+        註冊
+       </a>
+      </li>
+      <li class="dropMenu">
+       <div class="dropbox undis nav-publish">
+        <ul>
+         <li>
+          <a data-gtm-stat="頭部導航_登錄後下拉_會員中心" href="//www.591.com.tw/index.php?module=userCenter">
+           會員中心
+          </a>
+         </li>
+         <li>
+          <a data-gtm-stat="頭部導航_登錄後下拉_退出" href="//www.591.com.tw/index.php?module=user&amp;action=logout">
+           退出
+          </a>
+         </li>
+        </ul>
+       </div>
+      </li>
+      <li class="dropMenu nav-small-post">
+       <a data-gtm-stat="頭部導航_我要刊登_我要刊登" href="//www.591.com.tw/index.php?module=house&amp;action=postFirst">
+        我要刊登
+        <i class="fa fa-caret-down">
+        </i>
+       </a>
+       <div class="dropbox undis nav-publish">
+        <ul>
+         <li>
+          <a data-gtm-stat="頭部導航_我要刊登_我要刊登" href="//www.591.com.tw/index.php?module=house&amp;action=postFirst&amp;type=rent" target="_blank">
+           刊登出租
+          </a>
+         </li>
+         <li>
+          <a data-gtm-stat="頭部導航_我要刊登_我要刊登" href="//www.591.com.tw/index.php?module=house&amp;action=postFirst&amp;type=sale" target="_blank">
+           刊登出售
+          </a>
+         </li>
+         <li>
+          <a data-gtm-stat="頭部導航_我要刊登_我要刊登" href="//www.591.com.tw/index.php?module=housing&amp;action=housing" target="_blank">
+           刊登建案
+          </a>
+         </li>
+         <li>
+          <a data-gtm-stat="頭部導航_我要刊登_圖片廣告" href="//www.591.com.tw/advertisement" target="_blank">
+           圖片廣告
+          </a>
+         </li>
+         <li>
+          <a data-gtm-stat="頭部導航_我要刊登_我要刊登" href="//www.591.com.tw/home/help/chargeIntro/1" target="_blank">
+           收費標準
+          </a>
+         </li>
+        </ul>
+       </div>
+      </li>
+      <li class="dropMenu nav-small-help">
+       <a class="gtm-flag" data-gtm-stat="頭部導航_幫助_幫助" href="https://help.591.com.tw/" target="_blank">
+        幫助
+        <i class="fa fa-caret-down">
+        </i>
+       </a>
+       <div class="dropbox undis nav-help">
+        <dl>
+         <dt>
+          諮詢入口
+         </dt>
+         <dd>
+          <a class="js-onlineService" data-gtm-stat="頭部導航_幫助_非會員留言" href="javascript:;">
+           非會員留言
+          </a>
+          <a class="js-onlineService" data-gtm-stat="頭部導航_幫助_會員申訴" href="javascript:;">
+           會員申訴
+          </a>
+          <a class="js-onlineService" data-gtm-stat="頭部導航_幫助_申訴回覆" href="javascript:;">
+           申訴回覆
+          </a>
+         </dd>
+        </dl>
+        <dl>
+         <dt>
+          新手指南
+         </dt>
+         <dd>
+          <a data-gtm-stat="頭部導航_幫助_註冊會員" href="//www.591.com.tw/index.php?module=user" target="_blank">
+           註冊會員
+          </a>
+          <a data-gtm-stat="頭部導航_幫助_忘記帳密" href="https://help.591.com.tw/content/56/139/tw/忘記密碼找回方法.html" target="_blank">
+           忘記帳密
+          </a>
+          <a data-gtm-stat="頭部導航_幫助_修改個人資料" href="https://help.591.com.tw/category/57/修改個人資料.html" target="_blank">
+           修改個人資料
+          </a>
+         </dd>
+        </dl>
+        <dl>
+         <dt>
+          房東幫助
+         </dt>
+         <dd>
+          <a data-gtm-stat="頭部導航_幫助_如何刊登" href="https://help.591.com.tw/content/20/30/tw/%E5%A6%82%E4%BD%95%E5%88%8A%E7%99%BB%E6%88%BF%E5%B1%8B%E5%BB%A3%E5%91%8A%EF%BC%9F.html" target="_blank">
+           如何刊登
+          </a>
+          <a data-gtm-stat="頭部導航_幫助_收費標準" href="//www.591.com.tw/home/help/chargeIntro/1" target="_blank">
+           收費標準
+          </a>
+          <a data-gtm-stat="頭部導航_幫助_付款教學" href="https://help.591.com.tw/content/13/5/tw/儲值教學.html" target="_blank">
+           付款教學
+          </a>
+          <a data-gtm-stat="頭部導航_幫助_上傳房屋圖片" href="https://help.591.com.tw/category/23/上傳房屋圖檔.html" target="_blank">
+           上傳房屋圖片
+          </a>
+          <a data-gtm-stat="頭部導航_幫助_房屋廣告管理" href="https://help.591.com.tw/category/63/房屋廣告管理.html" target="_blank">
+           房屋廣告管理
+          </a>
+         </dd>
+        </dl>
+        <dl>
+         <dt>
+          經紀人幫助
+         </dt>
+         <dd>
+          <a data-gtm-stat="頭部導航_幫助_售屋套餐介紹" href="//www.591.com.tw/home/help/chargeIntro/2 " target="_blank">
+           售屋套餐介紹
+          </a>
+          <a data-gtm-stat="頭部導航_幫助_仲介職業認證" href="https://help.591.com.tw/category/30/經紀人認證.html" target="_blank">
+           仲介職業認證
+          </a>
+         </dd>
+        </dl>
+        <dl>
+         <dt>
+          建築/代銷公司幫助
+         </dt>
+         <dd>
+          <a data-gtm-stat="頭部導航_幫助_如何刊登建案廣告" href="https://help.591.com.tw/content/34/76/tw/%E5%A6%82%E4%BD%95%E5%88%8A%E7%99%BB%E5%BB%BA%E6%A1%88%E5%BB%A3%E5%91%8A%EF%BC%9F.html" target="_blank">
+           如何刊登建案廣告
+          </a>
+          <a class="highlight" data-gtm-stat="頭部導航_幫助_我要推廣" href="//www.591.com.tw/advertisement" target="_blank">
+           我要推廣
+          </a>
+          <a class="highlight" data-gtm-stat="更新包宣導頁_入口_導航欄-幫助" href="//newhouse.591.com.tw/sales/updatePack?entrance=navHelp" target="_blank">
+           新建案列表頁排序方案
+          </a>
+         </dd>
+        </dl>
+        <dl>
+         <dt>
+          客戶服務
+         </dt>
+         <dd>
+          <a class="js-onlineService btn-link" data-gtm-stat="頭部導航_幫助_在線人工客服" href="javascript:;">
+           在線人工客服
+          </a>
+          <br>
+           客服電話：02-55722000
+           <br/>
+           客服傳真：02-55793400
+           <br/>
+           客服信箱：service@591.com.tw
+           <br/>
+           服務時間：週一至週日 9:00-18:00
+           <br/>
+           <a class="drop-btn" data-gtm-stat="頭部導航_幫助_查看更多幫助內容" href="https://help.591.com.tw/" target="_blank">
+            查看更多幫助內容
+           </a>
+          </br>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li @mouseenter="showAppList" @mouseleave="hideAppList" class="dropMenu nav-small-addcn">
+       <a class="addcn" data-gtm-stat="頭部導航_addcn_addcn" href="http://www.addcn.com/" target="_blank">
+        數字App
+       </a>
+       <vue-addcn-app v-if="showAddcnAppList" v-once="">
+       </vue-addcn-app>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <script>
+   seajs.use('header')
+  </script>
+  <script id="vue-addcn-app" type="text/x-template">
+   <div class="dropbox nav-addcn" style="display: block">
+        <ul>
+            <li>
+                <a href="//www.8591.com.tw/news-app.html?aid=849" target="_blank" title="8591寶物交易" google-data-stat="頭部導航_addcn_8591寶物交易">
+                    <img src="//s.591.com.tw/build/static/public/images/header/icon-8591.png" alt="8591寶物交易">
+                    <p>8591寶物交易</p>
+                </a>
+            </li>
+            <li>
+                <a href="//www.591.com.tw#anchor_app" target="_blank" title="591房屋交易" google-data-stat="頭部導航_addcn_591房屋交易">
+                    <img src="//s.591.com.tw/build/static/public/images/header/icon-591.png?time=20190812" alt="591房屋交易">
+                    <p>591房屋交易</p>
+                </a>
+            </li>
+            <li>
+                <a href="//uc.100.com.tw/apps-download.html" target="_blank" title="100室內設計" google-data-stat="頭部導航_addcn_100室內設計">
+                    <img src="//s.591.com.tw/build/static/public/images/header/icon-100.png" alt="100室內設計">
+                    <p>100室內設計</p>
+                </a>
+            </li>
+            <li>
+                <a href="//www.8891.com.tw/index-appDown.html" target="_blank" title="8891中古車" google-data-stat="頭部導航_addcn_8891中古車">
+                    <img src="//s.591.com.tw/build/static/public/images/header/icon-8891.svg"  width="60" height="60" alt="8891中古車">
+                    <p>8891中古車</p>
+                </a>
+            </li>
+            <li>
+                <a href="//c.8891.com.tw/photoIndex-appDown.html" target="_blank" title="8891汽車" google-data-stat="頭部導航_addcn_8891汽車">
+                    <img src="//s.591.com.tw/build/static/public/images/header/icon-8891-newCar.svg" width="60" height="60" alt="8891汽車">
+                    <p>8891汽車</p>
+                </a>
+            </li>
+            <li>
+                <a href="//www.518.com.tw/" target="_blank" title="518熊班" google-data-stat="頭部導航_addcn_518熊班">
+                    <img src="//s.591.com.tw/build/static/public/images/header/icon-518-job.svg" alt="518熊班">
+                    <p>518熊班</p>
+                </a>
+            </li>
+            <li>
+                <a href="//www.518.com.tw/active-vip_superiority.html#app518" target="_blank" title="熊班企業版" google-data-stat="頭部導航_addcn_熊班企業版">
+                    <img src="//s.591.com.tw/build/static/public/images/header/icon-518-hire.svg" alt="熊班企業版">
+                    <p>熊班企業版</p>
+                </a>
+            </li>
+            <li>
+                <a href="//www.tasker.com.tw/" target="_blank" title="出任務" google-data-stat="頭部導航_addcn_出任務">
+                    <img src="//s.591.com.tw/build/static/public/images/header/icon-tasker.png" alt="出任務">
+                    <p>出任務</p>
+                </a>
+            </li>
+            <li>
+                <a href="//518.com.tw/15043" target="_blank" title="小雞上工" google-data-stat="頭部導航_addcn_小雞上工">
+                    <img src="//s.591.com.tw/build/static/public/images/header/icon-chick.png" alt="小雞上工">
+                    <p>小雞上工</p>
+                </a>
+            </li>
+            <li>
+                <a href="//www.addcn.com/app/job-listings?utm_source=591&utm_medium=app_link" target="_blank" title="數字徵才" google-data-stat="頭部導航_addcn_數字徵才">
+                    <img src="//s.591.com.tw/build/static/public/images/header/icon-addcn-job-02.svg" alt="數字徵才">
+                    <p>數字徵才</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.945.com.tw" target="_blank" title="找師傅" google-data-stat="頭部導航_addcn_找師傅">
+                    <img src="//s.591.com.tw/build/static/public/images/header/find-master.png" alt="找師傅">
+                    <p>找師傅</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+  </script>
+  <script>
+   Vue.component('VueAddcnApp', {
+        template: '#vue-addcn-app'
+    })
+  </script>
+  <div id="container">
+   <!-- 頭部廣告 -->
+   <div id="header-dealer">
+    <div class="gad_Top" id="UNION_17">
+    </div>
+   </div>
+   <div id="app">
+    <div :class="showFloatSearch &amp;&amp; 'z-float'" class="head-area">
+     <div class="head-area-search">
+      <a href="//sale.591.com.tw">
+       <img class="head-area-logo" src="//s.591.com.tw/build/static/house/saleList/images/logo.png?time=2023-08-08"/>
+      </a>
+      <v-filter-region :cur-remove-item="curRemoveItem" :options.sync="options" :search="search" :sh-type="shType" @click="click" ref="filterRegionRef">
+      </v-filter-region>
+      <div class="hosue-search">
+       <div class="search-wrap" id="searchApp">
+        <div class="searchBoxInput clearfix" id="searchBoxInput" v-if="!isNewSearch">
+         <div class="search-input-wrap">
+          <input autocomplete="off" class="searchInput form-control pull-left" data-text="請輸入關鍵字（社區、街道、商圈等...）" id="keywords" name="keywords" placeholder="請輸入關鍵字（社區、街道、商圈等...）" type="text" value=""/>
+          <i class="searchBoxClear">
+          </i>
+          <div class="searchBtn">
+           <div class="search-icon">
+           </div>
+           <span>
+            搜尋
+           </span>
+          </div>
+         </div>
+         <ul id="localCookies">
+         </ul>
+         <input id="hid_role" type="hidden" value=""/>
+        </div>
+        <vue-new-search v-else="">
+        </vue-new-search>
+       </div>
+      </div>
+     </div>
+     <div class="search-link default-show">
+      <a data-gtm-stat="社區-中古屋業務_中古屋列表頁_右上角社區找房點擊" href="//market.591.com.tw/list" target="_blank">
+       <i class="search-link-community">
+       </i>
+       社區找房
+      </a>
+      <a data-gtm-stat="中古屋列表頁_入口_地圖找房" href="//sale.591.com.tw/map-index.html" target="_blank">
+       <i class="search-link-map">
+       </i>
+       地圖找房
+      </a>
+      <a :href="`${refreshListUrl}&amp;utm_source=sale&amp;utm_medium=list&amp;utm_campaign=top`" style="margin-left:14px; width: 114px;" target="_blank">
+       <img src="//s.591.com.tw/build/static/house/saleList/images/refresh-list-entry.png?t=20240605" style="width: 100px;margin-top:-3px;"/>
+      </a>
+     </div>
+    </div>
+    <!-- 篩選區 -->
+    <div class="z-init z-init-kind-0 z-init-shType-list" id="filter">
+     <div :class="'z-kind-' + kind + ' ' + 'z-shType-' + shType + ' ' + (isSmall &amp;&amp; 'z-small-screen')" class="filter">
+      <!-- 篩選位置 -->
+      <v-filter-location :cur-remove-item="curRemoveItem" :options.sync="options" :search="search" :sh-type="shType" @click="click" ref="filterLocationRef">
+      </v-filter-location>
+      <!-- 篩選類型 -->
+      <v-filter-kind :cur-remove-item="curRemoveItem" :options.sync="options" :region="region" :search="search" :sh-type="shType" @click="click">
+      </v-filter-kind>
+      <!-- 篩選售金 -->
+      <v-filter-saleprice :cur-remove-item="curRemoveItem" :is-small="isSmall" :kind="kind" :options.sync="options" :region="region" :search="search" :sh-type="shType">
+      </v-filter-saleprice>
+      <!-- 篩選形態 -->
+      <v-filter-shape :cur-remove-item="curRemoveItem" :kind="kind" :options.sync="options" :search="search" :sh-type="shType" ref="filterShapeRef">
+      </v-filter-shape>
+      <!-- 篩選格局 -->
+      <v-filter-pattern :cur-remove-item="curRemoveItem" :kind="kind" :options.sync="options" :search="search">
+      </v-filter-pattern>
+      <!-- 篩選權狀 -->
+      <v-filter-area :cur-remove-item="curRemoveItem" :is-small="isSmall" :kind="kind" :options.sync="options" :region="region" :search="search" :sh-type="shType">
+      </v-filter-area>
+      <!-- 篩選更多 -->
+      <v-filter-more :cur-remove-item="curRemoveItem" :kind="kind" :options.sync="options" :search="search" :sh-type="shType">
+      </v-filter-more>
+     </div>
+    </div>
+    <!-- 精選推薦 -->
+    <!-- 初始化狀態判斷 -->
+    <div class="z-init-noexist" id="recommend">
+     <div class="recommend-head clearfix">
+      <div class="recommend-title pull-left">
+       精選推薦
+      </div>
+     </div>
+     <div class="recommend">
+      <v-recommend-list :datas="recommendData" :is-small="isSmall">
+      </v-recommend-list>
+     </div>
+    </div>
+    <!-- 內容區 -->
+    <div class="clearfix relative">
+     <!-- 右側內容區 -->
+     <div class="side-area pull-right">
+      <a class="post-house" data-gtm-stat="中古屋列表頁_入口_刊登出售" href="//www.591.com.tw/index.php?module=house&amp;action=postFirst&amp;type=sale" target="_blank">
+       刊登出售
+      </a>
+      <div class="entry-design-100" id="UNION_150">
+      </div>
+      <a :href="`${refreshListUrl}&amp;utm_source=sale&amp;utm_medium=list&amp;utm_campaign=sidebar`" class="refresh-list-box" target="_blank">
+       <p class="banner-tip">
+        每週一更新，近期活躍人氣房屋
+       </p>
+       <div class="btn-detail">
+        點擊查看
+       </div>
+      </a>
+      <v-community-hot-sale :search="search">
+      </v-community-hot-sale>
+     </div>
+     <!-- 左側內容區 -->
+     <div class="main-area">
+      <v-house-switch :cur-remove-item="curRemoveItem" :kind="kind" :options.sync="options" :region="region" :search="search" @click="click">
+      </v-house-switch>
+      <v-label-switch :cur-remove-item="curRemoveItem" :kind="kind" :options.sync="options" :search="search" :sh-type="shType">
+      </v-label-switch>
+      <v-community-broker :is-fetch="isFetch" @after-get-data="(data) =&gt; communityHeaderData = data" ref="communityHeader" v-if="communityHeaderVisible">
+      </v-community-broker>
+      <div class="noHouse-tips clearfix" v-if="(isRecommend || (!listData.length &amp;&amp; !communityListData.length)) &amp;&amp; !isFetch">
+       <template v-if="isNewSearch">
+        <div class="noHouse-tips-left noHouse-tips-left-new">
+        </div>
+        <div class="noHouse-tips-right noHouse-tips-right-new">
+         <template v-if="communityHeaderVisible &amp;&amp; communityHeaderInnerVisible">
+          <p :class="[(communityHeaderData.agent_info &amp;&amp; communityHeaderData.agent_info.agent_id) &amp;&amp; 'with-community']" class="noHouse-tips-title">
+           抱歉， 您搜尋的社區暫無在售物件
+          </p>
+          <div class="broker-entrust" v-if="communityHeaderData.agent_info &amp;&amp; communityHeaderData.agent_info.agent_id">
+           <div class="broker-entrust-title">
+            委託社區專家，代尋未釋出房屋，找房更便捷
+           </div>
+           <div @click="showEntrust" class="broker-entrust-btn" data-gtm-stat="社區-中古屋業務_中古屋列表頁_【房屋代尋】按鈕點擊">
+            房屋代尋
+           </div>
+          </div>
+          <div class="noHouse-tips-list">
+           <p class="noHouse-tips-try">
+            您可以試試：
+           </p>
+           <p>
+            <a @click="navCommunityPriceLink" data-gtm-stat="社區-中古屋業務_中古屋列表頁_查看【附近同價位社區】點擊" href="javascript:;">
+             1.查看附近同價位社區&gt;
+            </a>
+           </p>
+           <p>
+            <a :href="communityHotLink" data-gtm-stat="社區-中古屋業務_中古屋列表頁_查看【附近熱門社區】點擊" target="_blank">
+             2.查看附近熱門社區&gt;
+            </a>
+           </p>
+           <div @click="cleanOptions" class="clear-btn">
+            <i class="icon-clear-white">
+            </i>
+            <span>
+             清空條件
+            </span>
+           </div>
+          </div>
+         </template>
+         <template v-else="">
+          <p class="noHouse-tips-title">
+           抱歉， “{{ regionTxt }}” 內暫無
+           <span v-if="searchKeyWords">
+            <em>
+             “
+            </em>
+            {{ searchKeyWords }}
+            <em>
+             ”
+            </em>
+           </span>
+           相關內容
+          </p>
+          <div class="noHouse-tips-list">
+           <p class="noHouse-tips-try">
+            您可以試試：
+           </p>
+           <p>
+            1.檢查篩選條件是否不符或者過多；
+           </p>
+           <p>
+            2.檢查縣市選擇是否正確；
+           </p>
+           <p>
+            3.調整輸入內容，如：“台山松山帝國大廈”調整為“帝國大廈”
+           </p>
+           <p>
+            4.如仍沒有您的內容，可以反饋我們盡快做補充！
+            <span @click="isShowFeedback = true" class="feedback-button" data-gtm-stat="中古列表頁_關鍵字搜尋-新_提交反饋問題">
+             點擊反饋
+            </span>
+           </p>
+           <div @click="cleanOptions" class="clear-btn">
+            <i class="icon-clear-white">
+            </i>
+            <span>
+             清空條件
+            </span>
+           </div>
+          </div>
+         </template>
+        </div>
+       </template>
+       <template v-else="">
+        <div class="noHouse-tips-left noHouse-tips-left-new">
+        </div>
+        <div class="noHouse-tips-right noHouse-tips-right-new">
+         <template v-if="options.length &lt;= 2">
+          <p class="noHouse-tips-title">
+           很抱歉，我們暫時沒有為您找到合適的物件！
+          </p>
+          <p class="noHouse-tips-tips">
+           建議您：重新搜尋試看看唷~
+          </p>
+         </template>
+         <template v-else="">
+          <p class="noHouse-tips-title">
+           很抱歉，您篩選的條件太多，我們沒有為您找到合適的物件！
+          </p>
+          <p class="noHouse-tips-tips">
+           建議您：嘗試去掉一些篩選條件~~
+          </p>
+         </template>
+         <div @click="cleanOptions" class="clear-btn">
+          <i class="icon-clear-white">
+          </i>
+          <span>
+           清空條件
+          </span>
+         </div>
+        </div>
+       </template>
+      </div>
+      <v-list :community-header-visible="communityHeaderVisible &amp;&amp; communityHeaderInnerVisible" :community-list-data="communityListData" :community-total="communityTotal" :cur-remove-item="curRemoveItem" :is-fetch="isFetch" :is-recommend="isRecommend" :is-small="isSmall" :kind="kind" :list-data="listData" :options.sync="options" :search="search" :sh-type="shType" :total="total">
+      </v-list>
+      <v-pages :options.sync="options" :pages="pages" :search="search" v-show="!isFetch &amp;&amp; !isRecommendCommunity">
+      </v-pages>
+      <div v-if="isRecommendCommunity">
+       <v-list :community-list-data="communityListData" :cur-remove-item="curRemoveItem" :is-fetch="isFetch" :is-recommend="isSearchCommunityRecommend" :is-recommend-community="isRecommendCommunity" :kind="kind" :list-data="recommendCommunityList" :search="search" :sh-type="shType" :total="total">
+       </v-list>
+       <v-pages :options.sync="options" :pages="pages" :search="search" v-show="!isFetch">
+       </v-pages>
+      </div>
+      <v-feedback-dialog :default-title="searchKeyWords.substr(0,40)" :default-type="feedbackType" :region-id="+region" v-model="isShowFeedback">
+      </v-feedback-dialog>
+     </div>
+    </div>
+   </div>
+   <div class="needle-app">
+    <n-broker-entrust :user-id="-1">
+    </n-broker-entrust>
+   </div>
+   <div class="union18" id="UNION_18">
+   </div>
+   <input id="base_url" type="hidden" value="//www.591.com.tw"/>
+  </div>
+  <div class="fixedBottomBanner">
+   <div class="bannerBox" data-id="53" id="UNION_53">
+   </div>
+   <div class="bannerContent">
+    <a id="bannerClose">
+    </a>
+   </div>
+  </div>
+  <section class="seoNav">
+   <div class="seoLink">
+    <div class="link-item clearfix">
+     <div class="link-label">
+      售屋相關資訊：
+     </div>
+     <div class="link-list">
+      <a href="/?type=2&amp;kind=9">
+       住宅出售
+      </a>
+      <a href="/?type=2&amp;kind=10">
+       套房出售
+      </a>
+      <a href="/?type=2&amp;kind=8">
+       車位出售
+      </a>
+      <a href="/?type=2&amp;kind=22">
+       法拍屋出售
+      </a>
+      <a href="/?type=2&amp;kind=24">
+       其他出售
+      </a>
+     </div>
+    </div>
+    <div class="link-item clearfix changRegion">
+     <div class="link-label">
+      熱門縣市售屋：
+     </div>
+     <div class="link-list">
+      <a class="j-hotRegion" data-text="1" href="/?regionid=1">
+       台北市
+      </a>
+      <a class="j-hotRegion" data-text="3" href="/?regionid=3">
+       新北市
+      </a>
+      <a class="j-hotRegion" data-text="8" href="/?regionid=8">
+       台中市
+      </a>
+      <a class="j-hotRegion" data-text="6" href="/?regionid=6">
+       桃園市
+      </a>
+      <a class="j-hotRegion" data-text="17" href="/?regionid=17">
+       高雄市
+      </a>
+      <a class="j-hotRegion" data-text="15" href="/?regionid=15">
+       台南市
+      </a>
+      <a class="j-hotRegion" data-text="4" href="/?regionid=4">
+       新竹市
+      </a>
+      <a class="j-hotRegion" data-text="5" href="/?regionid=5">
+       新竹縣
+      </a>
+      <a class="j-hotRegion" data-text="7" href="/?regionid=7">
+       苗栗縣
+      </a>
+      <a class="j-hotRegion" data-text="2" href="/?regionid=2">
+       基隆市
+      </a>
+      <a class="j-hotRegion" data-text="10" href="/?regionid=10">
+       彰化縣
+      </a>
+      <a class="j-hotRegion" data-text="12" href="/?regionid=12">
+       嘉義市
+      </a>
+      <a class="j-hotRegion" data-text="21" href="/?regionid=21">
+       宜蘭縣
+      </a>
+      <a class="j-hotRegion" data-text="23" href="/?regionid=23">
+       花蓮縣
+      </a>
+      <a class="j-hotRegion" data-text="19" href="/?regionid=19">
+       屏東縣
+      </a>
+      <a class="j-hotRegion" data-text="14" href="/?regionid=14">
+       雲林縣
+      </a>
+      <a class="j-hotRegion" data-text="13" href="/?regionid=13">
+       嘉義縣
+      </a>
+      <a class="j-hotRegion" data-text="11" href="/?regionid=11">
+       南投縣
+      </a>
+      <a class="j-hotRegion" data-text="22" href="/?regionid=22">
+       台東縣
+      </a>
+      <a class="j-hotRegion" data-text="25" href="/?regionid=25">
+       金門縣
+      </a>
+      <a class="j-hotRegion" data-text="24" href="/?regionid=24">
+       澎湖縣
+      </a>
+      <a class="j-hotRegion" data-text="26" href="/?regionid=26">
+       連江縣
+      </a>
+     </div>
+    </div>
+    <div class="link-item clearfix changRegion">
+     <div class="link-label">
+      熱門縣市土地：
+     </div>
+     <div class="link-list">
+      <a class="j-hotRegion" data-text="15" href="//land.591.com.tw/list?type=2&amp;region=15">
+       台南市土地
+      </a>
+      <a class="j-hotRegion" data-text="6" href="//land.591.com.tw/list?type=2&amp;region=6">
+       桃園市土地
+      </a>
+      <a class="j-hotRegion" data-text="8" href="//land.591.com.tw/list?type=2&amp;region=8">
+       台中市土地
+      </a>
+      <a class="j-hotRegion" data-text="17" href="//land.591.com.tw/list?type=2&amp;region=17">
+       高雄市土地
+      </a>
+      <a class="j-hotRegion" data-text="3" href="//land.591.com.tw/list?type=2&amp;region=3">
+       新北市土地
+      </a>
+      <a class="j-hotRegion" data-text="1" href="//land.591.com.tw/list?type=2&amp;region=1">
+       台北市土地
+      </a>
+      <a class="j-hotRegion" data-text="5" href="//land.591.com.tw/list?type=2&amp;region=5">
+       新竹縣土地
+      </a>
+      <a class="j-hotRegion" data-text="4" href="//land.591.com.tw/list?type=2&amp;region=4">
+       新竹市土地
+      </a>
+      <a class="j-hotRegion" data-text="2" href="//land.591.com.tw/list?type=2&amp;region=2">
+       基隆市土地
+      </a>
+      <a class="j-hotRegion" data-text="21" href="//land.591.com.tw/list?type=2&amp;region=21">
+       宜蘭縣土地
+      </a>
+      <a class="j-hotRegion" data-text="7" href="//land.591.com.tw/list?type=2&amp;region=7">
+       苗栗縣土地
+      </a>
+      <a class="j-hotRegion" data-text="10" href="//land.591.com.tw/list?type=2&amp;region=10">
+       彰化縣土地
+      </a>
+      <a class="j-hotRegion" data-text="11" href="//land.591.com.tw/list?type=2&amp;region=11">
+       南投縣土地
+      </a>
+      <a class="j-hotRegion" data-text="14" href="//land.591.com.tw/list?type=2&amp;region=14">
+       雲林縣土地
+      </a>
+      <a class="j-hotRegion" data-text="12" href="//land.591.com.tw/list?type=2&amp;region=12">
+       嘉義市土地
+      </a>
+      <a class="j-hotRegion" data-text="13" href="//land.591.com.tw/list?type=2&amp;region=13">
+       嘉義縣土地
+      </a>
+      <a class="j-hotRegion" data-text="19" href="//land.591.com.tw/list?type=2&amp;region=19">
+       屏東縣土地
+      </a>
+      <a class="j-hotRegion" data-text="24" href="//land.591.com.tw/list?type=2&amp;region=24">
+       澎湖縣土地
+      </a>
+      <a class="j-hotRegion" data-text="23" href="//land.591.com.tw/list?type=2&amp;region=23">
+       花蓮縣土地
+      </a>
+      <a class="j-hotRegion" data-text="22" href="//land.591.com.tw/list?type=2&amp;region=22">
+       台東縣土地
+      </a>
+     </div>
+    </div>
+    <div class="link-item clearfix">
+     <div class="link-label">
+      相關新聞：
+     </div>
+     <div class="link-list">
+      <a data-gtm-stat="列表頁底部_相關新聞_房叔學堂" href="//news.591.com.tw/expertise">
+       房叔學堂
+      </a>
+      <a data-gtm-stat="列表頁底部_相關新聞_政策解讀" href="//news.591.com.tw/policy">
+       政策解讀
+      </a>
+      <a data-gtm-stat="列表頁底部_相關新聞_地產學堂" href="//news.591.com.tw/knowledge">
+       地產學堂
+      </a>
+      <a data-gtm-stat="列表頁底部_相關新聞_圖解地產" href="//news.591.com.tw/graphic">
+       圖解地產
+      </a>
+      <a data-gtm-stat="列表頁底部_相關新聞_即時新聞" href="//news.591.com.tw/news">
+       即時新聞
+      </a>
+      <a data-gtm-stat="列表頁底部_相關新聞_最新市況" href="//news.591.com.tw/quotation">
+       最新市況
+      </a>
+      <a data-gtm-stat="列表頁底部_相關新聞_開箱文" href="//news.591.com.tw/article">
+       開箱文
+      </a>
+      <a data-gtm-stat="列表頁底部_相關新聞_專題新聞" href="//news.591.com.tw/act">
+       專題新聞
+      </a>
+     </div>
+    </div>
+    <div class="link-item clearfix" id="market-seo">
+     <div class="link-label">
+      實價登錄：
+     </div>
+     <div class="link-list">
+      <a data-id="1">
+       台北市實價登錄
+      </a>
+      <a data-id="3">
+       新北市實價登錄
+      </a>
+      <a data-id="6">
+       桃園市實價登錄
+      </a>
+      <a data-id="17">
+       高雄市實價登錄
+      </a>
+      <a data-id="15">
+       台南市實價登錄
+      </a>
+      <a data-id="4">
+       新竹市實價登錄
+      </a>
+      <a data-id="5">
+       新竹縣實價登錄
+      </a>
+      <a data-id="2">
+       基隆市實價登錄
+      </a>
+      <a data-id="8">
+       台中市實價登錄
+      </a>
+     </div>
+    </div>
+    <div class="link-item clearfix">
+     <div class="link-label">
+      熱門成交社區：
+     </div>
+     <div class="link-list">
+      <a href="https://market.591.com.tw/6371" target="_blank">
+       大師大
+      </a>
+      <a href="https://market.591.com.tw/36364" target="_blank">
+       唐莊
+      </a>
+      <a href="https://market.591.com.tw/6971" target="_blank">
+       帛詩華
+      </a>
+      <a href="https://market.591.com.tw/869" target="_blank">
+       春華大樓
+      </a>
+      <a href="https://market.591.com.tw/516" target="_blank">
+       力霸凱悅大廈
+      </a>
+      <a href="https://market.591.com.tw/4604" target="_blank">
+       美麗佳人大廈
+      </a>
+      <a href="https://market.591.com.tw/5936641" target="_blank">
+       碩樺拾樂
+      </a>
+      <a href="https://market.591.com.tw/5150" target="_blank">
+       瓏山林博物館一期
+      </a>
+      <a href="https://market.591.com.tw/35633" target="_blank">
+       天成商業大樓
+      </a>
+     </div>
+    </div>
+    <div class="link-item clearfix">
+     <div class="link-label">
+      熱門社區在售：
+     </div>
+     <div class="link-list">
+      <a href="https://market.591.com.tw/3176" target="_blank">
+       麗緻雙星大廈
+      </a>
+      <a href="https://market.591.com.tw/100646" target="_blank">
+       大華湖閱天琴特區
+      </a>
+      <a href="https://market.591.com.tw/1056" target="_blank">
+       力霸國鼎大廈
+      </a>
+      <a href="https://market.591.com.tw/5545" target="_blank">
+       大和庄
+      </a>
+      <a href="https://market.591.com.tw/35234" target="_blank">
+       萊茵華廈
+      </a>
+      <a href="https://market.591.com.tw/6055" target="_blank">
+       JR捷座
+      </a>
+      <a href="https://market.591.com.tw/2535" target="_blank">
+       文化京都大樓
+      </a>
+      <a href="https://market.591.com.tw/1259" target="_blank">
+       世貿新城丙基地
+      </a>
+      <a href="https://market.591.com.tw/4155" target="_blank">
+       雲荷
+      </a>
+     </div>
+    </div>
+    <input id="market_url" type="hidden" value="//market.591.com.tw"/>
+   </div>
+  </section>
+  <!--seo优化-->
+  <h1 style="display: none;">
+   【台北市出售】-591房屋交易網
+  </h1>
+  <script>
+   seajs.use('cookie', function () {
+        $('#market-seo a').click(function () {
+            // 修改城市cookie，id
+            $.cookie('urlJumpIp', $(this).data('id'), { expires: 30, path: '/', domain:'591.com.tw' });
+            window.location.href = $('#market_url').val();
+        });
+    })
+  </script>
+  <div id="footer">
+   <div class="footnav">
+    <div class="grouplink border ellipsis">
+     <a class="first" href="//www.addcn.com.tw/investment-basic.html" target="_blank">
+      投資者專區
+     </a>
+     <a href="//www.addcn.com/about-info.html">
+      關於我們
+     </a>
+     <a href="//www.591.com.tw/advertisement">
+      廣告刊登
+     </a>
+     <a href="//www.591.com.tw/message-moremessage.html?titleType=news">
+      新聞剪輯
+     </a>
+     <a href="//www.addcn.com.tw/social-welfare2012.html" target="_blank">
+      社會公益
+     </a>
+     <a href="//591.com.tw/yU0">
+      免責聲明
+     </a>
+     <a href="//591.com.tw/yUY">
+      服務條款
+     </a>
+     <a href="//help.591.com.tw/content/76/186/tw/privacy.html">
+      隱私權聲明
+     </a>
+     <a href="//www.addcn.com/app/job-listings?utm_source=591&amp;utm_medium=link&amp;utm_campaign=hire" target="_blank">
+      數字徵才
+     </a>
+    </div>
+    <div class="grouplink">
+     <a href="//rent.591.com.tw" target="_blank">
+      591租屋
+     </a>
+     <a href="//sale.591.com.tw" target="_blank">
+      591中古屋
+     </a>
+     <a href="//newhouse.591.com.tw" target="_blank">
+      591新建案
+     </a>
+     <a href="//land.591.com.tw" target="_blank">
+      591土地
+     </a>
+     <a href="//news.591.com.tw" target="_blank">
+      591新聞
+     </a>
+     <a href="//market.591.com.tw" target="_blank">
+      591實價登錄
+     </a>
+     <a href="//upscale.591.com.tw" target="_blank">
+      591高檔住宅
+     </a>
+     <a href="//design.591.com.tw/?aid=1169" target="_blank">
+      100室內設計
+     </a>
+     <a class="noline" href="//www.8591.com.tw" target="_blank">
+      台灣8591寶物交易網
+     </a>
+     <br/>
+     <a href="//www.8591.com.hk" target="_blank">
+      香港8591寶物交易網
+     </a>
+     <a href="//www.8891.com.tw/" target="_blank">
+      8891汽車交易網
+     </a>
+     <a href="//www.518.com.tw/" target="_blank">
+      518熊班
+     </a>
+     <a google-data-stat="新版底部_出任務_1" href="//www.tasker.com.tw/" target="_blank">
+      出任務
+     </a>
+     <a data-gtm-stat="新版底部_小雞上工_1" href="//www.chickpt.com.tw/" target="_blank">
+      小雞上工
+     </a>
+     <a data-gtm-stat="新版底部_找師傅" href="https://www.945.com.tw" target="_blank">
+      找師傅
+     </a>
+    </div>
+    <!-- <div class="fc-gray">
+            客服信箱：<a href="mailto:service@591.com.tw">service@591.com.tw</a>　客服電話：02-55722000　(服務時間：週一至週日 9:00-18:00 )
+        </div> -->
+    <div class="copyright">
+     Copyright © 2007-2024 by Addcn Technology Co., Ltd. All Rights reserved.
+    </div>
+   </div>
+  </div>
+  <link href="//s.591.com.tw/build/static/public/component/newSideTool.css?v=0725538229" rel="stylesheet"/>
+  <!-- 側邊工具欄 -->
+  <div class="side_tool_wrap newFiexdSide">
+   <div class="side_tool">
+    <ul class="">
+     <li>
+      <a class="historyList" google-data-stat="公共部分_工具欄_歷史記錄" href="javascript:;">
+       <i class="icon-history">
+       </i>
+      </a>
+      <div class="side-show side-txt historyList cursor">
+       <i>
+       </i>
+       歷史記錄
+      </div>
+     </li>
+     <li>
+      <a class="collectionList" google-data-stat="公共部分_工具欄_收藏記錄" href="javascript:;" id="collection">
+       <i class="icon-collect">
+       </i>
+      </a>
+      <div class="side-show side-txt collectionList cursor">
+       <i>
+       </i>
+       收藏記錄
+      </div>
+     </li>
+     <li id="aso">
+      <a class="qrcode" data-gtm-stat="公共部分_工具欄_下載591APP" href="javascript:;">
+       <i class="icon-aso">
+       </i>
+      </a>
+      <div class="side-show side_img">
+       <div class="side-aso-desc">
+        <span class="" id="aso-desc-title">
+         591APP
+        </span>
+        <span id="aso-desc-title2">
+         個性化中古屋推薦
+        </span>
+       </div>
+       <div class="side-aso-img">
+        <div class="side-aso-img-left">
+         <div class="side-aso-img-apple" data-gtm-stat="公共部分_工具欄_右侧-IOS" id="downloadAppApple" onclick="window.open('https://www.591.com.tw/home/tools/app/ios')">
+          <img alt="下載591APP" height="30" src="//s.591.com.tw/build/static/public/component/images/apple@1x.png" width="30"/>
+          <span>
+           App Store
+          </span>
+         </div>
+         <div class="side-aso-img-google" data-gtm-stat="公共部分_工具欄_右侧-Android" id="downloadAppGoogle" onclick="window.open('https://www.591.com.tw/home/tools/app/android?id=com.addcn.android.house591&amp;referrer=utm_source%3Dpc_Salelist_right%26anid%3Dadmob')">
+          <img alt="下載591APP" height="30" src="//s.591.com.tw/build/static/public/component/images/googlepaly@1x.png" width="30"/>
+          <span>
+           Google Play
+          </span>
+         </div>
+        </div>
+        <div class="side-aso-img-right">
+         <img alt="下載591APP" height="90" id="downloadCode" src="//s.591.com.tw/build/static/public/component/images/House.png" width="90"/>
+        </div>
+       </div>
+      </div>
+     </li>
+     <li>
+      <a class="proposal" google-data-stat="公共部分_工具欄_意見反饋" href="javascript:;">
+       <i class="icon-proposal">
+       </i>
+      </a>
+      <div class="side-show side-txt proposal cursor">
+       <i>
+       </i>
+       意見反饋
+      </div>
+     </li>
+     <li class="js-onlineService">
+      <a class="online" google-data-stat="公共部分_工具欄_在線客服" href="javascript:;">
+       <i class="icon-online-service">
+       </i>
+      </a>
+      <div class="side-show side-txt online cursor">
+       <i>
+       </i>
+       在線客服
+      </div>
+     </li>
+     <li>
+      <a class="facebook" google-data-stat="公共部分_工具欄_加入粉絲團" href="https://www.facebook.com/tw591?bid=1070" id="facebook" target="_blank">
+       <i class="icon-facebook">
+       </i>
+      </a>
+      <div class="side-show side-txt cursor" onclick="document.getElementById('facebook').click();">
+       <i>
+       </i>
+       加入粉絲團
+      </div>
+     </li>
+     <li>
+      <a class="addCollec" google-data-stat="公共部分_工具欄_加入收藏" href="javascript:;">
+       <i class="icon-add-collec">
+       </i>
+      </a>
+      <div class="side-show side-txt addCollec cursor">
+       <i>
+       </i>
+       加入收藏
+      </div>
+     </li>
+    </ul>
+    <ul class="backtop" style="display: none;">
+     <li style="border-radius: 4px 0 0 4px;">
+      <a class="backtop-a" google-data-stat="公共部分_工具欄_返回頂部" href="javascript:;">
+       <i class="icon-backtop">
+       </i>
+      </a>
+      <div class="side-show side-txt">
+       <i>
+       </i>
+       返回頂部
+      </div>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <!-- 列表(收藏列表 & 浏览历史列表)容器 -->
+  <div class="record-body">
+   <div class="record-wrap">
+    <div class="record-container">
+     <div class="record-header">
+      <span class="record-title">
+      </span>
+      <i class="record-close">
+       <img alt="" src="//s.591.com.tw/build/static/index/images/historyClose.png"/>
+      </i>
+     </div>
+     <div class="record-tab">
+      <div class="record-tab-rent record-tab-item record-tab-on">
+       出租
+      </div>
+      <div class="record-tab-sale record-tab-item">
+       中古屋
+      </div>
+      <div class="record-tab-newhouse record-tab-item">
+       新建案
+      </div>
+     </div>
+     <div class="record-list" id="record-list">
+     </div>
+     <div class="record-bottom">
+     </div>
+     <a class="record-colle-bottom" href="/user-login.html">
+     </a>
+    </div>
+    <div class="record-empty">
+     <div class="record-empty-img">
+      <img alt="" src="//s.591.com.tw/build/static/index/images/colleEmpty.png"/>
+     </div>
+     <div class="record-empty-txt">
+      您還沒有瀏覽記錄唷
+     </div>
+     <div class="record-empty-close">
+      關閉
+     </div>
+    </div>
+    <div class="record-colle-empty">
+     <div class="colle-empty-img">
+      <img alt="" src="//s.591.com.tw/build/static/index/images/colleEmpty.png"/>
+     </div>
+     <div class="colle-empty-txt">
+      您還沒有收藏物件哦
+     </div>
+     <div class="colle-empty-close">
+      關閉
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="needle-common">
+   <n-collection>
+   </n-collection>
+  </div>
+  <!-- 列表物件模板 -->
+  <script id="historyListTpl" type="text/html">
+   <@ for (x = 0; x< data.length; x++){ @>
+
+        <a href="<@=data[x].url + (data[x].url.indexOf('?') > -1 ? '&' : '?') + 'bid=3224'@>" class="record-list-a" data-id="<@  if(data[x].type=='newhouse') {@><@=data[x].hid@><@}else{@> <@=data[x].post_id@> <@}@>" target="_blank">
+            <div class="record-list-up">
+                <img src="<@  if(data[x].type=='newhouse') {@><@=data[x].cover@><@}else{@><@=data[x].photo_src@><@}@>" alt="" class="record-list-img">
+                <i class="record-list-nums"><@  if(data[x].type=='newhouse') {@><@=data[x].photo_num@><@}else{@><@=data[x].img_num@><@}@></i>
+            </div>
+
+            <div class="record-list-ctx"><@  if(data[x].type=='newhouse') {@><@=data[x].build_name@><@}else{@><@=data[x].title@><@}@></div>
+
+            <div class="record-list-down">
+                <span class="record-list-money"><@  if(data[x].type=='newhouse') {@><@=data[x].price@><@}else{@><@=data[x].price_value@><@}@></span>
+                <span class="record-list-unit"><@=data[x].price_unit @></span>
+                <i class="record-list-colle" data-id="<@  if(data[x].type=='newhouse') {@><@=data[x].hid@>@> <@}else{@><@=data[x].post_id@><@}@>"></i>
+            </div>
+            <i class="record-list-del" data-id="<@ if(data[x].type=='newhouse') {@><@=data[x].hid@>@> <@}else{@><@=data[x].post_id@><@}@>"></i>
+        </a>
+    <@ } @>
+  </script>
+  <script>
+   seajs.use('sideTool')
+  </script>
+  <style>
+   .accreditPop {
+        display: none;
+        position: fixed;
+        top: 130px;
+        left: 90px;
+        z-index: 9999;
+        width: 396px;
+        height: 136px;
+        border-radius: 5px;
+        background: url('//s.591.com.tw/build/static/public/googlePush/images/accreditPop.png?20191128') no-repeat center / 100%;
+    }
+	.accreditPop .close {
+        position: absolute;
+        right: 5px;
+        width: 25px;
+        height: 25px;
+        top:4px;
+    }
+    .accreditPop .statement {
+        position: absolute;
+        width: 72px;
+        height: 26px;
+        top: 32px;
+        left: 178px;
+    }
+  </style>
+  <div class="accreditPop">
+   <a class="close" href="javascript:;">
+   </a>
+   <a class="statement" href="https://help.591.com.tw/content/76/186/tw/%E9%9A%B1%E7%A7%81%E6%AC%8A%E8%81%B2%E6%98%8E.html" target="_blank">
+   </a>
+  </div>
+  <script id="vue-search-new" type="text/x-template">
+   <div class="search-entry" v-click-outside="toggleSearchDrop">
+        
+        <div class="search-input-wrap">
+            <input 
+                type="text" 
+                name="keywords" 
+                placeholder="請輸入社區/街道名稱搜尋" 
+                autocomplete="off" 
+                class="search-entry-input form-control pull-left" 
+                v-model.trim="keyWords"
+                @focus="openSearchDrop('focus')"
+                @input="openSearchDrop('input')"
+                @blur="onBlur"
+                ref="keyWordsRef" 
+                @keydown.enter="enterSearch(3)">
+            <carousel-text :data="recomGoldBroker" v-if="recomGoldBroker && recomGoldBroker.length && recomGoldVisible && !keyWords" @change="toggleGoldBroker" @click.native="toggleRecomVisible(false)">
+                <template #item="item">
+                    <div class="community-search-item">
+                        <i class="hot-icon" v-if="item.id"></i>
+                        <span> {{ item.name }} </span>
+                        <span v-if="item.id"> 金牌專家·{{ item.brokerName }}</span>
+                    </div>
+                </template>
+            </carousel-text>
+            <i class="search-entry-clear" v-if="keyWords" @click="clearKeyWords" data-gtm-stat="中古列表頁_關鍵字搜尋-新_清空搜尋輸入內容"></i>
+        </div>
+
+        <div class="search-entry-btn" @click="enterSearch(4)">
+            <div class="search-icon"></div>
+            <span>搜尋</span>
+        </div>
+
+        
+        <div class="sale-search-drop" v-if="searchDropVisible">
+            
+            <vue-search-history 
+                v-if="historyVisible"
+                :data="historyList"
+                @search-item="searchItem"
+                @clear-history="clearHistory"
+            ></vue-search-history>
+
+            
+            <vue-search-hot v-if="hotVisible" :data="hotList" :regionId="regionId" @search-item="searchItem"></vue-search-hot>
+
+            
+            <vue-search-match v-if="matchVisible" :data="matchList" @search-item="searchItem"></vue-search-match>
+
+            
+            <vue-search-empty v-if="emptyVisible" :keyWords="keyWords"></vue-search-empty>
+        </div>
+    </div>
+  </script>
+  <script id="vue-search-history" type="text/x-template">
+   <div class="search-history">
+        <p class="search-history-title">
+            <span>歷史搜尋</span>
+            <span class="search-history-clear" @click="onClearHistory" data-gtm-stat="中古列表頁_關鍵字搜尋-新_清空歷史搜尋">清空</span>
+        </p>
+        <div class="search-history-ctn" ref="historyRef" :class="{'open': moreVisible }">
+            <ul>
+                <li v-for="(item,index) in data" :key="index" @click="onSearchItem(item)" data-gtm-stat="中古列表頁_關鍵字搜尋-新_使用歷史搜尋">
+                    <i class="icon-community" v-if="item.isCommunity"></i>
+                    {{item.keyWords}}
+                </li>
+            </ul>
+            <span 
+                class="search-history-more-btn"
+                @click="toggleMoreVisible"
+                v-if="moreBtnvisible">
+            </span>
+        </div>
+    </div>
+  </script>
+  <script id="vue-search-match" type="text/x-template">
+   <div class="search-match">
+       <ul>
+           <vue-search-item
+               v-for="(item,index) in data"
+               :index="index + 1" 
+               :data="item"
+               @search-item="onSearchItem"
+               :key="index">
+           </vue-search-item>
+       </ul>
+   </div>
+  </script>
+  <script id="vue-search-hot" type="text/x-template">
+   <div class="search-hot">
+        <p class="search-drop-title">熱門搜尋</p>
+        <ul>
+            <vue-search-item
+                v-for="(item,index) in data"
+                :index="index + 1" 
+                :data="item"
+                :order="true"
+                @search-item="onSearchItem"
+                :key="index">
+            </vue-search-item>
+        </ul>
+    </div>
+  </script>
+  <script id="vue-search-empty" type="text/x-template">
+   <div class="search-empty">
+        <p class="search-empty-title">
+            很抱歉，<span>“{{ regionTxt }}”</span>內暫無搜尋“<span>{{ keyWords }}</span>”相關社區/街道/地址
+        </p>
+        <div class="search-empty-content">
+            <p>您可以試試：</p>
+            <p>1.檢查縣市選擇是否正確；</p>
+            <p>2.調整輸入內容，如：“台山松山帝國大廈”調整為“帝國大廈” </p>
+            <p>3.如仍沒有您的內容，可以反饋我們盡快做補充<span @click="toggleFeedBack" data-gtm-stat="中古列表頁_關鍵字搜尋-新_提交反饋問題">點擊反饋</span></p>
+        </div>
+    </div>
+  </script>
+  <script id="vue-search-item" type="text/x-template">
+   <li class="search-item" @click="onSearchItem(data)" :data-gtm-stat="`中古列表頁_關鍵字搜尋-新_使用${order ? '熱門' : '提示詞'}搜尋`" :class="{'house-title-item': data.type === 7}">
+        <span class="search-item-num" v-if="order" :class="{top: index < 4}">{{ index }}</span>
+        <span class="search-item-search-icon" v-else-if="data.type === 7 || data.type === 8"></span>
+        <span class="search-item-label" v-else>{{ label }}</span>
+        <span v-if="isShowSimilarity && data.similarity">【{{ data.similarity }}】</span>
+        <div class="search-item-ctn">
+            <p class="search-item-header">
+                
+                <span v-if="(data.type === 2 || data.type === 3 || data.type === 4) && data.similarity === 100" class="search-item-title">
+                    {{ +regionId === +data.regionid ? '' : '猜你想搜'}}
+                    <span style="color: #ff8000;">
+                        {{ +regionId === +data.regionid ? '' : '「'}}
+                        {{ +regionId === +data.regionid ? '' : data.region}} {{ data.title }}
+                        {{ +regionId === +data.regionid ? '' : '」'}}
+                    </span>
+                </span>
+                
+                <span v-else-if="data.type === 8" class="search-item-title">
+                    
+                    <template v-if="data.category"> 
+                        {{ data.id }} - 搜尋
+                        <span style="color: #ff8000;">
+                            「房屋類型」
+                        </span>
+                    </template>
+                    
+                    <template v-else-if="data.business_type"> 
+                        {{ data.id }} - 去
+                        <span style="color: #ff8000;">
+                            「{{ data.business_title }}」
+                        </span>
+                        搜
+                    </template>
+                        
+                </span>
+                <span v-else-if="data.type === 10" class="search-item-title">猜你想搜<span style="color: #ff8000;">「{{data.name}}」</span></span>
+                <span v-else class="search-item-title" v-html="name"></span>
+                
+                <template v-if="data.type !== 8">
+                    <span v-if="data.type === 7"> - 搜尋物件標題</span>
+                    <span v-else-if="data.sale_num" class="search-item-count">{{ data.sale_num }}間</span>
+                    <span v-else class="search-item-no-result">暫無物件</span>
+                </template>
+ 
+            </p>
+            
+            <p class="search-item-address" v-html="address" v-if="(data.type !== 7 && data.type !== 2) || +regionId === +data.regionid"></p>
+        </div>
+    </li>
+  </script>
+  <script id="vue-filter-region" type="text/x-template">
+   <div
+        class="search-filter-region"
+        @mouseenter="showRegionList = true"
+        @mouseleave="showRegionList = false"
+    >
+        <div class="search-filter-region-section">
+            <span>{{textOverflow(regionTxt, 4) || '選擇縣市'}}</span>
+            <i class="section-icon"></i>
+        </div>
+            
+        <div v-show="showRegionList" class="search-filter-region-option">
+            <i class="triangle"></i>
+            <div v-for="(item, index) in regionData" :key="index" class="region-option-item">
+                <div class="option-label">{{ item[0].txt }}</div>
+
+                <div class="region-item">
+                    <template v-for="(option, i) in item">
+                        <div
+                            v-if="i !== 0"
+                            :key="option.id"
+                            class="option"
+                            :class="{'is-active': activeRegionId.includes(option.id)}"
+                            @click="click(option, 'region')"
+                        >{{ option.txt }}</div>
+                    </template>
+                </div>
+            </div>
+
+            <!-- 海外 -->
+            <div class="region-option-item">
+                <div class="option-label">其他</div>
+                <div class="region-item">
+                    <div
+                        class="option"
+                        :class="{'is-active': regionId == 99}"
+                        @click="clickOversea"
+                    >海外</div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </script>
+  <script id="t-filter-location" type="text/x-template">
+   <div class="select-wrap filter-location-wrap">
+        <div class="select-label">位置</div>
+
+        <div class="filter-location-content">
+            <div class="header">
+                <div class="select-group">
+                    <template v-for="(item, index) in selectGroup">
+                        <div
+                            v-if="handleShowSelect(item.value)"
+                            :key="index"
+                            class="select-item"
+                            :class="{'is-active': curOpenFilter === item.value }"
+                            @click.stop="toggle(item.value)"
+                        >
+                            <span>{{ item.label }}</span>
+                            <i v-if="curOpenFilter === item.value" class="expand"></i>
+                            <i v-else="" class="no-expand"></i>
+                        </div>
+                    </template>
+                </div>
+
+                
+                <div class="operation">
+                    <a href="javascript:;" data-gtm-stat="中古屋列表頁_麵包屑_清空全部" @click="cleanOptions">
+                        <i class="clean-search"></i>
+                        清空條件
+                    </a>
+                    <a href="javascript:;" data-gtm-stat="中古屋列表頁_麵包屑_訂閱電子報" @click="subscription">
+                        <i class="subscription"></i>
+                        訂閱電子報
+                    </a>
+                </div>
+            </div>
+
+            <div class="filter-line" />
+
+            <div v-show="regionId != 99" class="select-options-wrapper">
+                <!-- 鄉鎮選項 -->
+                <div v-show="curOpenFilter === 'section'" class="select-options-group is-section">
+                    <div
+                        class="select-option-unlimit"
+                        :class="{ 'z-select': !sectionId.length }"
+                        @click="clean($event, 'section')"
+                    >不限</div>
+                    <div class="select-option-list">
+                        <div
+                            v-for="item in sectionData"
+                            :key="item.id"
+                            class="option-item"
+                            :class="computedInputClass(item.id, 'section', true)"
+                            @click="click(item, 'section')"
+                        >
+                            <div class="checkbox-icon"></div>
+                            <span>{{ item.txt }}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 捷運線路 -->
+                <div v-show="curOpenFilter === 'metro'" class="select-options-group button-group is-metro">
+                    <div class="select-option-list">
+                        <div
+                            v-for="item in metroData"
+                            :key="item.sid"
+                            class="option-item"
+                            :class="computedInputClass(item.pid, 'metro')"
+                            @click="click(item, 'metro')"
+                        >
+                            <span>{{ item.name }}</span>
+                        </div>
+                    </div>
+                </div>
+                <div v-if="curOpenFilter === 'metro' && stationData.length" class="filter-line" />
+
+                <!-- 站點 -->
+                <div v-show="curOpenFilter === 'metro' && stationData.length" class="select-options-group is-station">
+                    <div class="select-option-list">
+                        <div
+                            v-for="item in stationData"
+                            :key="item.id"
+                            class="option-item"
+                            :class="computedInputClass(item.nid, 'station', true)"
+                            @click="click(item, 'station')"
+                        >
+                            <div class="checkbox-icon"></div>
+                            <span>{{ item.name }}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 學區 -->
+                <div v-show="curOpenFilter === 'school'" class="select-options-group is-school">
+                    <div class="select-option-list">
+                        <div
+                            v-for="item in schoolData"
+                            :key="item.sid"
+                            class="option-item"
+                            :class="computedInputClass(item.id, 'school')"
+                            @click="click(item, 'school')"
+                        >
+                            <span>{{ item.txt }}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 商圈 -->
+                <div v-show="curOpenFilter === 'business'" class="select-options-group is-business">
+                    <div class="select-option-list">
+                        <div
+                            v-for="item in businessData"
+                            :key="item.sid"
+                            class="option-item"
+                            :class="computedInputClass(item.id, 'business')"
+                            @click="click(item, 'business')"
+                        >
+                            <span>{{ item.txt }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div v-if="curOpenFilter && regionId != 99" class="filter-line" style="margin-top: 8px;" />
+        </div>
+    </div>
+  </script>
+  <script id="t-filter-kind" type="text/x-template">
+   <div class="select-wrap filter-kind-wrap">
+        <div class="select-label">類型</div>
+        <div class="select-options-group">
+            <div
+                class="select-option-unlimit"
+                :class="[!kindId || +kindId === 0 ? 'z-select' : '']"
+                data-gtm-stat="中古屋列表頁_類型_不限"
+                @click="click({id: 0, txt: '不限'})"
+            >不限</div>
+
+            <div class="select-option-list">
+                <div
+                    v-for="item in kindData"
+                    :key="item.id"
+                    class="option-item"
+                    :class="className(item)"
+                    :data-gtm-stat="'中古屋列表頁_類型_'+ item.txt"
+                    @click="click(item)"
+                >
+                    <span>{{ item.txt }}</span>
+                </div>
+                <div
+                    class="option-item"
+                    data-gtm-stat="中古屋列表頁_類型_買地自建"
+                    @click="toLandList"
+                >
+                    <span>買地自建</span>
+                </div>
+            </div>
+        </div>
+    </div>
+  </script>
+  <script id="t-filter-saleprice" type="text/x-template">
+   <div class="select-wrap filter-saleprice-wrap">
+        <div class="select-label">售價</div>
+        <div class="select-options-group">
+            <div
+                class="select-option-unlimit"
+                :class="{'z-select': !priceId.length || priceId.includes('0')}"
+                data-gtm-stat="中古屋列表頁_售金_不限"
+                @click="click({id: '0', txt: '不限'})"
+            >不限</div>
+
+
+            <div class="select-option-list" :class="optionsWrapClassName">
+                <template v-for="item in priceData">
+                    <div
+                        v-if="item.id != 0"
+                        :key="item.id"
+                        class="option-item"
+                        :class="className(item)"
+                        :data-gtm-stat="'中古屋列表頁_售金_'+ item.txt"
+                        @click="click(item)"
+                    >
+                        <div class="checkbox-icon"></div>
+                        <span>{{ item.txt }}</span>
+                    </div>
+                </template>
+             
+                
+                <v-filter-input
+                    v-if="isShowCustom"
+                    :min="min"
+                    :max="max"
+                    :unit="'萬'"
+                    :storageName="'saleList-saleprice-custom'"
+                    beforePlaceholder="最低價"
+                    afterPlaceholder="最高價"
+                    styleObj="width: 227px"
+                    @custom="custom"
+                ></v-filter-input>
+                <span v-else @click="showCustomPrice" class="option-item">
+                    <div class="icon-edit"></div>
+                    自訂售價
+                </span>
+            </div>
+
+            <div v-if="isSmall" class="filter-expand-icon" @click="isUnfold = !isUnfold">
+                <template v-if="isUnfold">
+                    <span>收起</span>
+                    <i class="icon-caret-top"></i>
+                </template>
+
+                <template v-else>
+                    <span>更多</span>
+                    <i class="icon-caret-bottom"></i>
+                </template>
+            </div>
+        </div>
+
+        
+        <v-price-assess
+            v-if="isShowAssess"
+            @close="isShowAssess = false"
+            @assessSubmit="priceAssessSubmit"
+        ></v-price-assess>
+    </div>
+  </script>
+  <script id="t-filter-shape" type="text/x-template">
+   <div class="select-wrap filter-shape-wrap">
+        <div class="select-label">型態</div>
+
+        <div class="select-options-group">
+            <div
+                class="select-option-unlimit"
+                :class="{'z-select': !shapeId.length || shapeId.includes('0')}"
+                data-gtm-stat="中古屋列表頁_型態_不限"
+                @click="click({id: '0', txt: '不限'})"
+            >不限</div>
+
+
+            <div class="select-option-list">
+                <template v-for="item in shapeData">
+                    <div
+                        v-if="item.id != 0"
+                        :key="item.id"
+                        class="option-item"
+                        :class="className(item)"
+                        :data-gtm-stat="'中古屋列表頁_型態_'+ item.txt"
+                        @click="click(item)"
+                    >
+                        <div class="checkbox-icon"></div>
+                        <span>{{ item.txt }}</span>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+  </script>
+  <script id="t-filter-pattern" type="text/x-template">
+   <div class="select-wrap filter-pattern-wrap">
+        <div class="select-label">格局</div>
+
+        <div class="select-options-group">
+            <div
+                class="select-option-unlimit"
+                :class="{'z-select': !patternId.length || patternId.includes('0')}"
+                data-gtm-stat="中古屋列表頁_格局_不限"
+                @click="click({id: '0', txt: '不限'})"
+            >不限</div>
+
+            <div class="select-option-list">
+                <template v-for="item in patternData">
+                    <div
+                        v-if="item.id != 0"
+                        :key="item.id"
+                        class="option-item"
+                        :class="className(item)"
+                        :data-gtm-stat="'中古屋列表頁_格局_'+ item.txt"
+                        @click="click(item)"
+                    >
+                        <div class="checkbox-icon"></div>
+                        <span>{{ item.txt }}</span>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+  </script>
+  <script id="t-filter-area" type="text/x-template">
+   <div class="select-wrap filter-area-wrap">
+        <div class="select-label">
+            <template v-if="kind==8 || shType=='clinch' || shType=='oversea'">
+                <span>坪數</span>
+            </template>
+
+            <!-- 下拉框 -->
+            <div
+                v-else
+                class="filter-custom-select"
+                @mouseenter="showDropdown = true"
+                @mouseleave="showDropdown = false"
+            >
+                <div class="filter-custom-select-suffix">
+                    <span>{{ curType.txt }}</span>
+                    <i class="icon-caret-bottom"></i>
+                </div>
+
+                <div v-show="showDropdown" class="filter-custom-select-dropdown">
+                    <ul class="filter-custom-select-dropdown__list">
+                        <li
+                            v-for="item in typeOptions"
+                            :key="item.id"
+                            class="filter-custom-select-dropdown__item"
+                            :class="[currentTypeId === item.id ? 'z-select' : '']"
+                            :data-gtm-stat="'中古屋列表頁_坪數_'+ item.txt"
+                            @click="handleChange(item.id)"
+                        >
+                            <span>{{item.txt }}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="select-options-group">
+            <div
+                class="select-option-unlimit"
+                :class="[(!areaId || !areaId.length || (areaId.length == 1 && areaId[0] == 0)) ? 'z-select' : '']"
+                data-gtm-stat="中古屋列表頁_坪數_不限"
+                @click="click({id: '0', txt: '不限'})"
+            >不限</div>
+
+            <div class="select-option-list" :class="optionsWrapClassName">
+                <template v-for="item in areaData">
+                    <div
+                        v-if="item.id != 0"
+                        :key="item.id"
+                        class="option-item"
+                        :class="className(item)"
+                        :data-gtm-stat="'中古屋列表頁_坪數_'+ item.txt"
+                        @click="click(item)"
+                    >
+                        <div class="checkbox-icon"></div>
+                        <span>{{ item.txt }}</span>
+                    </div>
+                </template>
+
+                
+                <v-filter-input
+                    :min="min"
+                    :max="max"
+                    :unit="'坪'"
+                    :storageName="'saleList-area-custom'"
+                    beforePlaceholder="最小坪"
+                    afterPlaceholder="最大坪"
+                    @custom="custom"
+                ></v-filter-input>
+            </div>
+        </div>
+
+        <div v-if="isSmall && areaData.length >= 7" class="filter-expand-icon" @click="isUnfold = !isUnfold">
+            <template v-if="isUnfold">
+                <span>收起</span>
+                <i class="icon-caret-top"></i>
+            </template>
+
+            <template v-else>
+                <span>更多</span>
+                <i class="icon-caret-bottom"></i>
+            </template>
+        </div>
+    </div>
+  </script>
+  <script id="t-filter-more" type="text/x-template">
+   <div class="select-wrap filter-more-wrap" :class="'z-kind-' + kind">
+        <div class="select-label">更多</div>
+
+        <div class="select-list">
+        
+        
+            
+            <div 
+                class="filter-more filter-publish_day"
+                :class="countBtnClass('publish_day')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="publish_dayTxt"
+                    class="filter-more-txt"
+                    style="max-width: 85px"
+                    @mouseenter="mouseEnter('publish_day')"
+                >
+                    {{textOverflow(publish_dayTxt, 4) || &quot;刊登時間&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('publish_day')"></div>
+
+                
+                <div
+                    v-show="curShow==='publish_day' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style=""
+                    @mouseenter="mouseEnter('publish_day')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in publish_dayData" 
+                        :class="countInputClass(item, 'publish_day')" 
+                        @click="click(item, 'publish_day')" 
+                        data-gtm-stat="中古屋列表頁_更多_刊登時間"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='publish_day' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style=""
+                    @mouseenter="mouseEnter('publish_day')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in publish_dayData" 
+                        :class="countInputClass(item, 'publish_day')" 
+                        @click="click(item, 'publish_day')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                    </div>
+            </div>
+        
+            
+            <div 
+                class="filter-more filter-fcicount"
+                :class="countBtnClass('fcicount')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="fcicountTxt"
+                    class="filter-more-txt"
+                    style="max-width: 55px"
+                    @mouseenter="mouseEnter('fcicount')"
+                >
+                    {{textOverflow(fcicountTxt, 4) || &quot;拍次&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('fcicount')"></div>
+
+                
+                <div
+                    v-show="curShow==='fcicount' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style=""
+                    @mouseenter="mouseEnter('fcicount')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in fcicountData" 
+                        :class="countInputClass(item, 'fcicount')" 
+                        @click="click(item, 'fcicount')" 
+                        data-gtm-stat="中古屋列表頁_更多_拍次"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='fcicount' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style=""
+                    @mouseenter="mouseEnter('fcicount')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in fcicountData" 
+                        :class="countInputClass(item, 'fcicount')" 
+                        @click="click(item, 'fcicount')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                    </div>
+            </div>
+        
+            
+            <div 
+                class="filter-more filter-isclinch"
+                :class="countBtnClass('isclinch')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="isclinchTxt"
+                    class="filter-more-txt"
+                    style=""
+                    @mouseenter="mouseEnter('isclinch')"
+                >
+                    {{textOverflow(isclinchTxt, 4) || &quot;點交情況&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('isclinch')"></div>
+
+                
+                <div
+                    v-show="curShow==='isclinch' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style=""
+                    @mouseenter="mouseEnter('isclinch')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in isclinchData" 
+                        :class="countInputClass(item, 'isclinch')" 
+                        @click="click(item, 'isclinch')" 
+                        data-gtm-stat="中古屋列表頁_更多_點交情況"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='isclinch' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style=""
+                    @mouseenter="mouseEnter('isclinch')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in isclinchData" 
+                        :class="countInputClass(item, 'isclinch')" 
+                        @click="click(item, 'isclinch')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                    </div>
+            </div>
+        
+            
+            <div 
+                class="filter-more filter-houseage"
+                :class="countBtnClass('houseage')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="houseageTxt"
+                    class="filter-more-txt"
+                    style="max-width: 70px"
+                    @mouseenter="mouseEnter('houseage')"
+                >
+                    {{textOverflow(houseageTxt, 4) || &quot;屋齡&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('houseage')"></div>
+
+                
+                <div
+                    v-show="curShow==='houseage' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style="width: 220px"
+                    @mouseenter="mouseEnter('houseage')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in houseageData" 
+                        :class="countInputClass(item, 'houseage')" 
+                        @click="click(item, 'houseage')" 
+                        data-gtm-stat="中古屋列表頁_更多_屋齡"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                            <div class="filter-more-item is-custom">
+                            <v-filter-input
+                                :isSmallSize="true"
+                                :unit="'年'"
+                                :min="houseageMin"
+                                :max="houseageMax"
+                                :storageName="'saleList-houseage-custom'"
+                                :name="'houseage'"
+                                :maxlength="3"
+                                :show-btn="1"
+                                @custom="custom"
+                            ></v-filter-input>
+                        </div>
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='houseage' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style="width: 220px"
+                    @mouseenter="mouseEnter('houseage')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in houseageData" 
+                        :class="countInputClass(item, 'houseage')" 
+                        @click="click(item, 'houseage')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                            <div class="filter-more-item is-custom">
+                            <v-filter-input
+                                :isSmallSize="true"
+                                :unit="'年'"
+                                :min="houseageMin"
+                                :max="houseageMax"
+                                :storageName="'saleList-houseage-custom'"
+                                :name="'houseage'"
+                                :maxlength="3"
+                                :show-btn="1"
+                                @custom="custom"
+                            ></v-filter-input>
+                        </div>
+                                    </div>
+            </div>
+        
+            
+            <div 
+                class="filter-more filter-price"
+                :class="countBtnClass('price')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="priceTxt"
+                    class="filter-more-txt"
+                    style=""
+                    @mouseenter="mouseEnter('price')"
+                >
+                    {{textOverflow(priceTxt, 4) || &quot;單價&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('price')"></div>
+
+                
+                <div
+                    v-show="curShow==='price' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style=""
+                    @mouseenter="mouseEnter('price')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in priceData" 
+                        :class="countInputClass(item, 'price')" 
+                        @click="click(item, 'price')" 
+                        data-gtm-stat="中古屋列表頁_更多_單價"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='price' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style=""
+                    @mouseenter="mouseEnter('price')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in priceData" 
+                        :class="countInputClass(item, 'price')" 
+                        @click="click(item, 'price')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                    </div>
+            </div>
+        
+            
+            <div 
+                class="filter-more filter-direction"
+                :class="countBtnClass('direction')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="directionTxt"
+                    class="filter-more-txt"
+                    style=""
+                    @mouseenter="mouseEnter('direction')"
+                >
+                    {{textOverflow(directionTxt, 4) || &quot;朝向&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('direction')"></div>
+
+                
+                <div
+                    v-show="curShow==='direction' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style=""
+                    @mouseenter="mouseEnter('direction')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in directionData" 
+                        :class="countInputClass(item, 'direction')" 
+                        @click="click(item, 'direction')" 
+                        data-gtm-stat="中古屋列表頁_更多_朝向"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='direction' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style=""
+                    @mouseenter="mouseEnter('direction')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in directionData" 
+                        :class="countInputClass(item, 'direction')" 
+                        @click="click(item, 'direction')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                    </div>
+            </div>
+        
+            
+            <div 
+                class="filter-more filter-floor"
+                :class="countBtnClass('floor')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="floorTxt"
+                    class="filter-more-txt"
+                    style=""
+                    @mouseenter="mouseEnter('floor')"
+                >
+                    {{textOverflow(floorTxt, 4) || &quot;樓層&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('floor')"></div>
+
+                
+                <div
+                    v-show="curShow==='floor' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style="width: 220px"
+                    @mouseenter="mouseEnter('floor')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in floorData" 
+                        :class="countInputClass(item, 'floor')" 
+                        @click="click(item, 'floor')" 
+                        data-gtm-stat="中古屋列表頁_更多_樓層"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                            <div class="filter-more-item is-custom">
+                            <v-filter-input
+                                :isSmallSize="true"
+                                :unit="'層'"
+                                :min="floorMin"
+                                :max="floorMax"
+                                :storageName="'saleList-floor-custom'"
+                                :name="'floor'"
+                                :maxlength="3"
+                                :show-btn="1"
+                                @custom="custom"
+                            ></v-filter-input>
+                        </div>
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='floor' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style="width: 220px"
+                    @mouseenter="mouseEnter('floor')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in floorData" 
+                        :class="countInputClass(item, 'floor')" 
+                        @click="click(item, 'floor')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                            <div class="filter-more-item is-custom">
+                            <v-filter-input
+                                :isSmallSize="true"
+                                :unit="'層'"
+                                :min="floorMin"
+                                :max="floorMax"
+                                :storageName="'saleList-floor-custom'"
+                                :name="'floor'"
+                                :maxlength="3"
+                                :show-btn="1"
+                                @custom="custom"
+                            ></v-filter-input>
+                        </div>
+                                    </div>
+            </div>
+        
+            
+            <div 
+                class="filter-more filter-fitment"
+                :class="countBtnClass('fitment')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="fitmentTxt"
+                    class="filter-more-txt"
+                    style=""
+                    @mouseenter="mouseEnter('fitment')"
+                >
+                    {{textOverflow(fitmentTxt, 4) || &quot;裝潢程度&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('fitment')"></div>
+
+                
+                <div
+                    v-show="curShow==='fitment' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style=""
+                    @mouseenter="mouseEnter('fitment')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in fitmentData" 
+                        :class="countInputClass(item, 'fitment')" 
+                        @click="click(item, 'fitment')" 
+                        data-gtm-stat="中古屋列表頁_更多_裝潢程度"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='fitment' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style=""
+                    @mouseenter="mouseEnter('fitment')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in fitmentData" 
+                        :class="countInputClass(item, 'fitment')" 
+                        @click="click(item, 'fitment')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                    </div>
+            </div>
+        
+            
+            <div 
+                class="filter-more filter-life"
+                :class="countBtnClass('life')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="lifeTxt"
+                    class="filter-more-txt"
+                    style=""
+                    @mouseenter="mouseEnter('life')"
+                >
+                    {{textOverflow(lifeTxt, 4) || &quot;生活機能&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('life')"></div>
+
+                
+                <div
+                    v-show="curShow==='life' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style=""
+                    @mouseenter="mouseEnter('life')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in lifeData" 
+                        :class="countInputClass(item, 'life')" 
+                        @click="click(item, 'life')" 
+                        data-gtm-stat="中古屋列表頁_更多_生活機能"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='life' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style=""
+                    @mouseenter="mouseEnter('life')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in lifeData" 
+                        :class="countInputClass(item, 'life')" 
+                        @click="click(item, 'life')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                    </div>
+            </div>
+        
+            
+            <div 
+                class="filter-more filter-role"
+                :class="countBtnClass('role')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="roleTxt"
+                    class="filter-more-txt"
+                    style=""
+                    @mouseenter="mouseEnter('role')"
+                >
+                    {{textOverflow(roleTxt, 4) || &quot;經辦人選擇&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('role')"></div>
+
+                
+                <div
+                    v-show="curShow==='role' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style=""
+                    @mouseenter="mouseEnter('role')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in roleData" 
+                        :class="countInputClass(item, 'role')" 
+                        @click="click(item, 'role')" 
+                        data-gtm-stat="中古屋列表頁_更多_經辦人選擇"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='role' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style=""
+                    @mouseenter="mouseEnter('role')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in roleData" 
+                        :class="countInputClass(item, 'role')" 
+                        @click="click(item, 'role')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                    </div>
+            </div>
+        
+            
+            <div 
+                class="filter-more filter-parking"
+                :class="countBtnClass('parking')" 
+                @mouseleave="mouseLeave"
+            >
+                
+                <div 
+                    :title="parkingTxt"
+                    class="filter-more-txt"
+                    style=""
+                    @mouseenter="mouseEnter('parking')"
+                >
+                    {{textOverflow(parkingTxt, 4) || &quot;車位類型&quot;}}
+                </div>
+
+                
+                <div class="icon-arrow" @mouseenter="mouseEnter('parking')"></div>
+
+                
+                <div
+                    v-show="curShow==='parking' && curShow !== 'publish_day' && curShow !== 'floor'"
+                    class="filter-more-list"
+                    style=""
+                    @mouseenter="mouseEnter('parking')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-item" 
+                        v-for="item in parkingData" 
+                        :class="countInputClass(item, 'parking')" 
+                        @click="click(item, 'parking')" 
+                        data-gtm-stat="中古屋列表頁_更多_車位類型"
+                    >
+                        <span>{{item.txt}}</span>
+                        <div class="checkbox-icon"></div>
+                    </div>
+
+                    
+                                    </div>
+
+                <div 
+                    class="filter-more-day-list" 
+                    v-show="curShow==='parking' && (curShow === 'publish_day' || curShow === 'floor')"
+                    style=""
+                    @mouseenter="mouseEnter('parking')"
+                >
+
+                    
+                    <div 
+                        class="filter-more-day-item" 
+                        v-for="item in parkingData" 
+                        :class="countInputClass(item, 'parking')" 
+                        @click="click(item, 'parking')">
+                        {{item.txt}}
+                    </div>
+
+                    
+                                    </div>
+            </div>
+                </div>
+    </div>
+  </script>
+  <script id="t-filter-input" type="text/x-template">
+   <div
+        class="filter-custom"
+        :class="{ 'is-small-input': isSmallSize }"
+        :style="styleObj"
+    >
+        <input
+            type="text"
+            class="filter-custom-min filter-custom-input"
+            v-model="minVal" @input="filter('minVal')"
+            :maxlength="maxlength || 6"
+            :placeholder="beforePlaceholder"
+        >
+        <div class="filter-custom-line"></div>
+        <input
+            type="text"
+            class="filter-custom-max filter-custom-input"
+            v-model="maxVal" @input="filter('maxVal')"
+            :maxlength="maxlength || 6"
+            :placeholder="afterPlaceholder"
+        >
+        <span class="filter-custom-unit">{{unit}}</span>
+        <button type="button" class="filter-custom-submit" v-show="showBtn || minVal || maxVal" @click="submit($event)">確定</button>
+    </div>
+  </script>
+  <script id="t-house-switch" type="text/x-template">
+   <div class="house-switch clearfix" :class="'z-kind-'+kind + ' ' + 'z-shType-' + shTypeId">
+        <template v-for="item in shTypeData">
+            <div
+                v-if="item.active"
+                class="house-switch-item pull-left"
+                :class="className(item)"
+                @click="click(item)"
+                :data-id="item.id"
+                :data-gtm-stat="`${item.id==='community'? '社區-中古屋業務_中古屋列表頁_社區找房頁簽點擊' :`中古屋列表頁_物件列表頁簽_${item.txt}`}`"
+                >
+                <i v-if="item.isNew" class="icon-new"></i>
+                <i v-if="item.isHot" class="icon-hot"></i>
+                <i v-if="item.id === 'video'" class="icon-video"></i>
+                {{item.txt}}
+            </div>
+        </template>
+        
+    </div>
+  </script>
+  <script id="t-label-switch" type="text/x-template">
+   <div class="label-switch" v-show="labelData.length">
+        <div class="select-options-group">
+            <div class="select-option-list">
+                <div
+                    v-for="item in labelData"
+                    :key="item.id"
+                    class="option-item"
+                    :class="className(item)"
+                    :data-gtm-stat="'中古屋列表頁_物件列表標籤_'+ item.txt"
+                    @click="click(item)"
+                >
+                    <div class="checkbox-icon"></div>
+                    <span v-if="item.tips" class="j-tips" :j-tips-txt="item.tips">{{ item.txt }}</span>
+                    <span v-else>{{ item.txt }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+  </script>
+  <script id="t-recommend-list" type="text/x-template">
+   <div>
+        
+        <div class="recommend-list clearfix">
+            <div class="recommend-list-scroll clearfix" :style="scrollStyle">
+                <a class="recommend-list-item" :href="'/home/house/detail/2/'+ data.houseid +'.html'" v-for="(data, index) in datas" :style="itemStyle(index)" target="_blank" data-gtm-stat="中古屋列表頁_精選推薦_物件點閱數">
+
+                    
+                    <div class="relative">
+                        <img :src="data.photo_url" class="recommend-list-item-thumb" :alt="data.title">
+                        <div class="recommend-list-item-photonum">{{data.photoNum}}</div>
+                        <div v-if="data.is_video" class="houseList-item-video">
+                            <div class="icon-video"></div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="clearfix">
+                        <div class="recommend-list-item-price pull-left"><em>{{data.price}}</em>萬元</div>
+                        <div class="recommend-list-item-browsenum pull-right">{{data.browsenum}}人瀏覽</div>
+                    </div>
+
+                    
+                    <div class="recommend-list-item-title" :title="data.title">{{data.title}}</div>
+
+                    
+                    <div v-if="data.is_carport == 1" class="recommend-list-item-attrs clearfix">
+                        <span v-if="data.section_name" class="pull-left recommend-list-item-attrs-item">{{data.section_name}}</span>
+                        <span v-if="data.section_name" class="pull-left">/</span>
+                        <span v-if="data.kind_name" class="pull-left recommend-list-item-attrs-item">{{data.kind_name}}</span>
+                        <span v-if="data.kind_name" class="pull-left">/</span>
+                        <span v-if="data.area" class="pull-left recommend-list-item-attrs-item">{{data.area}}</span>
+                        <span v-if="data.area" class="pull-left">/</span>
+                        <span v-if="data.cartmodel" class="pull-left recommend-list-item-attrs-item">{{data.cartmodel}}</span>
+                    </div>
+
+                    
+                    <div v-else class="recommend-list-item-attrs clearfix">
+                        <span v-if="data.section_name" class="pull-left recommend-list-item-attrs-item">{{data.section_name}}</span>
+                        <span v-if="data.section_name" class="pull-left">/</span>
+                        <span v-if="data.shape_name" class="pull-left recommend-list-item-attrs-item">{{data.shape_name}}</span>
+                        <span v-if="data.shape_name" class="pull-left">/</span>
+                        <span v-if="data.room" class="pull-left recommend-list-item-attrs-item">{{data.room}}</span>
+                        <span v-if="data.room" class="pull-left">/</span>
+                        <span v-if="data.area" class="pull-left recommend-list-item-attrs-item">{{data.area}}</span>
+                    </div>
+
+                    
+
+                </a>
+
+            </div>
+        </div>
+
+        
+        <div class="recommend-list-ctrl" v-if="datas.length > 5">
+            <a href="javascript:;" class="recommend-list-prev" @click="prev" data-gtm-stat="中古屋列表頁_精選推薦_左滾動按鈕點擊">
+                <i class="fa fa-angle-left" :style="this.curPage == 1 && {opacity: .4}"></i>
+            </a>
+            <a href="javascript:;" class="recommend-list-next" @click="next" data-gtm-stat="中古屋列表頁_精選推薦_右滾動按鈕點擊">
+                <i class="fa fa-angle-right" :style="this.curPage == this.allPage && {opacity: .4}"></i>
+            </a>
+        </div>
+    </div>
+  </script>
+  <script id="t-houseList" type="text/x-template">
+   <section class="houseList" v-show="listData.length || communityListData.length" :class="listClass">
+
+        <div class="houseList-head" v-if="isRecommendCommunity" style="margin-top: 20px;">
+            <div class="houseList-head-title">
+                為您推薦
+                <p class="title-distance">3000公尺以內房源</p>
+            </div>
+        </div>
+
+        <div class="houseList-head" v-else-if="sortBarvisible">
+            <div v-if="!isRecommend" class="houseList-head-title">
+                <p v-if="shType!=='community'">
+                    <template v-if="communityHeaderVisible && communityName">
+                        <span class="red-text">{{ communityName }}</span>
+                    </template>
+                    已為你找到<span class="num-font">{{total}}</span>間房屋
+                </p>
+                <p v-else class="community-total">
+                    <span><em>{{communityTotal.communityTotal}}</em>個在售社區</span>
+                    <span><em>{{communityTotal.saleTotal}}</em>間房屋</span>
+                </p>
+            </div>
+            <div v-else class="houseList-head-title">
+                為您推薦
+            </div>
+
+            
+            <div class="houseList-order" v-if="shType!=='community' && listData.length">
+                
+                <div
+                    class="houseList-order-item"
+                    :class="{ 'z-active': !orderId }"
+                    data-gtm-stat="中古屋列表頁_物件列表排序_預設"
+                    @click="select($event, 'clean')"
+                    @mouseenter="isShowPresuppose=true"
+                    @mouseleave="isShowPresuppose=false"
+                >
+                    <span class="houseList-order-item-txt">預設排序</span>
+                    <div v-show="isShowPresuppose" class="houseList-order-item-tooltip">更新時間 從新到舊</div>
+                </div>
+
+                
+                <div
+                    class="houseList-order-item"
+                    :class="btnClass('price')"
+                    @click="btnClick($event, 'price')"
+                    :j-tips-txt="'點擊按' + getTxt('price') + '排序'"
+                    :data-gtm-stat="'中古屋列表頁_物件列表排序_' + getTxt('price') + 'B'"
+                    @mouseenter="isShowPrice=true"
+                    @mouseleave="isShowPrice=false"
+                >
+                    <span class="houseList-order-item-txt">金額</span>
+                    <i class="houseList-order-item-icon"></i>
+                    <div v-show="isShowPrice" class="houseList-order-item-tooltip">{{ getTooltip('price') }}</div>
+                </div>
+
+                
+                <div
+                    v-show="!isMainArea"
+                    class="houseList-order-item"
+                    :class="btnClass('area')"
+                    @click="btnClick($event, 'area')"
+                    :data-gtm-stat="'中古屋列表頁_物件列表排序_' + getTxt('area') + 'B'"
+                    @mouseenter="isShowArea=true"
+                    @mouseleave="isShowArea=false"
+                >
+                    <span class="houseList-order-item-txt">坪數</span>
+                    <i class="houseList-order-item-icon"></i>
+                    <div v-show="isShowArea" class="houseList-order-item-tooltip">{{ getTooltip('area') }}</div>
+                </div>
+
+                
+                <div
+                    class="houseList-order-item"
+                    :class="btnClass('posttime')"
+                    @click="btnClick($event, 'posttime')"
+                    :data-gtm-stat="'中古屋列表頁_物件列表排序_' + getTxt('posttime') + 'B'"
+                    @mouseenter="isShowPostTime=true"
+                    @mouseleave="isShowPostTime=false"
+                >
+                    <span class="houseList-order-item-txt">刊登時間</span>
+                    <i class="houseList-order-item-icon"></i>
+                    <div v-show="isShowPostTime" class="houseList-order-item-tooltip">{{ getTooltip('posttime') }}</div>
+                </div>
+
+                
+                <div class="houseList-order-more" :class="selectClass()" @mouseenter="isOpen=true" @mouseleave="isOpen=false">
+                    <div class="houseList-order-item-txt">{{textOverflow(selectOrderText, 6) || '更多'}}</div>
+                    <i class="houseList-order-more-icon"></i>
+                    <div v-show="isOpen" class="houseList-order-more-list">
+                        <ul class="houseList-order-more-list-ul">
+                            <li
+                                v-for="item in orderData"
+                                class="houseList-order-more-item"
+                                :class="(item.id == orderId && 'z-select') + ' ' + item.id"
+                                :data-gtm-stat="'中古屋列表頁_物件列表排序_' + item.stat"
+                                @click="select($event, item)"
+                            >
+                                <div class="option-label">{{item.label}}</div>
+                                <div class="option-text">{{item.optionText}}</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="houseList-order" v-if="shType==='community' && communityListData.length">
+                <a
+                    :href="communityHref"
+                    class="more"
+                    data-gtm-stat="社區-中古屋業務_社區找房列表-無數據推薦_更多點擊"
+                    target="_blank">
+                    更多
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="houseList-body" v-if="shType!=='community'" :class="{ 'recommend-community-ctn': !isRecommendCommunity } ">
+            
+            <template v-for="(data,index) in listData">
+                <v-list-land v-if="data.land_advert === 1" :data="data" :index="index" :key="data.houseid"></v-list-land>
+                <v-list-goodhouse v-if="data.is_good_house_banner" class="houseList-item"></v-list-goodhouse>
+                <v-list-item v-if="data.type==='2'" :house-detail-stat="detailResource + '-' + data.houseid"  :data="data" :key="index + '-' + data.houseid" 
+                    :total="total" :index="index" :is-recommend="isRecommend" :is-small="isSmall" @click="houseClick" 
+                    :data-gtm-stat="shType === 'today_recom' ? '中古屋列表頁_列表頁簽_今日推薦' : '中古屋列表頁_所有物件_點擊量'" />
+                <v-list-housing v-if="data.is_newhouse" :data="data" :index="index" :key="data.houseid" @click="houseClick"></v-list-housing>
+                <v-community-advert v-if="data.is_community===1" :data="data" type="sale" origin="list"></v-community-advert>
+                
+                
+            </template>
+        </div>
+
+        <div class="houseList-body" v-else>
+            <template v-if="communityListData.length">
+                
+                <v-community-list-card :data="data" v-for="(data,index) in communityListData" :key="data.id" :isRecom="isRecommend"></v-community-list-card>
+            </template>
+        </div>
+    </section>
+  </script>
+  <script id="t-houseList-item" type="text/x-template">
+   <div 
+    class="j-house houseList-item clearfix"
+    :class="{ 'z-has-distance': data.distance, 'z-visible': data.delivery === '定交' }"
+    :data-bind="data.houseid" 
+    @click="click($event, data)" 
+    :data-gtm-stat="dataGtmStat? dataGtmStat : ''" 
+    :title="data.title" 
+    :index="index"
+    :ai-title-id="data.ai_title_id" 
+    :addtion="addtion" 
+    :title-type="data.ai_title_type" 
+    :show-ai-title="data.show_ai_title" 
+    :ai-video-id="data.video.ai.id" 
+    :show-ai-video="data.video.is_ai" 
+    :local-video-file-id="data.video.normal.file_id" 
+    :video-type="data.video.normal.video_type"
+    :ai-video-file-id="data.video.ai.file_id"
+    >
+    
+    <div class="houseList-item-left pull-left">
+        <div class="relative" :data-gtm-stat="data.is_full ? '中古屋_中古屋列表頁_720環景' : ''">
+            <div class="vr-icon-box" v-if="data.is_full" :class="[data.pc_good_house ? 'g-vr' : 'w-vr']">
+                <div class="vr-ani-icon">
+                    <div class="icon-l"></div>
+                    <div class="icon-r"></div>
+                </div>
+            </div>
+            <img class="houseList-item-thumb j-lazyimg" src="//s.591.com.tw/build/static/house/saleList/images/icon-load-img.png" :data-original="data.photo_url" :alt="data.photo_alt" :title="data.title" >
+            <div v-if="data.is_video && !data.is_full" class="houseList-item-video" :class="[data.video.show_ai_video ? 'ai-video' : '']" data-gtm-stat="中古屋列表頁_物件列表_視頻物件點擊">
+                <div class="icon-video"></div>
+                <div v-if="data.video.show_ai_video" class="ai-video-text">AI影音講房</div>
+            </div>
+            <div v-if="data.photoNum" class="houseList-item-photonum">
+                <i class="icon-photo-num"></i>
+                <span>{{data.photoNum}}</span>
+            </div>
+        </div>
+
+        
+        <div class="houseList-item-addition">
+            <div
+                v-if="data.is_combine == 2"
+                class="houseList-item-addition-tag z-recommend z-animate"
+            >精選</div>
+            <div
+                v-if="+data.isvip"
+                class="houseList-item-addition-tag z-top z-animate"
+            >置頂</div>
+            <div
+                v-if="data.is_hurry_price"
+                class="houseList-item-addition-tag z-hurry"
+                :class="{ 'is-big': data.is_combine == 2 || data.isvip }"
+            >急售</div>
+        </div>
+    </div>
+
+    
+    <div class="houseList-item-right text-right pull-right" :title="data.is_down_price ? '較之前價格下降了'+ data.down_price_percent + '%' : ''">
+        <div v-if="data.is_down_price" class="houseList-item-down">
+            <i class="icon-down-price"></i>
+            <span>降{{data.diff_price + '萬'}}</span>
+        </div>
+        <div class="houseList-item-price">
+            <em v-if="data.showprice">
+                <web-component-obfuscate
+                    :id="`showprice-${data.houseid}`"
+                    :text="data.showprice"
+                    font="26px Arial" 
+                    :style="{ color: '#f01800', fontWight: 700}"
+                    ></web-component-obfuscate>
+            </em>
+            <span>萬</span>
+        </div>
+        <div v-if="data.price_has_carport == 1" class="houseList-item-has-carport">( 含車位價 )</div>
+        
+        <web-component-obfuscate
+            v-if="data.unit_price"
+            class="houseList-item-unitprice"
+            :id="`unit-price-${data.houseid}`"
+            :text="data.unit_price" 
+            font="14px Arial" 
+            :style="{ color: '#666', fontWight: 500, lineHeight: '20px' }"
+            ></web-component-obfuscate>
+    </div>
+
+    
+    <div class="houseList-item-main oh">
+
+        
+        <div class="houseList-item-title">
+            
+            <a :href="'/home/house/detail/2/' + data.houseid + '.html'" @click.prevent :title="data.title" :style="fixStyle">{{textOverflow(data.title, 30)}}</a>
+            <span v-if="data.is_combine == 1" class="houseList-item-title-label z-red">黃金曝光</span>
+            <span v-if="data.pc_good_house" class="houseList-item-title-label z-good-house"></span>
+            <span v-if="data.isnew" class="houseList-item-title-label z-orange">NEW</span>
+        </div>
+
+        
+        <template v-if="data.is_carport == 1">
+            <div class="houseList-item-attr-row clearfix">
+                <i class="icon-house"></i>
+                <span class="houseList-item-attrs-kind">{{data.kind_name}}</span>
+                <span v-if="data.area" class="houseList-item-attrs-area">
+                    <web-component-obfuscate
+                        :id="`attrs-area-${data.houseid}`"
+                        :text="'權狀' + data.area + '坪'" 
+                        font="14px Arial"
+                        :style="{ color: '#333', fontWight: 500, lineHeight: '20px' }"
+                        ></web-component-obfuscate>
+                </span>
+
+                <span class="houseList-item-attrs-cartmodel">{{data.cartmodel}}</span>
+                <span class="houseList-item-attrs-carttype">{{data.carttype}}</span>
+            </div>
+            <div class="houseList-item-address-row clearfix">
+                <i class="icon-address"></i>
+                
+                <template v-if="data.community_distance">
+                    距離「{{data.community_around_name}}」直線距離
+                    <strong class="houseList-item-distance ml15">{{data.community_distance}}公尺</strong>
+                </template>
+                <template v-else>
+                    <span class="houseList-item-section pull-left" v-if="data.section_name">{{data.section_name}}-</span>
+                    <span class="houseList-item-address pull-left">{{data.address}}</span>
+                </template>    
+            </div>
+            <div class="houseList-item-user-row">
+                <span v-if="data.avatar" class="houseList-item-user-head" :style="{backgroundImage: 'url(' + data.avatar + ')'}"></span>
+                <span v-else class="houseList-item-user-head" style="backgroundImage: url(//s.591.com.tw/build/static/house/saleList/images/default-user.png)"></span>
+                <span class="houseList-item-user">{{data.nick_name}}</span>
+                <template v-if="data.browsenum && data.browsenum != 0">
+                    <span class="split-line"></span>
+                    <i class="icon-browse"></i>
+                    <span class="houseList-item-browsenum relative">{{data.browsenum}}人瀏覽</span>
+                </template>
+            </div>
+        </template>
+
+        
+        <template v-else>
+            <div class="houseList-item-attr-row clearfix">
+                <i class="icon-house"></i>
+                <span v-if="data.shape_name || data.is_oversea == 1" class="houseList-item-attrs-shape">{{data.is_oversea == 1 ? '海外物業' : data.shape_name}}</span>
+                <span v-if="data.room" class="houseList-item-attrs-layout">{{data.room}}</span>
+                <span v-if="data.area" class="houseList-item-attrs-area">
+                    <web-component-obfuscate
+                        :id="`area-${data.houseid}`"
+                        :text="'權狀' + data.area + '坪'" 
+                        font="14px Arial" 
+                        :style="{ color: '#333', fontWight: 500, lineHeight: '20px' }"
+                        ></web-component-obfuscate>
+                </span>
+
+                <span v-if="data.mainarea" class="houseList-item-attrs-mainarea">
+                    <web-component-obfuscate
+                        :id="`mainarea-${data.houseid}`"
+                        :text="'主建' + data.mainarea + '坪'" 
+                        font="14px Arial" 
+                        :style="{ color: '#333', fontWight: 500, lineHeight: '20px' }"
+                        ></web-component-obfuscate>
+                </span>
+                
+
+                
+                <template v-if="data.saletype == 2">    
+                    <span v-if="data.fci_pai" class="houseList-item-attrs-fcicount">{{data.fci_pai}}</span>
+                    <span v-if="data.delivery" class="houseList-item-attrs-isclinch">{{data.delivery}}</span>
+                </template>
+                <template v-else-if="data.is_oversea != 1">  
+                   <span v-if="data.showhouseage" class="houseList-item-attrs-houseage">
+                        <web-component-obfuscate
+                           :id="`houseage-${data.houseid}`"
+                           :text="data.showhouseage" 
+                           font="14px Arial" 
+                           :style="{ color: '#333', fontWight: 500, lineHeight: '20px' }"
+                           ></web-component-obfuscate>
+                   </span>
+                    <web-component-obfuscate
+                        v-if="!isSmall"
+                        :id="`floor-${data.houseid}`"
+                        class="houseList-item-attrs-floor"
+                        :text="data.floor" 
+                        font="14px Arial" 
+                        :style="{ color: '#333', fontWight: 500, lineHeight: '20px' }"
+                        ></web-component-obfuscate>
+
+                </template>
+            </div>
+            <div class="houseList-item-address-row clearfix">
+                <i class="icon-address"></i>
+                
+                <template v-if="data.community_distance">
+                    距離「{{data.community_around_name}}」直線距離
+                    <strong class="houseList-item-distance ml15">{{data.community_distance}}公尺</strong>
+                </template>
+                <template v-else>
+                    <span v-if="data.community_name" class="houseList-item-community mr15 pull-left">
+                        <a v-if="data.community_link" :href="data.community_link" class="houseList-item-community-link" target="_blank" data-gtm-stat="中古屋列表_社區行情_社區文字鏈">{{data.community_name}}
+                        </a>
+                        <span v-else>{{data.community_name}}</span>
+                    </span>
+                    <span class="houseList-item-section pull-left" v-if="data.section_name">{{data.section_name}}-</span>
+                    <web-component-obfuscate
+                        v-if="data.address"
+                        class="houseList-item-address pull-left"
+                        :id="`address-${data.houseid}`"
+                        :text="data.address || '地址資料補充中'" 
+                        font="14px Arial" 
+                        :style="{ color: '#333', fontWight: 500, lineHeight: '20px' }"
+                        ></web-component-obfuscate>
+                </template>
+            </div>
+
+            <template v-if="data.bid_rank && data.bid_rank !== 99">
+                <div class="houseList-bid-broker-row">
+                    <div class="houseList-bid-broker-left">
+                        <span class="bid-broker-left-avatar">
+                        <img :src="data.avatar || '//s.591.com.tw/build/static/house/saleList/images/default-broker.png'">
+                        </span>
+                        <span class="bid-broker-left-title">金牌專家</span>
+                        <span class="bid-broker-left-name">{{ data.nick_name }}</span>
+                        <span class="icon-gold-broker"></span>
+                    </div>
+                    <div class="houseList-bid-broker-right">
+                        {{ data.agent_label_text }}
+                    </div>
+                </div>
+            </template>
+            <template v-else>
+                <div class="houseList-item-user-row">
+                    <span v-if="data.avatar" class="houseList-item-user-head" :style="{backgroundImage: 'url(' + data.avatar + ')'}"></span>
+                    <span v-else class="houseList-item-user-head" style="backgroundImage: url(//s.591.com.tw/build/static/house/saleList/images/default-user.png)"></span>
+                    <span class="houseList-item-user">{{data.nick_name}}</span>
+                    <template v-if="data.browsenum && data.browsenum != 0">
+                        <span class="split-line"></span>
+                        <i class="icon-browse"></i>
+                        <span class="houseList-item-browsenum relative">{{data.browsenum}}人瀏覽</span>
+                    </template>
+                </div>
+            </template>
+        </template>
+
+        
+        <div v-if="data.distance" class="houseList-item-distance-row clearfix" :class="'z-type-' + data.distance_type">
+            <i class="icon-distance"></i>
+            <span>距{{data.distance_name}}</span>
+            <span class="hight-light">{{data.distance}}公尺</span>
+        </div>
+
+        
+        <div class="houseList-item-tag-row clearfix" :class="[hasRanktags ? 'hide-tags': '']">
+            <div v-if="data.refresh_package_tag === 1 && data.operation_tag.type === 4" class="houseList-item-tag scroll-tag" @click.stop="toRefreshList()">
+                <div class="tag-one">{{data.refreshtime}}更新</div>
+                <div class="tag-two">{{data.operation_tag.title}}</div>
+            </div>
+            <div v-else-if="data.refresh_package_tag === 1" class="houseList-item-tag is-refresh">
+                {{data.refreshtime}}更新
+            </div>
+            <div v-else-if="data.operation_tag.type === 4" class="houseList-item-tag is-refresh-rank" @click.stop="toRefreshList()">
+                {{data.operation_tag.title}}
+            </div>
+            <template v-else>
+                <div v-if="data.operation_tag && data.operation_tag.type == 1" class="houseList-item-tag is-rank">
+                    {{data.operation_tag.title}}
+                </div>
+                <div v-if="data.operation_tag && data.operation_tag.type == 3" class="houseList-item-tag is-low-price">
+                    {{data.operation_tag.title}}
+                    <em>{{data.operation_tag.sub_title}}</em>
+                </div>
+            </template>
+
+            
+            <div v-if="data.is_video" class="houseList-item-tag-item">影片房屋</div>
+
+            
+            <!-- 720環境樣式不同，單獨處理 -->
+            <div v-if="data.is_full" class="houseList-item-tag-item">VR賞屋</div>
+            <div class="houseList-item-tag-item" v-for="item in data.tag">{{item}}</div>
+        </div>
+    </div>
+
+    
+    <span class="shoucang">
+        <a href="javascript:;" class="houseList-item-collect" data-bind="2" :data-text="data.houseid" data-colle="0"></a>
+    </span>
+</div>
+  </script>
+  <script id="t-houseList-goodhouse" type="text/x-template">
+   <p data-gtm-stat="中古屋列表頁_必看好屋banner" class="goodhouse-banner" @click="click()" style="display:none"></p>
+  </script>
+  <script id="t-houseList-housing" type="text/x-template">
+   <div
+    class="houseList-item z-housing clearfix"
+    @click="click($event, data)"
+    :class="data.company && 'z-hascompany'"
+    :data-gtm-stat="data.data_gtm_click"
+    :data-id="data.houseid"
+    >
+    
+    <div class="houseList-item-left pull-left">
+        <div class="relative">
+            <img class="houseList-item-thumb j-lazyimg" src="//s.591.com.tw/build/static/house/saleList/images/icon-load-img.png" :data-original="data.photo_url" :alt="data.photo_alt">
+            <!-- 建案應該是沒有這個的註釋掉
+            <div v-if="data.photoNum" class="houseList-item-photonum">
+                <i class="icon-photo-num"></i>
+                <span>{{data.photoNum}}</span>
+            </div>
+            -->
+            <div v-if="data.call_num" class="houseList-item-phone-num">來電{{data.call_num}}通</div>
+            <div class="vr-icon" v-if="data.is_full > 0">
+                <div class="vr-style vr-annulus vr-spinning-reverse" ></div>
+                <div class="vr-style vr-auto">720</div>
+                <div class="vr-style vr-annulus vr-spinning"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="houseList-item-right text-right pull-right" :class="(data.show_price && data.show_unitprice && data.browsenum) && 'z-all-exist'">
+        
+        <template v-if="data.show_price && data.show_unitprice">
+            <div class="houseList-item-price"><em>{{data.show_price.toLocaleString()}}</em>{{data.show_price_unit}}</div>
+            <div class="houseList-item-unit-price">單價{{data.show_unitprice}}{{data.show_unitprice_unit}}</div>
+        </template>
+
+        
+        <template v-else-if="data.show_price && !data.show_unitprice">
+            <div class="houseList-item-price"><em>{{data.show_price.toLocaleString()}}</em>{{data.show_price_unit}}</div>
+        </template>
+
+        
+        <template v-else-if="!data.show_price && data.show_unitprice">
+            <div class="houseList-item-price"><em>{{data.show_unitprice}}</em>{{data.show_unitprice_unit}}</div>
+        </template>
+
+        
+        <template v-else>
+            <div class="houseList-item-price"><em>諮詢案場</em></div>
+        </template>
+
+        <div v-if="data.browsenum">{{data.browsenum}}人</div>
+    </div>
+
+    
+    <div class="houseList-item-main oh">
+
+        
+        <div class="houseList-item-title">
+            <a :href="isNative ? data.event_click_url : data.href" target="_blank" :title="data.title" :style="fixStyle">{{textOverflow(data.title, 25)}}</a>
+            <span class="houseList-item-title-label z-blue">熱銷建案</span>
+        </div>
+
+        
+        <div class="houseList-item-attr-row mb20 clearfix">
+            <i class="icon-house"></i>
+            <span v-if="data.build_purpose" class="houseList-item-attrs-purpose">{{data.build_purpose}}</span>
+            <span v-if="data.room" class="houseList-item-attrs-room">{{data.room}}</span>
+            <span v-if="data.showarea" class="houseList-item-attrs-area">{{data.showarea}}</span>
+            <span class="houseList-item-attrs-purpose" v-if="data.ratio">公設比{{data.ratio}}</span>
+        </div>
+
+        
+        <div class="houseList-item-address-row mb20">
+            <i class="icon-address"></i>
+            <span class="houseList-item-section mr10">{{data.section_name}}</span>
+            <span class="houseList-item-address">{{data.street_name}}</span>
+        </div>
+
+        
+        <div v-if="data.company" class="houseList-item-company-row mb15">
+            <i class="icon-company"></i>
+            <span>{{data.company}}</span>
+        </div>
+
+        
+        <div class="houseList-item-tags">
+            <span class="houseList-item-tags-item" v-for="tag in tags" v-if="tag" :class="tag.className">{{tag.txt}}</span>
+        </div>
+    </div>
+
+    
+    <div>
+        <div class="houseList-item-phone" :class="[!(data.show_price && data.show_unitprice) ? 'is-low' : '']">
+            <i class="house-phone-icon"></i>
+            {{data.phonenum}}
+        </div>
+    </div>
+</div>
+  </script>
+  <script id="t-houseList-land" type="text/x-template">
+   <div class="houseList-item z-land clearfix" @click="toLandList">
+        
+        <div class="houseList-item-left pull-left">
+            <div class="relative">
+                <img class="houseList-item-thumb j-lazyimg" src="//s.591.com.tw/build/static/house/saleList/images/land-ware-img.gif" >
+            </div>
+        </div>
+
+        
+        <div class="houseList-item-right text-right pull-right">
+            <div class="houseList-item-price"><em>{{(data.min_price || 0).toLocaleString()}}</em>萬起</div>
+            <div class="houseList-item-unit-price">單價{{ priceTxt }}萬元/坪</div>
+        </div>
+
+        
+        <div class="houseList-item-main oh">
+
+            
+            <div class="houseList-item-title">
+                <a href="javascript:void(0);" :title="data.title">買地自建，夢想居~</a>
+                <span class="houseList-item-title-label z-land-tag"><i class="icon-fire" ></i>熱門土地</span>
+            </div>
+
+            <div class="houseList-item-attr-row clearfix">
+                <i class="icon-house"></i>
+                <span class="houseList-item-attrs-shape">{{ data.ground_type.join('&') }}</span>
+                <span class="houseList-item-attrs-area">{{ areaTxt }}坪</span>
+                <span v-if="plotRatio" class="houseList-item-attrs-mainarea">建蔽率{{ plotRatio }}</span>
+            </div>
+
+            <div class="houseList-item-address-row clearfix">
+                <i class="icon-address"></i>
+                <span class="houseList-item-address pull-left">{{ data.region }}-{{ data.section }}</span>
+            </div>
+
+            
+            <div class="houseList-item-tag-row clearfix land-tags">
+                <div class="houseList-item-tag-item">住宅土地</div>
+                <div class="houseList-item-tag-item">自建自用</div>
+                <div class="houseList-item-tag-item">同價更大坪</div>
+                <div class="houseList-item-tag-item">享專屬空間</div>
+                <div class="houseList-item-tag-item">客製化設計</div>
+            </div>
+        </div>
+    </div>
+  </script>
+  <script id="t-houseList-traded" type="text/x-template">
+   <div class="houseList-traded-item flex-row flex-ai-center" @click="click($event, data)">
+    <div class="houseList-traded-item-section">{{data.region_name}}-{{data.section_name}}</div>
+    <div class="houseList-traded-item-title">
+    	<a :href="'/home/house/detail/2/' + data.houseid + '.html'" target="_blank" :title="data.title">
+            {{isSmall ? textOverflow(data.title, 15) : textOverflow(data.title, 20)}} 
+        </a>
+    	<span :class="enddayClassName">{{data.deal_days}}</span>
+	</div>
+    <div class="houseList-traded-item-area text-right">{{data.area}}坪/{{data.kind_name}}</div>
+    <div class="houseList-traded-item-price text-right"><em>{{data.price}}</em> 萬元</div>
+    <div class="houseList-traded-item-browse text-right">{{data.browsenum}}人</div>
+    <div class="houseList-traded-item-day text-right" :class="distanceClassName">{{data.deal_time}}</div>
+</div>
+  </script>
+  <script id="t-vue-pages" type="text/x-template">
+   <div class="pages" @click="click($event)" v-html="pages"></div>
+  </script>
+  <script id="t-price-assess" type="text/x-template">
+   <div class="assess">
+	<div class="assess-ctn">
+		
+		<div class="assess-head clearfix">
+			<div class="assess-head-title pull-left">購房能力評估</div>
+			<a class="assess-head-close pull-right" href="javascript:;" @click="close"></a>
+		</div>
+
+		
+		<div class="assess-body">
+			<p class="assess-body-small">輸入參數后點開始估算，即為您估算您可以買到的房屋金額。</p>
+			<p class="assess-body-small">您每月家庭薪資收入為多少（若您不是單身，別忘了另一半的薪水喔！）</p>
+
+			
+			<div class="assess-body-row z-first">
+				<span>月薪</span>
+				<input type="text" class="assess-body-input" @input="filter($event, 'income')" v-model="income">
+				<span>萬元 x </span>
+
+				<div class="assess-body-ratio" :class="openRatio && 'z-open'">
+					<div class="assess-body-ratio-txt" @click="openRatio = !openRatio">{{expendRatio}} <i></i></div>
+					<div class="assess-body-ratio-list">
+						<div class="assess-body-ratio-item" @click="selectRatio('30%')">30%</div>
+						<div class="assess-body-ratio-item" @click="selectRatio('35%')">35%</div>
+						<div class="assess-body-ratio-item" @click="selectRatio('40%')">40%</div>
+						<div class="assess-body-ratio-item" @click="selectRatio('45%')">45%</div>
+						<div class="assess-body-ratio-item" @click="selectRatio('50%')">50%</div>
+					</div>
+				</div>
+
+				<i 
+					class="assess-body-query"
+					@mouseenter="showHelp = true"
+					@mouseleave="showHelp = false"></i>
+			</div>
+
+			
+			<div class="assess-body-row">
+				<span>自備款</span>
+				<input type="text" class="assess-body-input" @input="filter($event, 'reserve')" v-model="reserve">
+				<span>萬元</span>
+			</div>
+
+			
+			<div class="assess-body-row">
+				<span>貸款年限</span>
+				<input type="text" class="assess-body-input" @input="filter($event, 'age')" v-model="age">
+				<span>年</span>
+			</div>
+
+			
+			<div class="assess-body-row z-last">
+				<span>貸款利率</span>
+				<input type="text" class="assess-body-input" @input="filter($event, 'loansRatio')" v-model="loansRatio">
+				<span>%</span>
+			</div>
+
+			
+			<div class="assess-body-count">您最高可買到的房屋總價：<em>{{count}}</em><span v-show="allowSubmit">萬元</span></div>
+
+			
+			<button class="assess-body-btn" @click="submit" data-gtm-stat="中古屋列表頁_入口_按此篩選總價">按此篩選總價</button>
+
+			
+			<div class="assess-body-hint">*結果僅供參考</div>
+
+			
+			<div class="assess-body-help clearfix" v-if="showHelp">
+				<div class="assess-body-help-left">舉例：</div>
+				<div class="assess-body-help-right">月薪若為台幣55,000元請輸入5.5，一般約將薪資30%~40%用於房貸支出，若為雙薪或高收入家庭，可視情況調高比例。</div>
+			</div>
+		</div>
+	</div>
+</div>
+  </script>
+  <script id="t-recommend-right" type="text/x-template">
+   <div class="recommend-right" v-if="list.length">
+        <h2>
+            <img src="//s.591.com.tw/build/static/house/saleList/images/recommend.png">
+            <span>猜你喜歡</span>
+        </h2>
+        <div v-for="(item,index) in list" :key="index" class="recommend-right-item-wrap">
+            <v-recommend-right-item :num="index" :item="item"></v-recommend-right-item>
+        </div>
+    </div>
+  </script>
+  <script id="t-recommend-right-item" type="text/x-template">
+   <a class="recommend-right-item" :href="`/home/house/detail/2/${item.houseid}.html`" 
+        target="_blank" ref="recommendRightHouse" :data-gtm-stat="`中古屋列表頁_為您推薦_${tag}物件點擊`">
+        <div v-if="item.is_refresh === 1" class="house-tag is-refresh">
+            {{item.refreshtime}}更新
+        </div>
+        <div v-else class="house-tag">
+            <div
+                v-if="item.is_combine == 2"
+                class="house-tag-item z-recommend z-animate"
+            >精選</div>
+
+            <div
+                v-if="item.isvip"
+                class="house-tag-item z-top z-animate"
+            >置頂</div>
+
+            
+            <div
+                v-if="item.pc_good_house"
+                class="house-tag-item z-good-house"
+            ></div>
+        </div>
+        <div class="cover">
+            <img class="js-recommend-house" :src="item.photo_url" :alt="item.title" />
+            
+            <div v-if="item.last_week_hit_num" class="house-week-view">
+                <i class="icon-hot"></i>
+                <span v-if="item.is_refresh === 1">近一週{{item.last_week_hit_num}}次曝光</span>
+                <span v-else>近一週{{item.last_week_hit_num}}次瀏覽</span>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="title">
+                
+                <span>{{item.title}}</span>
+            </div>
+            <p class="info">
+                <span>{{ item.section_name }}</span>
+                <span v-if="item.layout">{{ item.layout }}</span>
+                <span>{{ item.area }}坪</span>
+            </p>
+            <p class="price">
+                <span><em>{{ item.price.toLocaleString() }}</em>萬</span>
+                <span class="unit-price">{{ item.unit_price }}</span>
+            </p>
+        </div>
+    </a>
+  </script>
+  <script id="vue-feedback-dialog" type="text/x-template">
+   <div class="search-feedback" v-if="show">
+        <div class="search-feedback-content">
+            <div class="search-feedback-title">
+                搜尋反饋
+                <span class="feedback-close" @click="show = false"></span>
+            </div>
+            <div class="feedback-form">
+                <el-form ref="form" :model="form" label-width="104px" label-position="left">           
+                    <el-form-item label="您想找的是">
+                        <el-radio-group v-model="form.option" fill="#FF9701">
+                            <el-radio :label="1">社區</el-radio>
+                            <el-radio :label="2">街道</el-radio>
+                            <el-radio :label="3">其他</el-radio>
+                        </el-radio-group>
+                    </el-form-item>
+
+                    <el-form-item :label="typeName">
+                        <el-input v-model="form.title" :placeholder="typeTips" maxlength="40"></el-input>
+                    </el-form-item>
+
+                    <el-form-item label="所在縣市">
+                        <el-select v-model="form.regionid" placeholder="請選擇所在縣市" style="width: 100%" :popper-append-to-body="false">
+                            <el-option :label="item.txt" :value="item.id" v-for="item in regionList" :key="item.id"></el-option>
+                        </el-select>
+                    </el-form-item>
+
+                    <el-form-item label="所在鄉鎮">
+                        <el-select v-model="form.sectionid" placeholder="請選擇所在鄉鎮" style="width: 100%" :popper-append-to-body="false">
+                            <el-option :label="item.txt" :value="item.id" v-for="item in sectionList" :key="item.id"></el-option>
+                        </el-select>
+                    </el-form-item>
+                    
+                    <el-form-item label="詳細反饋">
+                        <el-input type="textarea" v-model="form.content" placeholder="若上述無法表達,可以在此描述您的反饋的問題喔"
+                            maxlength="200" show-word-limit :rows="6" resize="none"></el-input>
+                    </el-form-item>
+                </el-form>
+            </div>
+            <div class="feedback-footer">
+                <el-button @click="submit">提交</el-button>
+            </div>
+
+            <transition name="fade">
+                <div class="feedback-toast" v-if="showMessage">
+                    {{message}}
+                </div> 
+            </transition>
+        </div>
+    </div>
+  </script>
+  <script id="vue-community-hotSale" type="text/x-template">
+   <div class="community-hotSale" v-if="hotSaleVisible">
+        <!-- <div 
+            class="house-entrust-entry"
+            ref="entrustEntry"
+            data-gtm-stat="屋主委託_委託入口_中古屋列表右側入口點擊"
+            @click="showEntrustModal"
+            v-if="+regionId !== 8"
+            target="_blank">
+            <img src="//s.591.com.tw/build/static/house/saleList/images/house-sale-entrust.png?v=4">
+            <div class="course_wrapper" v-if="entrustCount.length">
+                <ul class="course_content" :style="loopStyle">
+                    <li v-for="item, index in [...entrustCount, entrustCount[0]]" :key="index">
+                        {{ item.date }}，{{ item.name }} {{item.type}}
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+        <v-recom-bidBroker :data="recomBidBroker" v-if="recomBidBroker && recomBidBroker.length > 0"></v-recom-bidBroker>
+        <v-recommend-right ></v-recommend-right>
+
+        <template v-if="data.length">
+            <h3 class="community-hotSale-title">
+            熱門在售社區
+                <a
+                    :href="communityHref"
+                    class="more"
+                    data-gtm-stat="社區-中古屋業務_中古屋列表頁_右側熱門在售社區更多點擊"
+                    target="_blank">
+                更多<i class="fa fa-angle-right"></i>
+                </a>
+            </h3>
+            <div class="community-hotSale-ctn">
+                <v-community-card 
+                    v-for="(item, index) in data" 
+                    :key="index" 
+                    :data="item">
+                </v-community-card>
+            </div>
+        </template>
+    </div>
+  </script>
+  <script id="vue-community-card" type="text/x-template">
+   <a
+        :href="communityHref"
+        class="community-card"
+        data-gtm-stat="社區-中古屋業務_中古屋列表頁_右側熱門社區點擊"
+        target="_blank"
+    >
+        <div class="community-card-img">
+            <img
+                src="//s.591.com.tw/build/static/house/saleList/images/lazyload.gif"
+                :data-original="data.cover.src ? data.cover.src : `//s.591.com.tw/build/static/house/saleList/images/community-default.png`"
+                :alt="data.name"
+                class="lazy"/>
+            <span class="viewed" v-if="data.pc_browse_num!=='0'">{{ data.pc_browse_num }} 人瀏覽</span>
+        </div>
+        <div class="community-card-info">
+            <h3 class="title">
+                <em class="ellipsis" :style="fixStyle(data.name)">{{ data.name }}</em>
+                <vue-public-popover
+                    theme="dark"
+                    placement="right"
+                    v-if="data.rank_list_info.length">
+                    <i class="rank-icon"></i>
+                    <div slot="content">
+                        <p v-for="(item, index) in data.rank_list_info" :key="index">
+                            {{ item.region }}{{ item.name }}榜 TOP{{ item.top }}
+                        </p>
+                    </div>
+                </vue-public-popover>
+            </h3>
+            <div class="info-desc">
+                <a
+                    target="_blank"
+                    :href="`${communityHref}/sale`"
+                    class="onsale"
+                    :class="{'disabled':!+data.sale_num}"
+                    @click.stop="sendGa"
+                    >熱賣物件<em>{{ data.sale_num }}間</em><i v-if="+data.sale_num">></i>
+                </a>
+                <div class="price">
+                    <p class="price-info" v-if="data.total_price_min!=='0'">{{ data.total_price_min }}<em>萬起</em></p>
+                    <p class="empty-price" v-else>暫無</p>
+                </div>
+            </div>
+        </div>
+    </a>
+  </script>
+  <script id="vue-community-list-card" type="text/x-template">
+   <div class="community-list-card-wrap" ref="communityInfoRef">
+        <a
+          class="community-list-card"
+          :href="communityHref"
+          target="_blank"
+          :data-gtm-stat="`社區-中古屋業務_${gaPrefix}_社區點擊`"
+        >
+          <div class="community-list-card-info">
+            <div class="left-ctn">
+              <h3>
+                <em class="ellipsis" :style="fixStyle(data.name)" id="community-name" :data-community-id="data.id">{{ data.name }}</em>
+                <vue-public-popover
+                    theme="dark"
+                    placement="bottom-center"
+                    v-if="data.rank_list.length">
+                    <i class="rank-icon"></i>
+                    <div slot="content">
+                        <p v-for="(item,index) in data.rank_list">
+                            {{ item.region }}{{ item.name }}榜 TOP{{ item.top }}
+                        </p>
+                    </div>
+                </vue-public-popover>
+              </h3>
+              <p class="tags">
+                <span class="life" v-if="data.shop_name">{{ data.shop_name }}</span>
+                <span class="ellipsis">{{ data.section }}{{ data.address }}</span>
+                <span v-if="data.housing_type_str">{{data.housing_type_str}}</span>
+                <span v-if="data.build_purpose_simple">{{ data.build_purpose_simple }}</span>
+                <span v-if="data.house_holds">{{ data.house_holds }}戶</span>
+                <span v-if="data.has_park">有車位</span>
+              </p>
+
+              
+              <vue-gold-broker-card v-if="data.agent_info && data.agent_info.agent_id" :broker="data.agent_info" gaPrefix="社區找房列表-社區">
+                <div class="bid-broker">
+                    <div class="bid-broker-avatar">
+                        <img :src="data.agent_info.avatar || '//s.591.com.tw/build/static/house/saleList/images/broker.png'" alt="社區專家頭像">
+                    </div>
+                    <div class="bid-broker-name">
+                        金牌專家·{{ data.agent_info.name }}·免費洽談
+                    </div>
+                    <span class="ic-phone-call"></span>
+                </div>
+              </vue-gold-broker-card>
+            </div>
+            <div class="right-ctn">
+              <div class="price total-price" v-if="data.total_price_min!=='0'">
+                <span class="price-info">
+                    <strong>{{ data.total_price_min }}</strong>
+                    <em>萬<i v-if="data.rooms.length > 1">起</i></em>
+                </span>
+                <span class="price-des">在售總價</span>
+              </div>
+              <p class="empty-price" v-else>暫無 | 在售總價</p>
+
+              <!-- 社區配置圖 -->
+              <a
+                class="deal-count"
+                :class="{'disabled':!+data.deal_num}"
+                ref="buildingMapRef"
+                @click.stop.prevent="navigation"
+                >共有成交({{ data.deal_num }}筆)
+                <i class="fa fa-angle-right" v-if="+data.deal_num"></i>
+              </a>
+            </div>
+          </div>
+        </a>
+        <!-- 在售物件 -->
+        <a
+          :href="`${communityHref}/sale`"
+          target="_blank"
+          class="community-info-onsale"
+          v-if="data.sale_items.length"
+        >
+          <div class="community-info-onsale-title">
+            在售物件<em>{{ data.sale_num }}</em>間
+            <span
+              class="tag recent-publish"
+              v-if="data.half_month_post_num">
+              近半個月上架{{ data.half_month_post_num}}間
+            </span>
+            <span class="tag" v-if="data.host_post_num">屋主刊登{{ data.host_post_num }}間</span>
+            <span class="tag" v-if="data.reduce_price_num">降價{{ data.reduce_price_num }}間</span>
+            <span class="tag" v-if="data.browse_num_pc !== '0'">{{ data.browse_num_pc }}人瀏覽</span>
+            <a class="more"><i class="fa fa-angle-right"></i></a>
+          </div>
+          <ul class="community-info-onsale-house" v-if="data.sale_items.length">
+            <li v-for="(item, index) in data.sale_items" :key="index">
+              <a
+                :href="`${saleHouseHref}/${item.houseid}.html`"
+                target="_blank"
+                @click.stop="sendGa(`社區-中古屋業務_${gaPrefix}_${ item.has_agent ? '' : '非'}專家推薦物件點擊-${item.houseid}`,index,item,data.id)"
+                class="house-item">
+                <div class="house-item-img">
+                    <img
+                        src="//s.591.com.tw/build/static/house/saleList/images/lazyload.gif"
+                        :data-original="item.photo_src ? item.photo_src : `//s.591.com.tw/build/static/house/saleList/images/community-default.png`"
+                        :alt="item.address"
+                        class="j-lazyimg"/>
+                    <span v-if="+item?.community_quality_money" class="community-pick-label">社區精選</span>
+                    <span v-else-if="item.bid_rank !== 99" class="recom-broker-label">專家推薦</span>
+                </div>
+                <div class="house-item-info">
+                    <p class="layout">{{ item.room }} <span v-if="item.floor_en">| {{ item.floor_en }}</span></p>
+                    <p class="area" v-if="item.area_v">{{ item.area_v.area }}{{ item.area_v.unit }}</p>
+                    <p class="price" v-if="item.price_v">
+                        <strong>{{ item.price_v.price }}</strong> <em>{{ item.price_v.unit }}</em>
+                    </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </a>
+      </div>
+  </script>
+  <script id="vue-community-broker" type="text/x-template">
+   <div class="community-broker" v-if="visible">
+    <community-list-card :data="community"></community-list-card>
+  </div>
+  </script>
+  <script id="vue-bid-broker-card" type="text/x-template">
+   <div class="bid-broker-wrap" ref="agentRef" @mouseenter="sendBidStat('bid_float_sale_look_list')">
+        <div class="broker-info-card" @click.prevent.stop>
+            <div class="broker-info-top">
+                <h5>
+                    <em>{{ broker.name }}</em>
+                    <i v-if="+broker.approve_status === 1" class="ic-professional"></i>
+                    <i class="ic-shop-outline" @click="goShop(broker.shop_id)" v-if="broker.shop_id" :data-gtm-stat="`社區-中古屋業務_${gaPrefix}_店鋪點擊`"></i>
+                    <span class="gold-broker-label"></span>
+                </h5>
+                <div class="broker-info-card-company" v-if="broker.company || broker.sub_company">
+                    <span class="info-label">就職公司</span>
+                    <div class="right-info">
+                        <span v-if="broker.company">{{ broker.company  }}</span>
+                        <span v-if="broker.sub_company">{{ broker.sub_company  }}</span>
+                    </div>
+                </div>
+                <p class="broker-info-card-company" v-if="broker.work_age">
+                    <span class="info-label">從業年限</span>
+                    <span class="right-info">{{ broker.work_age }}</span>
+                </p>
+                <p class="broker-info-card-company" v-if="broker.work_section">
+                    <span class="info-label">主營區域</span>
+                    <span class="right-info">{{ broker.work_section }}</span>
+                </p>
+                <p class="broker-info-card-company" v-if="broker.work_community">
+                    <span class="info-label">熟悉社區</span>
+                    <span class="right-info">{{ broker.work_community }}</span>
+                </p>
+            </div>
+            <div class="broker-info-card-contact">
+                <div class="contact-phone">
+                    <i></i>
+                    <span>{{ broker.mobile }}</span>
+                    <span v-if="broker.mobile_ext"> 轉 {{broker.mobile_ext}}</span>
+                </div>
+                <button class="entrust-btn" @click.stop.prevent="showEntrust(broker)"><i class="ic-brush"></i>房屋代尋</button>
+            </div>
+        </div>
+    </div>
+  </script>
+  <script id="vue-gold-broker-card" type="text/x-template">
+   <div class="gold-broker" ref="agentRef" @mouseenter="!bidStatProvide && sendBidStat('bid_float_sale_look_list')">
+        <vue-public-popover
+            theme="dark"
+            placement="bottom-start"
+            >
+            <slot></slot>
+            <div slot="content">
+                <div class="gold-broker-card" @click.prevent.stop>
+                    <h5>
+                        <em>{{ broker.name }}</em>
+                        <i v-if="+broker.approve_status === 1" class="ic-professional"></i>
+                        <i class="ic-shop-outline" @click="goShop(broker.shop_id)" v-if="broker.shop_id" :data-gtm-stat="`社區-中古屋業務_${gaPrefix}_店鋪點擊`"></i>
+                        <span class="gold-broker-label"></span>
+                    </h5>
+                    <p class="gold-broker-card-company" v-if="broker.company || broker.sub_company"><span v-if="broker.company">{{ broker.company  }}</span> <span v-if="broker.sub_company">{{ broker.sub_company  }}</span></p>
+                    <p class="gold-broker-card-phone" v-if="broker.mobile">
+                        免費洽談: <span>{{ broker.mobile }}</span><span v-if="broker.mobile_ext"> 轉 {{broker.mobile_ext}}</span>
+                    </p>
+                    <div class="gold-broker-card-contact">
+                        <button ref="imBtnRef" class="im-btn" @click.stop.prevent="openIM(broker)" :class="{'disabled':!broker.im_uid}"><i class="ic-chat"></i>房聊</button>
+                        <button class="entrust-btn" @click.stop.prevent="showEntrust(broker)"><i class="ic-brush"></i>房屋代尋</button>
+                    </div>
+                </div>
+            </div>
+        </vue-public-popover>
+    </div>
+  </script>
+  <script id="vue-recom-bid-broker" type="text/x-template">
+   <section>
+        <div class="recom-bid-broker">
+            <h3 class="recom-bid-broker-title">金牌專家<a :href="communityBidHref" target="_blank">想出現在這裡<i class="fa fa-angle-right"></i></a></h3>
+            <broker-slide :data="data" v-show="data && data.length" @change="toggleCommunity" :speed="5000">
+                <template #item="item">
+                    <a :href="`${communityHref}/${curBroker.current_cid}#broker`" target="_blank" data-gtm-stat="社區-中古屋業務_中古屋列表右側_金牌專家卡片點擊">
+                    <div class="recom-bid-broker-con">
+                        <div class="recom-bid-broker-avatar">
+                            <img :src="item.agent.avatar || '//s.591.com.tw/build/static/house/saleList/images/broker.png'" alt="社區專家頭像">
+                            
+                            <div class="recom-bid-broker-info">
+                                <div class="bid-info">
+                                    <span class="bid-info-community ellipsis">金牌專家·{{ item.agent.name }}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recom-bid-broker-intro">
+                            <p class="ellipsis" v-if="item.agent.work_section">主營區域：{{ item.agent.work_section }}</p>
+                            <p class="ellipsis" v-if="item.agent.work_community">熟悉社區：{{ item.agent.work_community }}</p>
+                        </div>
+                        <div class="recom-community-phone">
+                        <span>{{ item.agent.mobile }}</span>
+                        <span v-if="item.agent.mobile_ext"> 轉 {{item.agent.mobile_ext}}</span>
+                        </div>
+                    </div>
+                    </a>
+                </template>
+            </broker-slide>
+            <vue-bid-broker-card v-if="curBroker.agent.name" :broker="curBroker.agent" gaPrefix="中古屋列表右側" :cid="curBroker.current_cid"></vue-bid-broker-card>
+        </div>
+    </section>
+  </script>
+  <script id="webComponentObfuscate" type="text/x-template">
+   <component :is="`wc-obfuscate-${id}`" />
+  </script>
+  <script id="vue-public-popover" type="text/x-template">
+   <div 
+        class="vue-public-popover" 
+        :placement="placement" 
+        :class="[theme,{'open':status}]"
+        ref='popover'>
+        <div
+            @mouseenter="show"
+            @mouseleave="hide"
+            v-if="trigger === 'mouseenter'"
+            class="reference"
+            ref='triggerEle'>
+            <slot></slot>
+        </div>
+        <div @click.stop="status = !status" v-else @mouseleave="hide" class="reference">
+            <slot></slot>
+        </div>
+
+        <div class="popover-wrap" v-show="status && ($slots.content || content)" ref='popoverWrap' @mouseenter="show"
+        @mouseleave="hide">
+            <div class="popover-arrow"></div>
+            <div class="popover-content">
+                <div class="popover-text" v-html="content"></div>
+                <div class="popover-text">
+                    <slot name="content"></slot>
+                </div>
+            </div>
+        </div>
+    </div>
+  </script>
+  <script id="t-community-advert" type="text/x-template">
+   <div v-if="!isHidden"
+    class="community-advert clearfix" :class="[origin, type]" :data-gtm-stat="`社區-${typeStr}業務_${typeStr}${origin === 'list'? '列表頁_社區卡片點擊': '詳情頁_熱門社區推薦點擊' }`" @click="houseEvent"
+    >
+    
+    <div class="community-advert-img">
+        <div class="advert-img-wrap">
+            <img class="houseList-item-thumb j-lazyimg" :src="(data.cover && data.cover.src) || '//s.591.com.tw/build/static/house/rentDetail/images/placeholder-img.png'" :data-original="(data.cover && data.cover.src) || null">
+        </div>
+        <div class="behavior" v-if="data.behavior">{{ data.behavior }}</div>
+
+        <div class="build-info" v-if="data.online_num || data.min_room">
+            <!-- 僅有1筆不顯示 -->
+            <span class="tag" v-if="data.online_num">{{ `${data.online_num}間在${type === 'sale'? '售': '租'}` }}</span>
+            <span class="tag" v-if="data.min_room">
+                <span v-if="data.min_room===data.max_room">
+                    {{ data.max_room >= 5?'其他':`${data.max_room}房` }}
+                </span>
+                <span v-else>
+                    {{ data.max_room >= 5?`${data.min_room}-其他房`:`${data.min_room}-${data.max_room}房` }}
+                </span>
+            </span>
+            <span class="tag" v-if="data.min_area > 0">{{ data.max_area === data.min_area? data.max_area :`${data.min_area}-${data.max_area}` }}坪</span>
+        </div>
+        <div class="extra-link" v-else-if="data.agent && data.agent.agent_id" @click.stop="onQs">
+            <span>社區有未釋出房源嗎？＞</span>
+        </div>
+    </div>
+    
+    <div class="community-advert-content">
+        <div class="community-advert-left">
+           <div class="build">
+            <div class="build-title">{{ data.name }}</div>
+            <div class="build-area">
+                {{data.section}}-{{ data.simple_address }}
+            </div>
+           </div>
+            <div class="ad-recommend" v-if="origin !== 'list' && data.tag.length">
+               <div class="left-info">
+                   <span class="tag" v-for="(tag, index) in data.tag">{{ tag }}</span>推薦
+               </div>
+               <div class="price">
+                    <template v-if="data.price_min">
+                        <div class="price">
+                                <em>{{ data.price_min }}</em>
+                                <span v-if="type==='sale'">萬<span v-if="data.online_num > 1">起</span></span>
+                                <span v-if="type==='rent'">元/月<span v-if="data.online_num > 1">起</span></span>
+                        </div>
+                        <!-- 僅在列表展示 -->
+                        <div class="extra" v-if="origin === 'list' && data.label">
+                            <span>{{ data.label }}</span>
+                        </div>
+                    </template>
+                    <template v-else>
+                        <div class="no-price">
+                            <span>暫無價格</span>
+                        </div>
+                    </template>
+               </div>
+            </div>
+        </div>
+        <div class="people" v-if="origin === 'list' && data.agent && data.agent.agent_id">
+            <div class="icon" style="background: #9b9da9;">
+                <img :src="data.agent.avatar || '//s.591.com.tw/build/static/house/list/images/broker.png'">
+            </div>
+            <div class="info">
+                <div class="name">社區專家{{ data.agent.name }}：</div>
+                <v-carousel-text class="swiper" v-if="entrustCount.length" :speed="10000" :data="entrustCount">
+                    <template #item="item">
+                        <div class="swiper-item" @click.stop="onExpert"  :data-gtm-stat="`社區-${typeStr}業務_${typeStr}列表頁_專家卡片點擊`" >
+                            <span>{{ item.name }}</span>
+                            <i class="ad-icon"></i>
+                        </div>
+                    </template>
+                </v-carousel-text>
+            </div>
+        </div>
+    </div>
+    
+    <div class="ad-close" v-if="showClose" @click.stop="onClose" :data-gtm-stat="`社區-${typeStr}業務_${typeStr}列表頁_關閉卡片按鈕點擊`" ></div>
+</div>
+  </script>
+  <script id="public-carousel-text" type="text/x-template">
+   <div class="vue-public-carousel-text" v-if="data.length" ref="carouselRef" @mouseenter="stop" @mouseleave="carousel">
+        <ul class="carousel-content" :style="loopStyle">
+          <li v-for="(item, index) in [...data, data[0]]" :key="index">
+            <slot name="item" v-bind="item" />
+          </li>
+        </ul>
+    </div>
+  </script>
+  <script id="vue-broker-slide" type="text/x-template">
+   <div class="vue-broker-slide" v-if="data.length" ref="slideRef" @mouseenter="stop" @mouseleave="carousel">
+        <ul class="slide-content" :style="`${loopStyle} width:${(data.length + 1 || 1) * stepWidth}px`">
+          <li v-for="(item, index) in [...data, data[0]]" :key="index">
+            <slot name="item" v-bind="item" />
+          </li>
+        </ul>
+    </div>
+  </script>
+  <script>
+   if (!('IntersectionObserverEntry' in window) || !('IntersectionObserver' in window)) {
+            document.write('<script src="//s.591.com.tw/build\/lib\/polyfill\/intersection-observer.js"><\/script>');
+        }
+  </script>
+  <script>
+   // 售屋列表頁邏輯
+        seajs.use('saleList')
+  </script>
+  <script>
+   //新版ga統計analytics.js
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        //增強的鏈接歸因
+        ga('require', 'linkid');
+
+        //主站 - 舊版統計合併
+        ga('create', 'UA-2021527-18', 'auto');
+
+        //頁面統計
+        ga('send', 'pageview');
+
+        //再行銷
+        ga('require', 'displayfeatures');
+
+        //自定義ga插件
+        seajs.use("stat");
+  </script>
+  <script crossorigin="" defer="" src="https://needle.591.com.tw/assets/laravelHouseList.efeeac77.js" type="module">
+  </script>
+  <link href="https://needle.591.com.tw/assets/index.5e16519f.css" rel="stylesheet"/>
+  <link href="https://needle.591.com.tw/assets/BrokerEntrustModal.8b25c0c9.css" rel="stylesheet"/>
+  <link href="https://needle.591.com.tw/assets/ImEntry.04a4c1a9.css" rel="stylesheet"/>
+  <link href="https://needle.591.com.tw/assets/t5-business.8ccfdefa.css" rel="stylesheet"/>
+  <script crossorigin="" defer="" src="https://needle.591.com.tw/assets/publicCommon.d42b6798.js" type="module">
+  </script>
+  <link href="https://needle.591.com.tw/assets/index.b582b8bc.css" rel="stylesheet"/>
+  <link href="https://needle.591.com.tw/assets/index.e1335c04.css" rel="stylesheet"/>
+  <link href="https://needle.591.com.tw/assets/index.a77d660d.css" rel="stylesheet"/>
+  <link href="https://needle.591.com.tw/assets/index.d356eae7.css" rel="stylesheet"/>
+  <link href="https://needle.591.com.tw/assets/t5-business.8ccfdefa.css" rel="stylesheet"/>
+  <div class="needle-common">
+   <n-online-service :is-new="true">
+   </n-online-service>
+  </div>
+  <script>
+   seajs.use('common')
+  </script>
+  <div id="outdated">
+  </div>
+  <script>
+   var nowDate = new Date().toLocaleDateString();
+    if (Object.prototype.toString.call(window.Promise.resolve()) !== '[object Promise]' && (!localStorage.getItem('outdatedBrowser') || nowDate !== localStorage.getItem('outdatedBrowser'))) {
+        document.write('<link type="text/css" rel="stylesheet" href="//s.591.com.tw/build\/lib\/outdated\/css\/outdatedbrowser.min.css">')
+        $.getScript(
+            "//s.591.com.tw/build\/lib\/outdated\/js\/outdatedbrowser.js",
+            function(){
+                outdatedBrowser(
+                    {
+                        bgColor: '#fdb302',
+                        color: '#ffffff',
+                        lowerThan: 'Edge',
+                        languagePath: '//s.591.com.tw/build\/lib\/outdated\/lang\/zh-tw.html'
+                    }
+                )
+                hotEventSend && hotEventSend('低版本瀏覽器升級提醒_曝光')
+
+                // 設置localStorage，如果關閉掉一次之後當天就不再提示
+                $(document).on('click','#btnCloseUpdateBrowser',function() {
+                    localStorage.setItem('outdatedBrowser', nowDate)
+                })
+        })
+    }
+  </script>
+ </body>
+</html>
