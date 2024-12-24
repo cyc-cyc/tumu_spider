@@ -13,7 +13,7 @@ git clone https://github.com/cyc-cyc/tumu_spider.git
 **环境配置**
 
 ```
-conda env create -n spider
+conda env create -n spider python=3.8
 
 conda activate spider
 
