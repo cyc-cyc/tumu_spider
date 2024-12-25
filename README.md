@@ -1,6 +1,6 @@
-## 网络爬虫
+# 网络爬虫
 
-# **Step 1. 代码配置** 
+## **Step 1. 代码配置** 
 
 ```
 mkdir /path/to/your/folder
@@ -10,7 +10,7 @@ cd /path/to/your/folder
 git clone https://github.com/cyc-cyc/tumu_spider.git
 ```
 
-# **Step 2. 环境配置**
+## **Step 2. 环境配置**
 
 ```
 conda create -n spider python=3.8
@@ -20,11 +20,11 @@ conda activate spider
 pip install -r requirements.txt
 ```
 
-# **Step 3. 代理配置**
+## **Step 3. 代理配置**
 
 根据设备的条件自行配置代理
 
-# **Step 4. 运行指南**
+## **Step 4. 运行爬虫**
 ```
 cd counselor
 python main.py building_name building_id
@@ -33,11 +33,11 @@ python main.py building_name building_id
 爬取的文件以json格式保存于本地目录中
 
 
-## 抽取
-# extract
+# 抽取
+## extract
 for extracting info from website data using Qwen1.5-14B-Chat
 
-# install
+## install
 首先确保你的电脑安装了anaconda
 创建虚拟环境：
 ```shell script
@@ -65,7 +65,7 @@ https://pytorch.org/get-started/previous-versions/
 pip install -r requirements.txt
 ```
 
-# run
+## run
 修改run.sh脚本中的三个参数：
 ```shell script
 --file_dir "/nfs-data/spiderman/content/2024-11-28/" # 爬取文件路径
