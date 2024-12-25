@@ -34,10 +34,10 @@ python main.py building_name building_id
 
 
 # 抽取
-## extract
+## Step 1. Extract
 for extracting info from website data using Qwen1.5-14B-Chat
 
-## install
+## Step 2. Install
 首先确保你的电脑安装了anaconda
 创建虚拟环境：
 ```shell script
@@ -65,7 +65,7 @@ https://pytorch.org/get-started/previous-versions/
 pip install -r requirements.txt
 ```
 
-## run
+## Step 3. Run
 修改run.sh脚本中的三个参数：
 ```shell script
 --file_dir "/nfs-data/spiderman/content/2024-11-28/" # 爬取文件路径
