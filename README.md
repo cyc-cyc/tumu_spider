@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ## **Step 4. 运行爬虫**
 ```
 cd counselor
-python main.py building_name building_id
+python main.py building_name building_id root_dir
 ```
 
 爬取的文件以json格式保存于本地目录中
