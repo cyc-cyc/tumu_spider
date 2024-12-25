@@ -77,3 +77,22 @@ pip install -r requirements.txt
 ```shell script
 bash run.sh
 ```
+
+# 大模型规则判别 + 溯源
+## **step 1.环境配置**
+首先确保你的电脑安装了anaconda，且相关配置文件 tumu_test.yml 已放入当前文件夹下
+```
+conda env create -f tumu_test.yml
+```
+
+## **step 2.数据准备**
+模型路径：
+爬虫文件路径：
+信息抽取路径：
+结果保存路径：
+ 
+## **step 3.运行**
+```
+cd counselor
+python merge_check_trace.py
+```
