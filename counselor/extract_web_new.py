@@ -72,15 +72,14 @@ def merge_data(raw_data, MAX_L=2048, RED_L=100):
 
 
 # %%
-def init_LLM():
-    model_name = "Qwen1.5-14B-Chat"
-    
+def init_LLM(model_name, model_dir):
+    # model_name = "Qwen1.5-14B-Chat"
     use_english_materials = True
     
-    model_dir = f"/nfs-data/zhengliwei/Projects/SHLP/LLMs/{model_name}"
+    # model_dir = f"/nfs-data/zhengliwei/Projects/SHLP/LLMs/{model_name}"
+    # model_dir = LLM_dir
     tokenizer = AutoTokenizer.from_pretrained(
-        model_dir, use_fast=False, trust_remote_code=True,    cache_dir=None,  # 禁用缓存
-)
+        model_dir, use_fast=False, trust_remote_code=True,)
 
     model_dtype_dict = {
         "Qwen1.5-7B-Chat": "auto",
@@ -168,6 +167,8 @@ def use_LLM_predict(data, model_name, model, tokenizer, prompt):
                 res = res[:res.index("endgen")]
             if "NONE" in res:
                 break
+            if "```" in res:
+                res = res[:res.index("```")]
             print(f"res_after: {res}")
             try:
                 res_json = json5.loads(res)
@@ -333,17 +334,17 @@ def write_txt(filename, data_txt):
 #             result_file_path = os.path.join(save_subdir_path, file_name + "_result.json")
 #             write_json(result_file_path, res_json)
         
-def main(file_dir, save_dir):
+def main(file_dir, save_dir, model_name, model_dir):
     # 在这里使用传入的file_dir和save_dir，而不是硬编码它们
     # file_dir = '/nfs-data/spiderman/content/2024-10-09/'
     # save_dir = '2024-11-27/'
-    print("读取爬取文件")
+    
     # 获取file_dir下的所有文件夹
     top_level_dirs = [d for d in os.listdir(file_dir) if os.path.isdir(os.path.join(file_dir, d))]
-    print("抽取模型初始化中...")
+    
     # 初始化模型
-    model_name, model, tokenizer, prompt = init_LLM()
-    print("抽取模型初始化完毕...")
+    model_name, model, tokenizer, prompt = init_LLM(model_name, model_dir)
+    
     for top_level_dir in top_level_dirs:
         # 获取每个一级目录下的两个子文件夹
         top_level_dir_path = os.path.join(file_dir, top_level_dir)

@@ -68,9 +68,11 @@ pip install -r requirements.txt
 ## Step 3. Run
 修改run.sh脚本中的三个参数：
 ```shell script
---file_dir "/nfs-data/spiderman/content/2024-11-28/" # 爬取文件路径
---save_dir "/nfs-data/spiderman/result/2024-11-28/"  # 保存文件路径
---CUDA_VISIBLE_DEVICES "0, 1, 2, 3"                  # 指定使用的gpu编号
+--file_dir "/nfs-data/spiderman/content/2024-11-28/"                    # 爬取文件路径
+--save_dir "/nfs-data/spiderman/result/2024-11-28/"                     # 保存文件路径
+--model_name "Qwen1.5-14B-Chat"                                         # 模型名称（别动）
+--model_dir "/nfs-data/zhengliwei/Projects/SHLP/LLMs/Qwen1.5-14B-Chat"  # 模型权重路径
+--CUDA_VISIBLE_DEVICES "0, 1, 2, 3"                                     # 指定使用的gpu编号
 ```
 
 运行脚本进行信息抽取：
