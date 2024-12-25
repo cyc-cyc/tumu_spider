@@ -1,6 +1,7 @@
 # main.py
 import subprocess
 import time
+import argparse
 from scrapy import cmdline
 import pandas as pd
 import subprocess
@@ -500,14 +501,24 @@ def main(spider_path, extract_path, show_path, llm_model_path):
         trace_json = trace_llm(final_json, spider_path, llm_model_path)
         save_final_json(final_json, trace_json, show_path)
 
-def run_spider(building_name,id):
+def run_spider(building_name,id,root):
         print(f"调用爬虫，传递建筑名称: {building_name}...")
-        subprocess.run(['python', 'main.py', building_name,id])  # 调用 spider.py 并传递参数
+        print(root)
+        # input()
+        subprocess.run(['python', 'main.py', building_name,id,root])  # 调用 spider.py 并传递参数
         print(building_name,"爬虫已完成，等待 10 秒防止ip封禁...")
         time.sleep(10)  # 等待 20 秒
 
 if __name__ == "__main__":
     # 读取 Excel 文件
+    parser = argparse.ArgumentParser(description="Run information extraction on a specified directory.")
+    parser.add_argument('--root', type=str, required=True, help="The save directory")
+    args = parser.parse_args()
+    # 检查输入目录是否存在
+    if not os.path.exists(args.root):
+        print(f"Error: The directory {args.file_dir} does not exist.")
+        sys.exit(1)
+    root = args.root
     df = pd.read_excel('/nfs-data/spiderman/建筑立面&材料做法_09_30_074008(1).xlsx',sheet_name = "立面", engine='openpyxl')
     # 提取特定列，例如 'column_name'
     selected_columns = df[['建筑名称/业态', '地址']]
@@ -530,10 +541,10 @@ if __name__ == "__main__":
     # print(len(address_list),len(name_list))
     
 
-    folder_to_delete = '/nfs-data/spiderman/content/temp/'  # 替换为要删除的文件夹路径
+    folder_to_delete = root + '/content/temp/'  # 替换为要删除的文件夹路径
     delete_folder(folder_to_delete)
 
-    folder_to_delete = '/nfs-data/spiderman/content/'+str(current_date)+'/'    
+    folder_to_delete = root + '/content/'+str(current_date)+'/'    
     delete_folder(folder_to_delete)
     # 提取建筑名和地址
     building_names = df['建筑名称/业态'].dropna().tolist()
@@ -562,34 +573,34 @@ if __name__ == "__main__":
         print("执行爬虫程序中.....")
         time.sleep(5) 
 
-        run_spider(address,str(id))
+        run_spider(address,str(id),root)
         
-        print("爬取结果已存至",'/nfs-data/spiderman/content/temp/')
+        print("爬取结果已存至",root+'/content/temp/')
 
         print("*************************************")
         print("执行抽取程序中.....")
         time.sleep(5) 
-        folder_to_delete = '/nfs-data/spiderman/result/temp/'
+        folder_to_delete = root+'/result/temp/'
         delete_folder(folder_to_delete)
-        folder_to_create = '/nfs-data/spiderman/result/temp/'  
+        folder_to_create = root + '/result/temp/'  
         create_directory(folder_to_create)
         script_to_run = 'run.sh'  
         try:
             run_bash_script(script_to_run)
         except:
-            copy_folder("/nfs-data/spiderman/result/2024-11-28/"+str(id),folder_to_create)
-        print("信息抽取结果已存至",'/nfs-data/spiderman/result/temp/')
+            copy_folder(root+"/result/2024-11-28/"+str(id),folder_to_create)
+        print("信息抽取结果已存至",root+'/result/temp/')
 
         print("*************************************")
         print("执行真伪判别程序中.....")
         time.sleep(15) 
-        folder_to_delete = '/nfs-data/spiderman/show/temp/'
+        folder_to_delete = root+'/show/temp/'
         delete_folder(folder_to_delete)
-        folder_to_create = '/nfs-data/spiderman/show/temp/'  
+        folder_to_create = root+'/show/temp/'  
         create_directory(folder_to_create)
-        spider_path = '/nfs-data/spiderman/content/temp/'
-        extract_path = '/nfs-data/spiderman/result/temp/'
-        show_path = '/nfs-data/spiderman/show/temp/'
+        spider_path = root+'/content/temp/'
+        extract_path = root+'/result/temp/'
+        show_path = root+'/show/temp/'
         llm_model_path = '/nfs-data/zhengliwei/Projects/SHLP/LLMs/Qwen1.5-14B-Chat'
         # main(spider_path, extract_path, show_path,llm_model_path)  # 执行主函数
 
@@ -604,7 +615,7 @@ if __name__ == "__main__":
         # fetch_data_from_mysql('b101.guhk.cc', 'tumu', 'TJtumu', 'tumu')
 
 
-        file_path = '/nfs-data/spiderman/show/temp/final.json'  
+        file_path = root+'/show/temp/final.json'  
         data = read_json_file(file_path)
 
         building_name="未提及"

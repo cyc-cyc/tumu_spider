@@ -402,9 +402,10 @@ class WiKiSpider(scrapy.Spider):
     name = 'wikipieda_spider'
     allowed_domains = ["zh.wikipedia.org", "en.wikipedia.org", "housefun.com.tw", "houseprice.tw", "sinyi.com.tw"]
 
-    def __init__(self, building_name=None,id=None, *args, **kwargs):
+    def __init__(self, building_name=None,id=None,root=None, *args, **kwargs):
         super(WiKiSpider, self).__init__(*args, **kwargs)
         self.id = id
+        self.root = root
         self.building_name = building_name.strip('"')
         # start_urls = ['https://buy.housefun.com.tw/Building/building_photo.aspx?bid=26212']
         # start_urls = ['https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E5%85%89%E5%BE%A9%E5%9C%8B%E6%B0%91%E5%B0%8F%E5%AD%B8']
@@ -427,7 +428,7 @@ class WiKiSpider(scrapy.Spider):
         # 获取图片名称
         image_name = response.url.split('/')[-1]
         # 保存图片
-        dir = "/nfs-data/spiderman/picture/"+self.building_name
+        dir = self.root + "/picture/"+self.building_name
         os.makedirs(dir,exist_ok=True)
         with open(dir + image_name, 'wb') as f:
             f.write(response.body)
@@ -628,8 +629,8 @@ class WiKiSpider(scrapy.Spider):
 
         current_date = date.today()
         # print(current_date)
-        origin_dir = '/nfs-data/spiderman/origin_page/'+str(current_date)+'/'+str(self.id)+"/"+self.building_name+"/"
-        dir = '/nfs-data/spiderman/content/'+str(current_date)+'/'+str(self.id)+"/"+self.building_name+"/"
+        origin_dir = self.root + '/origin_page/'+str(current_date)+'/'+str(self.id)+"/"+self.building_name+"/"
+        dir = self.root + '/content/'+str(current_date)+'/'+str(self.id)+"/"+self.building_name+"/"
         import os
         if not os.path.exists(dir):
             os.makedirs(dir)
@@ -657,8 +658,8 @@ class WiKiSpider(scrapy.Spider):
                 fw.write('爬取时间：' + counselor_item['time'] + '\n\n')
                 fw.write(counselor_item['content'])
 
-            source_folder = '/nfs-data/spiderman/content/'+str(current_date)+'/'+str(self.id)+"/"
-            destination_folder = '/nfs-data/spiderman/content/temp/'+str(self.id)+"/"  # 替换为目标文件夹路径
+            source_folder = self.root + '/content/'+str(current_date)+'/'+str(self.id)+"/"
+            destination_folder = self.root + '/content/temp/'+str(self.id)+"/"  # 替换为目标文件夹路径
             
             copy_folder(source_folder, destination_folder)
 
