@@ -12,7 +12,6 @@ import json
 import json5
 
 import tqdm
-import rich
 
 import datetime
 
