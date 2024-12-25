@@ -95,26 +95,26 @@ def get_en_top_related_pages(building_name, num_pages=1):
     except Exception as e:
         print(f"An error occurred: {e}")
         return []
-from requests_html import HTMLSession
+# from requests_html import HTMLSession
 
-def get_591_top_related_pages(building_name, num_pages=1):
-    session = HTMLSession()
-    session.browser_args = ['--no-sandbox', '--disable-dev-shm-usage']
+# def get_591_top_related_pages(building_name, num_pages=1):
+#     session = HTMLSession()
+#     session.browser_args = ['--no-sandbox', '--disable-dev-shm-usage']
 
-    search_url = f"https://sale.591.com.tw/?shType=list&regionid=1&keywords={building_name}&totalRows=1&firstRow=0"
+#     search_url = f"https://sale.591.com.tw/?shType=list&regionid=1&keywords={building_name}&totalRows=1&firstRow=0"
 
-    response = session.get(search_url)
+#     response = session.get(search_url)
     
-    # session = HTMLSession()
-    # 使用 browser_args 选项
-    # response.html.render(sleep=3, keep_page=True, scrolldown=1, args=['--no-sandbox', '--disable-dev-shm-usage'])
+#     # session = HTMLSession()
+#     # 使用 browser_args 选项
+#     # response.html.render(sleep=3, keep_page=True, scrolldown=1, args=['--no-sandbox', '--disable-dev-shm-usage'])
 
-    # 查找搜索结果链接
-    # print(response.html)
-    search_results = response.html.find('div.result-info a')
-    search_result_links = [result.attrs['href'] for result in search_results if 'href' in result.attrs]
+#     # 查找搜索结果链接
+#     # print(response.html)
+#     search_results = response.html.find('div.result-info a')
+#     search_result_links = [result.attrs['href'] for result in search_results if 'href' in result.attrs]
 
-    return search_result_links
+#     return search_result_links
 
 
 

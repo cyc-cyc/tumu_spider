@@ -32,6 +32,8 @@ def run_script_in_env(env_path, file_dir, save_dir, cuda_devices):
         env_path, 'run.py',
         '--file_dir', file_dir,
         '--save_dir', save_dir,
+        '--model_name',model_name,
+        '--model_dir',model_dir   
     ]
 
     env = {'CUDA_VISIBLE_DEVICES': cuda_devices}
@@ -614,7 +616,7 @@ if __name__ == "__main__":
         # python run.py --file_dir "/nfs-data/spiderman/content/temp/" --save_dir "/nfs-data/spiderman/result/temp/" --CUDA_VISIBLE_DEVICES "3,4,5"
         # run_command_in_conda_env(env_name, command_to_run)
         
-        run_script_in_env("extract_env",root+"/content/temp/", root+"/result/temp/", "3,4,5")
+        run_script_in_env("extract_env",root+"/content/temp/", root+"/result/temp/", "Qwen1.5-14B-Chat","/nfs-data/zhengliwei/Projects/SHLP/LLMs/Qwen1.5-14B-Chat","3,4,5")
         # script_to_run = 'run.sh'  
         # try:
         #     run_bash_script(script_to_run)
