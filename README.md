@@ -30,7 +30,7 @@ cd counselor
 python main.py building_name building_id root_dir
 ```
 
-爬取的文件以json格式保存于本地目录中
+爬取的文件以json格式保存于本地目录`root_dir/content/building_id/building_name`中
 
 
 # 抽取
