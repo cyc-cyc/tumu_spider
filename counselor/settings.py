@@ -23,7 +23,7 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 COOKIES_ENABLED = True# settings.py
 DOWNLOAD_DELAY = 2  # Adjust the delay as needed
 
-LOG_ENABLED = True
+LOG_ENABLED = False
 DEFAULT_REQUEST_HEADERS = {
    # "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     'Accept': 'application/x-json;text/x-json;charset=utf-8',

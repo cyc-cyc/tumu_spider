@@ -19,27 +19,26 @@ import json
 import shutil
 import os
 
-def run_script_in_env(env_path, file_dir, save_dir, cuda_devices):
+def run_script_in_env(env_name, file_dir, save_dir, model_name,model_dir,cuda_devices):
     """
     在指定的虚拟环境中运行 Python 脚本，并传递命令行参数。
 
-    :param env_path: 虚拟环境的 Python 解释器路径
+    :param env_name: 虚拟环境的名称
     :param file_dir: 输入文件目录
     :param save_dir: 输出保存目录
     :param cuda_devices: 可见的 CUDA 设备
     """
     command = [
-        env_path, 'run.py',
+        'conda', 'run', '-n', env_name, 'python', 'run.py',
         '--file_dir', file_dir,
         '--save_dir', save_dir,
-        '--model_name',model_name,
-        '--model_dir',model_dir   
+        '--model_name', model_name,
+        '--model_dir', model_dir,
+        '--CUDA_VISIBLE_DEVICES', cuda_devices
     ]
 
-    env = {'CUDA_VISIBLE_DEVICES': cuda_devices}
-
     try:
-        result = subprocess.run(command, env=env, check=True, text=True, capture_output=True)
+        result = subprocess.run(command, check=True, text=True, capture_output=True)
         print("Output:", result.stdout)  # 打印标准输出
         print("Error:", result.stderr)    # 打印错误输出（如果有）
     except subprocess.CalledProcessError as e:
@@ -616,7 +615,7 @@ if __name__ == "__main__":
         # python run.py --file_dir "/nfs-data/spiderman/content/temp/" --save_dir "/nfs-data/spiderman/result/temp/" --CUDA_VISIBLE_DEVICES "3,4,5"
         # run_command_in_conda_env(env_name, command_to_run)
         
-        run_script_in_env("extract_env",root+"/content/temp/", root+"/result/temp/", "Qwen1.5-14B-Chat","/nfs-data/zhengliwei/Projects/SHLP/LLMs/Qwen1.5-14B-Chat","3,4,5")
+        run_script_in_env("tumu_test1",root+"/content/temp/", root+"/result/temp/", "Qwen1.5-14B-Chat","/nfs-data/zhengliwei/Projects/SHLP/LLMs/Qwen1.5-14B-Chat","3,4,5")
         # script_to_run = 'run.sh'  
         # try:
         #     run_bash_script(script_to_run)
