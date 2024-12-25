@@ -95,8 +95,4 @@ conda env create -f tumu_test.yml
 ```
 cd counselor
 python merge_check_trace.py
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> e8ef994005dc0a5f3ff049f4852e6e2a953d2f75
