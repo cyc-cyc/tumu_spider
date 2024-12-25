@@ -103,5 +103,6 @@ python merge_check_trace.py
 
 # 自动化程序
 ```
+conda activate spider
 python auto_process.py --root /path/to/your/save_folder
 ```
