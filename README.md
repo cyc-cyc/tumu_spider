@@ -30,7 +30,7 @@ cd counselor
 python main.py building_name building_id root_dir
 ```
 
-爬取的文件以json格式保存于本地目录`root_dir/content/building_id/building_name`中
+爬取的文件以txt格式保存于本地目录`root_dir/content/building_id/building_name`中
 
 
 # 抽取
@@ -41,7 +41,7 @@ for extracting info from website data using Qwen1.5-14B-Chat
 首先确保你的电脑安装了anaconda
 创建虚拟环境：
 ```shell script
-conda create -n extract python=3.9.19
+conda create -n extract_env python=3.9.19
 ```
 
 激活虚拟环境：
@@ -86,10 +86,14 @@ conda env create -f tumu_test.yml
 ```
 
 ## **step 2.数据准备**
-模型路径：
-爬虫文件路径：
-信息抽取路径：
-结果保存路径：
+
+模型路径：``
+
+爬虫文件路径：``
+
+信息抽取路径：``
+
+结果保存路径：``
  
 ## **step 3.运行**
 ```

@@ -19,6 +19,30 @@ import json
 import shutil
 import os
 
+def run_script_in_env(env_path, file_dir, save_dir, cuda_devices):
+    """
+    在指定的虚拟环境中运行 Python 脚本，并传递命令行参数。
+
+    :param env_path: 虚拟环境的 Python 解释器路径
+    :param file_dir: 输入文件目录
+    :param save_dir: 输出保存目录
+    :param cuda_devices: 可见的 CUDA 设备
+    """
+    command = [
+        env_path, 'run.py',
+        '--file_dir', file_dir,
+        '--save_dir', save_dir,
+    ]
+
+    env = {'CUDA_VISIBLE_DEVICES': cuda_devices}
+
+    try:
+        result = subprocess.run(command, env=env, check=True, text=True, capture_output=True)
+        print("Output:", result.stdout)  # 打印标准输出
+        print("Error:", result.stderr)    # 打印错误输出（如果有）
+    except subprocess.CalledProcessError as e:
+        print(f"Error occurred: {e}")
+        
 def copy_folder(source, destination):
     try:
         # 检查源文件夹是否存在
@@ -584,11 +608,18 @@ if __name__ == "__main__":
         delete_folder(folder_to_delete)
         folder_to_create = root + '/result/temp/'  
         create_directory(folder_to_create)
-        script_to_run = 'run.sh'  
-        try:
-            run_bash_script(script_to_run)
-        except:
-            copy_folder(root+"/result/2024-11-28/"+str(id),folder_to_create)
+        
+        # env_name = 'extract_env' 
+        # command_to_run = ['python', 'merge_check_trace.py']  
+        # python run.py --file_dir "/nfs-data/spiderman/content/temp/" --save_dir "/nfs-data/spiderman/result/temp/" --CUDA_VISIBLE_DEVICES "3,4,5"
+        # run_command_in_conda_env(env_name, command_to_run)
+        
+        run_script_in_env("extract_env",root+"/content/temp/", root+"/result/temp/", "3,4,5")
+        # script_to_run = 'run.sh'  
+        # try:
+        #     run_bash_script(script_to_run)
+        # except:
+        #     copy_folder(root+"/result/2024-11-28/"+str(id),folder_to_create)
         print("信息抽取结果已存至",root+'/result/temp/')
 
         print("*************************************")
@@ -605,7 +636,7 @@ if __name__ == "__main__":
         # main(spider_path, extract_path, show_path,llm_model_path)  # 执行主函数
 
 
-        env_name = 'eleven_gemini' 
+        env_name = 'tumu_test1' 
         command_to_run = ['python', 'merge_check_trace.py']  
         run_command_in_conda_env(env_name, command_to_run)
         print("真伪判别结果已存至",show_path)
