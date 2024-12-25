@@ -100,3 +100,8 @@ conda env create -f tumu_test.yml
 cd counselor
 python merge_check_trace.py
 ```
+
+# 自动化程序
+```
+python auto_process.py --root /path/to/your/save_folder
+```
