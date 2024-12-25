@@ -46,7 +46,7 @@ conda create -n extract_env python=3.9.19
 
 激活虚拟环境：
 ```shell script
-conda activate extract
+conda activate extract_env
 ```
 
 安装pytorch：
