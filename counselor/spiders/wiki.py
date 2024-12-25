@@ -657,7 +657,6 @@ class WiKiSpider(scrapy.Spider):
                 fw.write('爬取时间：' + counselor_item['time'] + '\n\n')
                 fw.write(counselor_item['content'])
 
-            # 使用示例
             source_folder = '/nfs-data/spiderman/content/'+str(current_date)+'/'+str(self.id)+"/"
             destination_folder = '/nfs-data/spiderman/content/temp/'+str(self.id)+"/"  # 替换为目标文件夹路径
             

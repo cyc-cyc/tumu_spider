@@ -73,7 +73,7 @@ def merge_data(raw_data, MAX_L=2048, RED_L=100):
 
 # %%
 def init_LLM():
-    model_name = "Qwen1.5-7B-Chat"
+    model_name = "Qwen1.5-14B-Chat"
     
     use_english_materials = True
     
