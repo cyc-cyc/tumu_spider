@@ -225,19 +225,35 @@ def create_directory(directory_path):
         print(f"文件夹 '{directory_path}' 已成功创建。")
     except Exception as e:
         print(f"创建文件夹时出错: {e}")
-
-def run_command_in_conda_env(env_name, command):
+def run_command_in_conda_env(env_name, command_to_run):
+    """
+    Executes a command in a specified conda environment.
+    
+    Args:
+    - env_name: str, the name of the conda environment to activate.
+    - command_to_run: list, the command to run along with its arguments.
+    
+    Returns:
+    - None, but prints the command output or error.
+    """
+    # Construct the conda command
     try:
-        # 使用 conda run 执行命令
-        result = subprocess.run(['conda', 'run', '-n', env_name] + command, check=True, text=True, capture_output=True)
+        # Ensure the arguments are correctly passed to the script
+        command = ['conda', 'run', '-n', env_name] + command_to_run
         
-        # 打印输出结果
-        print("输出:", result.stdout)
+        # Run the command in a shell subprocess
+        process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         
-    except subprocess.CalledProcessError as e:
-        print(f"执行命令时出错: {e}")
-        print("错误输出:", e.stderr)
-
+        # Capture the standard output and error
+        stdout, stderr = process.communicate()
+        
+        # Check if the process was successful
+        if process.returncode == 0:
+            print(stdout.decode())
+        else:
+            print(f"Error occurred: {stderr.decode()}", file=sys.stderr)
+    except Exception as e:
+        print(f"An error occurred while executing the command: {e}", file=sys.stderr)
 
 def run_bash_script(script_path):
     try:
@@ -625,7 +641,7 @@ if __name__ == "__main__":
 
         print("*************************************")
         print("执行真伪判别程序中.....")
-        time.sleep(15) 
+        time.sleep(5) 
         folder_to_delete = root+'/show/temp/'
         delete_folder(folder_to_delete)
         folder_to_create = root+'/show/temp/'  
@@ -638,10 +654,16 @@ if __name__ == "__main__":
 
 
         env_name = 'tumu_test' 
-        command_to_run = ['python', 'merge_check_trace.py']  
+        command_to_run = ['python', 'merge_check_trace.py',
+                          "--spider_path",spider_path,
+                          "--extract_path",extract_path,
+                          "--show_path",show_path,
+                          "--llm_model_path",llm_model_path
+                          ]  
         run_command_in_conda_env(env_name, command_to_run)
         print("真伪判别结果已存至",show_path)
         print("*************************************")
+        '''
         print("存储至数据库中.....")
         time.sleep(5) 
         # fetch_data_from_mysql('b101.guhk.cc', 'tumu', 'TJtumu', 'tumu')
@@ -755,4 +777,5 @@ if __name__ == "__main__":
         # delete_from_information_extraction(58, 'b101.guhk.cc', 'tumu', 'TJtumu', 'PearAdminFlask')
         insert_into_information_extraction(data_to_insert,'b101.guhk.cc', 'tumu', 'TJtumu', 'PearAdminFlask')
         # fetch_data_from_mysql('b101.guhk.cc', 'tumu', 'TJtumu', 'PearAdminFlask')
+        '''
         input()
