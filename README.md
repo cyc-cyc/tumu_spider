@@ -8,6 +8,8 @@ mkdir /path/to/your/folder
 cd /path/to/your/folder
 
 git clone https://github.com/cyc-cyc/tumu_spider.git
+
+cd tumu_spider
 ```
 
 ## **Step 2. 环境配置**
