@@ -637,7 +637,7 @@ if __name__ == "__main__":
         # main(spider_path, extract_path, show_path,llm_model_path)  # 执行主函数
 
 
-        env_name = 'tumu_test1' 
+        env_name = 'tumu_test' 
         command_to_run = ['python', 'merge_check_trace.py']  
         run_command_in_conda_env(env_name, command_to_run)
         print("真伪判别结果已存至",show_path)

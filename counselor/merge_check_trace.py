@@ -5,6 +5,8 @@
 3.源文追溯
 '''
 import os
+import argparse
+import sys
 import json
 import re
 import difflib
@@ -264,9 +266,17 @@ if __name__ == "__main__":
     给定一个建筑id，及对应的spider_data和extract_data文件夹路径，执行真伪判别模块
     输出：final.json和trace.json
     '''
+    parser = argparse.ArgumentParser(description="Run information extraction on a specified directory.")
+    parser.add_argument('--spider_path', type=str, required=True, help="")
+    parser.add_argument('--extract_path', type=str, required=True, help="")
+    parser.add_argument('--show_path', type=str, required=True, help="")
+    parser.add_argument('--llm_model_path', type=str, required=True, help="")
+    # parser.add_argument('--CUDA_VISIBLE_DEVICES', type=str, required=True, help="")
 
-    spider_path = '/nfs-data/spiderman/content/temp/'
-    extract_path = '/nfs-data/spiderman/result/temp/'
-    show_path = '/nfs-data/spiderman/show/temp/'
-    llm_model_path = "/nfs-data/user31/finetuneLLM/LLaMA-Factory/saves/lora/export"
+    args = parser.parse_args()
+
+    spider_path = args.spider_path #'/nfs-data/spiderman/content/temp/'
+    extract_path = args.extract_path #'/nfs-data/spiderman/result/temp/'
+    show_path = args.show_path #'/nfs-data/spiderman/show/temp/'
+    llm_model_path = args.llm_model_path #"/nfs-data/user31/finetuneLLM/LLaMA-Factory/saves/lora/export"
     main(spider_path, extract_path, show_path, llm_model_path)  # 执行主函数
