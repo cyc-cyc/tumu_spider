@@ -655,7 +655,7 @@ if __name__ == "__main__":
 
 
         env_name = 'tumu_test' 
-        command_to_run = ['python', 'merge_check_trace.py',
+        command_to_run = ['python', 'merge.py',
                           "--spider_path",spider_path,
                           "--extract_path",extract_path,
                           "--show_path",show_path,
