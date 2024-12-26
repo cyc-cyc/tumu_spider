@@ -5,16 +5,18 @@
 3.源文追溯
 '''
 import os
-import argparse
-import sys
 import json
 import re
 import difflib
-from transformers import AutoConfig, AutoModel, AutoModelForCausalLM, TextStreamer
-from transformers import AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
-
+import pandas as pd
 import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '3,4,5'
+import warnings
+from transformers import logging
+warnings.filterwarnings("ignore")  # 暂时屏蔽所有警告
+logging.set_verbosity_error()      # 降低 Transformers 的日志级别
 
 def find_files_by_extension(folder_path, file_extension):
     """
@@ -60,7 +62,7 @@ def merge(extract_folder_path):
                     # 如果 base_json 中没有该字段，直接添加
                     base_json[key] = value
             except:
-                import ipdb; ipdb.set_trace()
+                pass
         return base_json
     # final_json
     # 读取多个抽取json结果
@@ -71,111 +73,67 @@ def merge(extract_folder_path):
     for file in files_list:
         with open(file, 'r', encoding='utf-8') as f:
             if final_json == {}:  # 如果 final_json 为空，直接加载第一个 JSON 文件
-                final_json = json.load(f)
+                    final_json = json.load(f)
             else:
                 try:
                     current_json = json.load(f)  # 加载当前 JSON 文件
                     final_json = merge_json(final_json, current_json)  # 合并 JSON
                 except:
-                    print(file)#,"不是标准的json格式"
+                    continue
+    print("多个来源结果合并完成！")
     return final_json
     # 在这里编写第一个函数的具体实现
 
+def init_llm(model_dir, device_list):
+    model_name = "Qwen1.5-14B-Chat"
+    # model_dir = os.path.join(model_dir, model_name)
+    tokenizer = AutoTokenizer.from_pretrained(
+    model_dir, use_fast=False, trust_remote_code=True,)
 
-def check(merge_json):
-    """
-    规则判别, 存在冲突怎么处理？
-    """
-    def extract_max_number(text):
-        numbers = re.findall(r'\d+\.?\d*', str(text))  # 匹配整数和小数
-        numbers = [float(num) for num in numbers]  # 转换为浮点数
-        return max(numbers) if numbers else None  # 返回最大值
+    model_dtype_dict = {
+        "Qwen1.5-7B-Chat": "auto",
+        "Qwen1.5-14B-Chat": torch.float16,
+        "Qwen1.5-MoE-A2.7B": "auto",  # 需要32GB显卡
+    }
 
-    # 替换标点符号为 '.'
-    def normalize_date_format(date_text):
-        normalized_date = re.sub(r'[^\d.]', '.', str(date_text))  # 替换非数字和点为点
-        return normalized_date
+    mm_dict = {0: "24576MiB", 1: "24564MiB", 2: "24564MiB"}
+    for i in mm_dict.keys():
+        if i not in device_list:
+            mm_dict[i] = "0MiB"
+
+    model = AutoModelForCausalLM.from_pretrained(
+        model_dir,
+        device_map="auto",
+        trust_remote_code=True,
+        torch_dtype=model_dtype_dict[model_name],
+        max_memory=mm_dict)
+
+    return model_name, model, tokenizer
+
+def get_llm_result(content, model, tokenizer):
+    messages = [{"role": "user", "content": content}]
     
-    def handle_field_value(value, extract_function=None):
-        """
-        处理字段值，检查是否为'未提及'或'存在冲突'，并根据需要进行额外处理。
-        :param value: 原始字段值
-        :param extract_function: 用于处理正常值的函数（可选）
-        :return: 处理后的字段值
-        """
-        value = str(value)  # 确保是字符串类型
-        if "未提及" in value:
-            return "未提及"
-        elif "存在冲突" in value:
-            return "存在冲突"
-        elif extract_function:
-            return extract_function(value)
-        return value
+    text = tokenizer.apply_chat_template(
+        messages, tokenize=False, add_generation_prompt=True
+    )
+    model_inputs = tokenizer([text], return_tensors="pt")
 
-    def data_process(df):
-        year = handle_field_value(df["完工年代"], normalize_date_format)
-        floor_up = handle_field_value(df["地上层数"], extract_max_number)
-        h = handle_field_value(df["层高"], extract_max_number)
-        
-        return year, floor_up, h
+    generated_ids = model.generate(
+        model_inputs.input_ids.to('cuda'),
+        max_length=8192,
+    )
+    generated_ids = [
+        output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+    ]
+    response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+    return str(response[0])
 
-    fields_to_extract = ["建筑名称", "地上层数", "层高", "完工年代"]
-    # 提取所需的字段
-    extracted_data = {field: merge_json.get(field, "未提及") for field in fields_to_extract}
-    year, floor, h = data_process(extracted_data)
-    # import ipdb; ipdb.set_trace()
-    # 直接根据条件判断输出对应规则
-    # 年代
-    # 1999.2.21前
-    if year == '未提及' or year == '存在冲突':
-        rule = '年份信息缺少或存在冲突，无法判断'
-    elif year < '1999.2.21': # 根据层数判断
-        if floor == '未提及' or floor == '存在冲突':
-            rule = '1999.2.21前的建筑，若层数小于10，则大概率为框架结构，小概率为框架-剪力墙；若层数大于10，则大概率为框架-剪力墙结构，小概率为框架结构。'
-        elif floor < 10:
-            rule = '1999.2.21前的建筑，若层数小于10，则大概率为框架结构，小概率为框架-剪力墙。'
-        else:
-            rule = '1999.2.21前的建筑，若层数大于10，则大概率为框架-剪力墙结构，小概率为框架结构。'
-    else: # 根据房屋高度判断
-        if h == '未提及' or h == '存在冲突':
-            rule = '1999.2.21后的建筑，若层高小于20m，建筑材料为混凝土结构，则为框架结构；建筑材料为钢结构，则为框架结构(含阻尼器)。若层高大于等于20m且小于等于50m，建筑材料为混凝土结构，则为框架-剪力墙；建筑材料为钢结构，则为框架-支撑(含BRB、阻尼器)。若层高大于50m，建筑材料为混凝土结构，则为采用减(隔)震技术的框架-剪力墙；建筑材料为钢结构，则为采用减(隔)震技术的框架(含SRC)+支撑体系(BRB)。'
-        elif h < 20:
-            rule = '1999.2.21后的建筑，若层高小于20m，建筑材料为混凝土结构，则为框架结构；建筑材料为钢结构，则为框架结构(含阻尼器)。'
-        elif h <= 50:
-            rule = '1999.2.21后的建筑，若层高大于等于20m且小于等于50m，建筑材料为混凝土结构，则为框架-剪力墙；建筑材料为钢结构，则为框架-支撑(含BRB、阻尼器)。'
-        else:
-            rule = '1999.2.21后的建筑，若层高大于50m，建筑材料为混凝土结构，则为采用减(隔)震技术的框架-剪力墙；建筑材料为钢结构，则为采用减(隔)震技术的框架(含SRC)+支撑体系(BRB)。'
-    # 保存在新的列中
-    merge_json["规则"] = rule
-    return merge_json # 返回更新后的json
-
-
-def trace_llm(final_json, spider_folder_path, llm_model_path):
+def trace_llm(final_json, spider_folder_path, model, tokenizer):
     """
     源文追溯，输出对应的句子。
-    调用大模型？源文需要分段处理
-    或者先把完工年代反处理一下，然后直接查找
+    调用大模型,源文需要分段处理
     存在冲突的不处理
     """
-    def init_llm(model_dir):
-        model_name = "Qwen1.5-14B-Chat"
-        tokenizer = AutoTokenizer.from_pretrained(
-        model_dir, use_fast=False, trust_remote_code=True,)
-
-        model_dtype_dict = {
-            "Qwen1.5-7B-Chat": "auto",
-            "Qwen1.5-14B-Chat": torch.float16,
-            "Qwen1.5-MoE-A2.7B": "auto",  # 需要32GB显卡
-        }
-
-        model = AutoModelForCausalLM.from_pretrained(
-            model_dir,
-            device_map="auto",
-            trust_remote_code=True,
-            torch_dtype=model_dtype_dict[model_name],)
-        prompt = "请帮我在以下段落中“{text}”，找到“{value}”所在的句子，请直接回答句子，如果找不到请回答“追溯失败”。"
-        return model_name, model, tokenizer, prompt
-    
     def merge_data(raw_data, MAX_L=2048, RED_L=100):
         # 按照最大长度(MAX_L)拆分数据, 每条数据的前面附带上一条数据的冗余(RED_L), 防止信息丢失
         if len(raw_data) <= MAX_L:
@@ -201,35 +159,16 @@ def trace_llm(final_json, spider_folder_path, llm_model_path):
                 data= merge_data(source_text, MAX_L=800, RED_L=100)
                 for text in data:
                     content = prompt.format(text=text, value=value)
-                    messages = [{"role": "user", "content": content}]
-                    text = tokenizer.apply_chat_template(
-                        messages, tokenize=False, add_generation_prompt=True
-                    )
-                    model_inputs = tokenizer([text], return_tensors="pt")
-
-                    generated_ids = model.generate(
-                        model_inputs.input_ids.to('cuda'),
-                        max_length=8192,
-                    )
-                    generated_ids = [
-                        output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
-                    ]
-                    response = tokenizer.batch_decode(
-                    generated_ids, skip_special_tokens=True)
-                    trace_result = str(response[0])
+                    trace_result = get_llm_result(content, model, tokenizer)
                     if "追溯失败" not in trace_result:
                         return trace_result
         # 如果没找到
         return "追溯失败"
 
-    # 读取大模型
-    model_name, model, tokenizer, prompt = init_llm(llm_model_path)
+    prompt = "请帮我在以下段落中“{text}”，找到“{value}”所在的句子，请直接回答句子，如果找不到请回答“追溯失败”。"
     trace_json = {} # 初始化一个json保存溯源结果
     # 遍历 final_json 中的每个字段和值，查找源文中是否存在
-    print(final_json)
     for key, value in final_json.items():
-        if key == "规则":
-            continue # 规则不需要追溯
         if "未提及" in value:
             trace_json[key] = "未提及，无需追溯"
         elif "存在冲突" in value:
@@ -237,6 +176,7 @@ def trace_llm(final_json, spider_folder_path, llm_model_path):
         else:
             result = find_value_in_text(value, spider_folder_path, model, tokenizer, prompt)
             trace_json[key] = result
+    print("源文追溯完成！")
     return trace_json
     
 
@@ -244,6 +184,8 @@ def save_final_json(final_json, trace_json, show_folder_path):
     """
     保存最终结果到文件
     """
+    if "来源" in final_json and isinstance(final_json["来源"], str):
+        final_json["来源"] = final_json["来源"].replace("存在冲突：", "")
     # 保存 final_json 到文件
     final_json_path = os.path.join(show_folder_path, "final.json")
     with open(final_json_path, 'w', encoding='utf-8') as f:
@@ -252,13 +194,47 @@ def save_final_json(final_json, trace_json, show_folder_path):
     trace_json_path = os.path.join(show_folder_path, "trace.json")
     with open(trace_json_path, 'w', encoding='utf-8') as f:
         json.dump(trace_json, f, ensure_ascii=False, indent=4)
-    print(f"已保存最终结果到文件：{final_json_path}")
+    print(f"已保存最终结果到文件：{final_json}")
 
+def check_llm(merge_json, model, tokenizer):
+    """
+    输入建筑数据，让llm根据已有信息，补充年代、结构体系、结构材料信息
+    """
+    # TODO 这部分后续需要微调prompt，以及输出需要指明的LLM输出的，并考虑后续怎么和「下一个模块」规则判别的结构结合
+    prompt_year = '''
+        ### 输入建筑信息：{building}
+        ### 输出要求：请帮我根据建筑信息，判断建筑的完工年代.
+    '''
+    content_year = prompt_year.format(building=merge_json)
+    year = get_llm_result(content_year, model, tokenizer)
+    print("年代：", year)
+    merge_json['完工年代'] = year
 
-def main(spider_path, extract_path, show_path, llm_model_path):
+    prompt_cailiao = '''
+        ### 输入建筑信息：{building}
+        ### 输出要求：请帮我根据建筑信息，判断建筑的结构材料.
+    '''
+    content_cailiao = prompt_cailiao.format(building=merge_json)
+    cailiao = get_llm_result(content_cailiao, model, tokenizer)
+
+    promt_tixi = '''
+        ### 输入建筑信息：{building}
+        ### 输出要求：请帮我根据建筑信息，判断建筑的结构体系.
+    '''
+    content_tixi = promt_tixi.format(building=merge_json)
+    tixi = get_llm_result(content_tixi, model, tokenizer)
+
+    merge_json['结构材料'] = cailiao
+    merge_json['结构体系'] = tixi
+    print("结构材料：", cailiao)
+    print("结构体系：", tixi)
+    print("大模型年代、结构材料、结构体系判别完成！")
+    return merge_json
+
+def main(spider_path, extract_path, show_path, model, tokenizer):
         merge_json = merge(extract_path)
-        final_json= check(merge_json) # 在merge_json中加上规则
-        trace_json = trace_llm(final_json, spider_path, llm_model_path)
+        final_json= check_llm(merge_json, model, tokenizer) # 用大模型判别规则
+        trace_json = trace_llm(merge_json, spider_path, model, tokenizer)
         save_final_json(final_json, trace_json, show_path)
 
 if __name__ == "__main__":
@@ -266,17 +242,18 @@ if __name__ == "__main__":
     给定一个建筑id，及对应的spider_data和extract_data文件夹路径，执行真伪判别模块
     输出：final.json和trace.json
     '''
-    parser = argparse.ArgumentParser(description="Run information extraction on a specified directory.")
-    parser.add_argument('--spider_path', type=str, required=True, help="")
-    parser.add_argument('--extract_path', type=str, required=True, help="")
-    parser.add_argument('--show_path', type=str, required=True, help="")
-    parser.add_argument('--llm_model_path', type=str, required=True, help="")
-    # parser.add_argument('--CUDA_VISIBLE_DEVICES', type=str, required=True, help="")
-
-    args = parser.parse_args()
-
-    spider_path = args.spider_path #'/nfs-data/spiderman/content/temp/'
-    extract_path = args.extract_path #'/nfs-data/spiderman/result/temp/'
-    show_path = args.show_path #'/nfs-data/spiderman/show/temp/'
-    llm_model_path = args.llm_model_path #"/nfs-data/user31/finetuneLLM/LLaMA-Factory/saves/lora/export"
-    main(spider_path, extract_path, show_path, llm_model_path)  # 执行主函数
+    # TODO 后续这个路径需要修改
+    spider_path = '/nfs-data/spiderman/content/2024-11-28/'
+    extract_path = '/nfs-data/spiderman/result/2024-11-28/'
+    show_path = '/nfs-data/TJRec/wll/TUMU/show/2024-11-28/'
+    # llm_model_path = "/nfs-data/zhengliwei/Projects/SHLP/LLMs/"
+    llm_model_path = "/nfs-data/zhengliwei/Projects/SHLP/LLMs/Qwen1.5-14B-Chat"
+    device_list = [0,1,2]
+    model_name, model, tokenizer = init_llm(llm_model_path, device_list)
+    for i in range(0,87):
+        spider_path_i = spider_path + str(i) + '/'
+        extract_path_i = extract_path + str(i) + '/'
+        show_path_i = show_path + str(i) + '/'
+        if not os.path.exists(show_path_i):
+            os.makedirs(show_path_i)
+        main(spider_path_i, extract_path_i, show_path_i, model, tokenizer)  # 执行主函数
